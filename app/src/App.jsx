@@ -67,15 +67,15 @@ const SubjectTile = ({subject, onClick, styles}) => {
     return <button className={'text-4xl border-2 w-80 h-80 p-5 flex-none ' + styles} onClick={onClick}>{subject}</button>
 }
 
-const Checkbox = ({name, id, value}) => {
+const Checkbox = ({name, id, onClick}) => {
     return <>
-        <input type="checkbox" id={id} name={name} value={value} />
-        <label for={id}> I have a boat</label>
+        <input type="checkbox" id={id} name={name} value={name} onClick={onClick} className='' />
+        <label for={id}>{name}</label><br />
     </>
 }
 
 const SubjectHeading = ({text}) => {
-    return <h1 className='text-5xl relative my-5 ml-10'>{text}</h1>
+    return <h1 className='text-5xl relative my-5'>{text}</h1>
 }
 
 const BackButton = ({label, onClick}) => {
@@ -106,6 +106,16 @@ class App extends React.Component {
         this.loadSubjectData(subject);
     }
 
+    checkboxClick(e) {
+        if (e.target.checked) {
+            this.state.units.push(e.target.value);
+            this.setState({units: this.state.units});
+        } else {
+            const result = this.state.units.filter(i => i !== e.target.value);
+            this.setState({units: result});
+        }
+    }
+
     render() {
         return (
             <div className='App bg-black text-white h-screen w-screen'>
@@ -129,7 +139,13 @@ class App extends React.Component {
                 {this.state.currentPage === 'Unit-Select' ?
                 <div className='Unit-Select fixed bg-black h-screen w-screen'>
                     <BackButton label='Back to subjects' onClick={() => {this.setState({currentPage: 'Subject-Select', subject: ''})}} />
-                    <SubjectHeading text={this.state.subject} />
+
+                    <div className='ml-10'>
+                        <SubjectHeading text={this.state.subject} />
+                        {this.subjectData.units.map((unit, index, arr) => <Checkbox name={unit} id={arr[index]} onClick={(e) => this.checkboxClick(e)} />)}
+                        <Button1 label='START' onClick={() => this.setState({currentPage: 'Game'})} />
+                    </div>
+
                 </div>
                 : null}
 
