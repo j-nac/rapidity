@@ -12,13 +12,28 @@ const SubjectTile = ({subject, onClick, styles}) => {
     return <button className={'text-4xl border-2 w-80 h-80 p-5 flex-none ' + styles} onClick={onClick}>{subject}</button>
 }
 
+const Checkbox = ({name, id, value}) => {
+    return <>
+        <input type="checkbox" id={id} name={name} value={value} />
+        <label for={id}> I have a boat</label>
+    </>
+}
+
+const SubjectHeading = ({text}) => {
+    return <h1 className='text-5xl relative my-5 ml-10'>{text}</h1>
+}
+
+const BackButton = ({label, onClick}) => {
+    return <button className='text-xl p-2' onClick={onClick}><span className='material-symbols-outlined text-xl align-middle'>arrow_back</span> {label}</button>
+}
+
 class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             currentPage: 'Landing', // Who needs react-router? I know I don't
             subject: '',
-            unit: '',
+            units: [],
 
             gameMode: '',
         };
@@ -46,7 +61,8 @@ class App extends React.Component {
 
                 {this.state.currentPage === 'Unit-Select' ?
                 <div className='Unit-Select fixed bg-black h-screen w-screen'>
-
+                    <BackButton label='Back to subjects' onClick={() => {this.setState({currentPage: 'Subject-Select', subject: ''})}} />
+                    <SubjectHeading text={this.state.subject} />
                 </div>
                 : null}
 
