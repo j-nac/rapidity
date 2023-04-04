@@ -75,8 +75,8 @@ Unit 2,Epinephrine,,"Also called adrenaline. Responsible for ""fight or flight""
 Unit 2,Norepinephrine,,"Also called noradrenaline. Responsible for slowing down appetite and digestion during ""fight or flight."""
 Unit 2,Endorphins,,Neurotransmitter. Pain relief and feelings of pleasure.
 Unit 2,Glutamate,,Excitatory neurotransmitter. Responsible for memory and learning.
-,Agonist,,Increases a neurotransmitter's action.
-,Antagonist,,Inhibits or blocks a neurotransmitter's action.
+Unit 2,Agonist,,Increases a neurotransmitter's action.
+Unit 2,Antagonist,,Inhibits or blocks a neurotransmitter's action.
 Unit 2,Alzheimer's Disease,Alzheimers,A brain disease which slowly destroys memory and basic thinking skills.
 Unit 2,Parkinson's Disease,Parkinsons,Disease involving loss of motor control and tremors.
 Unit 2,Down Syndrome,,

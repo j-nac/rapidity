@@ -1,4 +1,59 @@
 import React from 'react';
+import * as csv from 'jquery-csv'
+
+const SUBJECTS_FILEPATHS = {'AP Psychology': 'ap-psychology.csv'};
+
+function loadFile(filePath) {
+    var result = null;
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open('GET', process.env.PUBLIC_URL + '/data/' + filePath, false);
+    xmlhttp.send();
+    if (xmlhttp.status === 200) {
+        result = xmlhttp.responseText;
+    }
+
+    return result;
+}
+
+class SubjectData {
+    constructor(subject, filepath) {
+        this.subject = subject;
+        this.filepath = filepath;
+
+        this.init();
+    }
+
+    loadSubjectData() {
+        let data = csv.toArrays(loadFile(this.filepath));
+        this.data = data;
+    }
+
+    // This is inefficient. I don't have the energy rn
+    getUnits() {
+        let units = [];
+        for (let i=1; i < this.data.length; i++) {
+            if (units.includes(this.data[i][0]) === false) {
+                units.push(this.data[i][0]);
+            }
+        }
+
+        this.units = units.sort();
+    }
+
+    init() {
+        this.loadSubjectData();
+        this.getUnits();
+    }
+
+    getRandomQuestion(units) {
+        while (true) {
+            var question = this.data[Math.floor(Math.random()*this.data.length)];
+            if (units.includes(question[0])) {
+                return question;
+            }
+        }
+    }
+}
 
 const TitleText = () => {
     return <h1 className='text-title absolute bottom-0 w-screen'><span className='text-dark-magenta'>Rapid</span>ity</h1>
@@ -37,7 +92,19 @@ class App extends React.Component {
 
             gameMode: '',
         };
-    };
+        this.subjectData = null;
+    }
+
+    loadSubjectData(subject) {
+        this.subjectData = new SubjectData(subject, SUBJECTS_FILEPATHS[subject])
+    }
+
+    subjectHandler(subject) {
+        this.setState({currentPage: 'Unit-Select', subject: subject})
+
+        // I enter subject into this as well because I don't trust setState to change it in time
+        this.loadSubjectData(subject);
+    }
 
     render() {
         return (
@@ -52,9 +119,9 @@ class App extends React.Component {
                 {this.state.currentPage === 'Subject-Select' ?
                 <div className='Subject-Select fixed bg-black h-screen w-screen'>
                     <div className='flex flex-wrap gap-3 p-10 justify-center content-center h-screen'>
-                        <SubjectTile subject='AP Psychology' onClick={() => {this.setState({currentPage: 'Unit-Select', subject: 'AP Psychology'})}} styles='bg-magenta' />
-                        <SubjectTile subject='AP US History' onClick={() => {this.setState({currentPage: 'Unit-Select', subject: 'AP US History'})}} styles='bg-red' />
-                        <SubjectTile subject='AP Language and Composition' onClick={() => {this.setState({currentPage: 'Unit-Select', subject: 'AP Language and Composition'})}} styles='bg-purple' />
+                        <SubjectTile subject='AP Psychology' onClick={() => this.subjectHandler('AP Psychology')} styles='bg-magenta' />
+                        <SubjectTile subject='AP US History' onClick={() => this.subjectHandler('AP US History')} styles='bg-red' />
+                        <SubjectTile subject='AP Language and Composition' onClick={() => this.subjectHandler('AP Language and Composition')} styles='bg-purple' />
                     </div>
                 </div>
                 : null}
