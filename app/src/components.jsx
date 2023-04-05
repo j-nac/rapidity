@@ -6,8 +6,8 @@ const Button1 = ({label, onClick, styles}) => {
     return <button className={'text-2xl border-2 px-7 py-2 ' + styles} onClick={onClick}>{label}</button>
 }
 
-const SubjectTile = ({subject, onClick, styles}) => {
-    return <button className={'text-4xl border-2 w-80 h-80 p-5 flex-none ' + styles} onClick={onClick}>{subject}</button>
+const SubjectTile = ({subject, icon, color, onClick}) => {
+    return <button className={'text-2xl lg:text-4xl border-2 w-60 h-full lg:w-80 lg:h-4/6 p-5 flex-none min-h-min transition bg-'+color+' lg:bg-transparent hover:lg:bg-'+color} onClick={onClick}>{subject}<br /><span className="material-symbols-outlined text-ixl">{icon}</span></button>
 }
 
 const Checkbox = ({name, id, onClick}) => {
@@ -26,11 +26,11 @@ const BackButton = ({label, onClick}) => {
 }
 
 const QuestionText = ({text}) => {
-    return <p className="w-full h-3/6 border-2 p-5 text-2xl max-w-screen-md">{text}</p>
+    return <p className="w-full border-2 p-5 text-2xl grow flex-1">{text}</p>
 }
 
 const AnswerBox = () => {
-    return <input className="AnswerBox mt-3 w-full p-2 border-2 text-white bg-transparent focus:outline-none max-w-screen-md" type="text" name="Answer Box" id="" placeholder="Type answer and ENTER" />
+    return <input className="AnswerBox mt-3 w-full p-2 border-2 text-white bg-transparent focus:outline-none flex-none" type="text" name="Answer Box" id="" placeholder="Type answer and ENTER" />
 }
 
 const TimerText = ({text}) => {

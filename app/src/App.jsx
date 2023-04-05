@@ -23,6 +23,7 @@ class App extends React.Component {
             subject: '',
             units: [],
 
+            gameInProgress: false,
             gameMode: '',
             questionUnit: 'UNIT LOADING ERROR',
             questionText: 'TEXT LOADING ERROR',
@@ -68,9 +69,17 @@ class App extends React.Component {
         })
     }
 
+    checkAnswer(answer) {
+        answer = answer.toLowerCase()
+        if (answer === this.state.questionAnswer.toLowerCase() || answer === this.state.questionAlt.toLowerCase()) {
+            return true;
+        }
+        return false;
+    }
+
     onKeyDownHandler(e) {
         if (e.keyCode === 13) {
-            if (this.state.questionAnswer === e.target.value) {
+            if (this.checkAnswer(e.target.value)) {
                 e.target.value = '';
                 this.setState({correct: this.state.correct+1, total: this.state.total+1});
                 this.getQuestion();
@@ -88,16 +97,16 @@ class App extends React.Component {
                 {this.state.currentPage === 'Landing' ?
                 <div className='Landing fixed bg-black h-screen w-screen'>
                     <TitleText />
-                    <Button1 label="LET'S PLAY" onClick={() => {this.setState({currentPage: 'Subject-Select'});}} styles='fixed top-1/3 left-1/2 -translate-y-1/3 -translate-x-1/2' />
+                    <Button1 label="LET'S PLAY" onClick={() => {this.setState({currentPage: 'Subject-Select'});}} styles='fixed 2xl:top-1/3 top-1/2 left-1/2 2xl:-translate-y-1/3 -translate-y-1/2 -translate-x-1/2 transition hover:bg-white hover:text-black hover:border-white' />
                 </div>
                 : null}
 
                 {this.state.currentPage === 'Subject-Select' ?
                 <div className='Subject-Select fixed bg-black h-screen w-screen'>
-                    <div className='flex flex-wrap gap-3 p-10 justify-center content-center h-screen'>
-                        <SubjectTile subject='AP Psychology' onClick={() => this.subjectHandler('AP Psychology')} styles='bg-magenta' />
-                        <SubjectTile subject='AP US History' onClick={() => this.subjectHandler('AP US History')} styles='bg-red' />
-                        <SubjectTile subject='AP Language and Composition' onClick={() => this.subjectHandler('AP Language and Composition')} styles='bg-purple' />
+                    <div className='flex gap-3 p-10 h-screen overflow-x-scroll overflow-y-hidden items-center '>
+                        <SubjectTile subject='AP Psychology' icon='psychology' color='magenta' onClick={() => this.subjectHandler('AP Psychology')} />
+                        <SubjectTile subject='AP US History' icon='how_to_vote' color='red' onClick={() => this.subjectHandler('AP US History')} />
+                        <SubjectTile subject='AP Language and Composition' icon='edit' color='purple' onClick={() => this.subjectHandler('AP Language and Composition')} />
                     </div>
                 </div>
                 : null}
@@ -116,15 +125,17 @@ class App extends React.Component {
                 : null}
 
                 {this.state.currentPage === 'Game' ?
-                <div className='Game fixed bg-black h-screen w-screen' onKeyDown={(e) => {this.onKeyDownHandler(e)}}>
-                    <BackButton label='Exit game' onClick={() => {this.setState({currentPage: 'Unit-Select'})}} />
-                    <div className='mx-10 h-full flex flex-row-reverse gap-4 flex-wrap justify-items-stretch'>
-                        <div className='flex-auto w-full h-auto md:w-auto'>
+                <div className='Game fixed bg-black h-screen w-screen flex flex-col' onKeyDown={(e) => {this.onKeyDownHandler(e)}}>
+                    <div>
+                        <BackButton label='Exit game' onClick={() => {this.setState({currentPage: 'Unit-Select'})}} />
+                    </div>
+                    <div className='bottom-0 flex-1 flex flex-col md:flex-row-reverse gap-3 px-10 pb-10 md:pt-10 justify-center'>
+                        <div className='text-center min-w-fit'>
                             <TimerText text='00:00' />
                             <ScoreWidget correct={this.state.correct} incorrect={this.state.incorrect} total={this.state.total} />
                             <Button1 label='get question' onClick={() => {this.getQuestion()}} />
                         </div>
-                        <div className='flex-none w-full h-full lg:w-4/6 xl:w-1/2'>
+                        <div className='grow flex flex-col max-w-4xl'>
                             <QuestionText text={'[' + this.state.questionUnit + '] ' + this.state.questionText} />
                             <AnswerBox />
                         </div>
