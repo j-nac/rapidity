@@ -18,6 +18,7 @@ module.exports = {
       'orange': '#f6b26bff',
       'yellow': '#ffd966ff',
       'gray': '#595959',
+      'transparent': 'transparent'
     },
     fontFamily: {
       sans: ['Fragment Mono', 'monospace'], // Tailwindcss uses sans by default
