@@ -10,6 +10,7 @@ import {
     AnswerBox,
     TimerText,
     ScoreWidget,
+    GameModeSelectCard,
 } from './components';
 import SubjectData from './dataProcess';
 
@@ -103,31 +104,46 @@ class App extends React.Component {
 
                 {this.state.currentPage === 'Subject-Select' ?
                 <div className='Subject-Select fixed bg-black h-screen w-screen'>
-                    <div className='flex gap-3 p-10 h-screen overflow-x-scroll overflow-y-hidden items-center '>
-                        <SubjectTile subject='AP Psychology' icon='psychology' color='magenta' onClick={() => this.subjectHandler('AP Psychology')} />
-                        <SubjectTile subject='AP US History' icon='how_to_vote' color='red' onClick={() => this.subjectHandler('AP US History')} />
-                        <SubjectTile subject='AP Language and Composition' icon='edit' color='purple' onClick={() => this.subjectHandler('AP Language and Composition')} />
+                    <div className='flex gap-3 p-10 h-screen overflow-x-scroll overflow-y-hidden items-center'>
+                        {/* I would adjust tile color more cleanly but for some reason the styles don't update if I just try to add the color string and concatenate */}
+                        <SubjectTile subject='AP Psychology' icon='psychology' styles='bg-magenta lg:bg-transparent hover:lg:bg-magenta lg:text-magenta hover:lg:text-white' onClick={() => this.subjectHandler('AP Psychology')} />
+                        <SubjectTile subject='AP US History' icon='flag' styles='bg-red lg:bg-transparent hover:lg:bg-red lg:text-red hover:lg:text-white' onClick={() => this.subjectHandler('AP US History')} />
+                        <SubjectTile subject='AP Language and Composition' icon='edit' styles='bg-purple lg:bg-transparent hover:lg:bg-purple lg:text-purple hover:lg:text-white' onClick={() => this.subjectHandler('AP Language and Composition')} />
+                        <SubjectTile subject='AP Computer Science A' icon='code' styles='bg-green lg:bg-transparent hover:lg:bg-green lg:text-green hover:lg:text-white' onClick={() => this.subjectHandler('AP Computer Science A')} />
                     </div>
                 </div>
                 : null}
 
                 {this.state.currentPage === 'Unit-Select' ?
                 <div className='Unit-Select fixed bg-black h-screen w-screen'>
-                    <BackButton label='Back to subjects' onClick={() => {this.setState({currentPage: 'Subject-Select', subject: ''})}} />
+                    <BackButton label='Back to subjects' onClick={() => {this.setState({currentPage: 'Subject-Select'})}} />
 
                     <div className='ml-10'>
                         <SubjectHeading text={this.state.subject} />
                         {this.subjectData.units.map((unit, index, arr) => <Checkbox name={unit} id={arr[index]} onClick={(e) => this.checkboxClick(e)} />)}
-                        <Button1 label='START' onClick={() => this.setState({currentPage: 'Game'})} />
+                        <Button1 label='Continue' onClick={() => this.setState({currentPage: 'Game-Mode-Select'})} styles='mt-3 transition hover:bg-white hover:text-black hover:border-white' />
                     </div>
 
+                </div>
+                : null}
+
+                {this.state.currentPage === 'Game-Mode-Select' ?
+                <div className='Game-Mode-Select fixed bg-black h-screen w-screen flex flex-col'>
+                    <div>
+                        <BackButton label='Back' onClick={() => {this.setState({currentPage: 'Unit-Select'})}} />
+                    </div>
+                    <div className='grow flex flex-col lg:flex-row gap-3 p-10 h-full overflow-x-scroll overflow-y-hidden items-center place-content-center'>
+                        <GameModeSelectCard subject='Rapid' icon='bolt' styles='bg-dark-magenta lg:bg-transparent hover:lg:bg-dark-magenta lg:text-dark-magenta hover:lg:text-white' onClick={() => {this.setState({gameMode: 'Rapid', currentPage: 'Game'});}} />
+                        <GameModeSelectCard subject='Timed' icon='timer' styles='bg-dark-orange lg:bg-transparent hover:lg:bg-dark-orange lg:text-dark-orange hover:lg:text-white' onClick={() => {this.setState({gameMode: 'Timed', currentPage: 'Game'});}} />
+                        <GameModeSelectCard subject='Zen' icon='self_improvement' styles='bg-dark-azure lg:bg-transparent hover:lg:bg-dark-azure lg:text-dark-azure hover:lg:text-white' onClick={() => {this.setState({gameMode: 'Zen', currentPage: 'Game'});}} />
+                    </div>
                 </div>
                 : null}
 
                 {this.state.currentPage === 'Game' ?
                 <div className='Game fixed bg-black h-screen w-screen flex flex-col' onKeyDown={(e) => {this.onKeyDownHandler(e)}}>
                     <div>
-                        <BackButton label='Exit game' onClick={() => {this.setState({currentPage: 'Unit-Select'})}} />
+                        <BackButton label='Exit game' onClick={() => {this.setState({currentPage: 'Game-Mode-Select'})}} />
                     </div>
                     <div className='bottom-0 flex-1 flex flex-col md:flex-row-reverse gap-3 px-10 pb-10 md:pt-10 justify-center'>
                         <div className='text-center min-w-fit'>

@@ -1,315 +1,315 @@
 Unit,Term,Alt,Definition
-Unit 1,Dorothea Dix,Dix,Created hospitals to treat the mentally ill. Nurse.
-Unit 1,Wilhelm Wundt,Wundt,Created the first psychology laboratory. Father of Psychology.
-Unit 1,Introspection,,Examination of one's own thoughts and feelings.
-Unit 1,Structuralism,,Using introspection to reveal the structure of the mind. Promoted by Wundt and Titchner.
-Unit 1,Functionalism,,Explored how mental and behavioral processes function through analyzing individual components. Promoted by James; influenced by Darwin.
-Unit 1,Gestalt Psychology,Gestalt,A field in psychology emphasizing how our mind organizes piecing of information into a cohesive whole.
-Unit 1,Psychoanalytic Approach,Psychoanalytic,A psychological approach concerned with how unconscious processes influence behavior. Promoted by Freud.
-Unit 1,Biological Approach,Biological,A psychological approach concerned with how physical attributes and genetics influence behavior.
-Unit 1,Cognitive Approach,Cognitive,A psychological approach focused on brain activity and consciousness.
-Unit 1,Behavioral Approach,Behavioral,A psychological approach focusing on behavior. Asserts that psychology is an objective science. Promoted by Watson.
-Unit 1,Humanisitic Approach,Humanistic,A psychological approach emphasizing human growth potential. Promoted by Rogers.
-Unit 1,Evolutionary Approach,Evolutionary,A psychological approach focused on how evolutionary processes influence psychology. Influenced by Darwin.
-Unit 1,Empirical,,Based on verifiable observation often involving a measure as opposed to opinion.
-Unit 1,Hypothesis,,A testable prediction.
-Unit 1,Operational Definition,Operational,Defining a concept in terms of a replicable and objective set of standards. A procedure used in research studies.
-Unit 1,Independent Variable,Independent,The variable being purposefully manipulated to study its impact.
-Unit 1,Dependent Variable,Dependent,The variable being measured to quantify the effect of something.
-Unit 1,Confounding Variables,Confounding,Variables outside of the experimenter's control which may affect the results of the experiment.
-Unit 1,Rendom Selection,,Selecting people to participate in an experiment randomly.
-Unit 1,Random Assignment,,"Assigning people to different groups (control, experimental, placebo, etc) randomly in an experiment."
-Unit 1,Double-Blind Design,Double-Blind,An experiment where the experimenter does not know who is receving the treatment vs placebo to remove possible bias and influence.
-Unit 1,Confederate,,An actor in an experiment working with the researcher.
-Unit 1,Sampling Bias,,A bias where the sample of a population studied is unrepresentative of the whole population.
-Unit 1,Placebo Effect,Placebo,The phenomenon where the expectation of positive results results in improved health.
-Unit 1,Observational Study,,A type of study where researchers make observations of participants to make findings.
-Unit 1,Participant Observation,,A type of observational study where the researcher observes the day-to-day activities of a given participant.
-Unit 1,Naturalistic Observation,,A type of observational study where the researcher observes particpants in their natural environment without trying to manipulate the situation.
-Unit 1,Case Study,,A descriptive technique where an individual or group is studied in depth.
-Unit 1,Survey,,A descriptive technique where a group self-reports attributes or behaviors.
-Unit 1,Correlational Study,,A study attempting to find the relationship between variables without manipulating or controlling the situation.
-Unit 1,Experiments,,A research method involving an investigator manipuating and controlling factors to study the effect on behavior.
-Unit 1,Cross-sectional Study,,A study observing a fresh group of participants each time interval.
-Unit 1,Longintudinal Study,,A study observing a single group of participants over time.
-Unit 1,Meta-analysis,,A study compiling the results of other studies that meet a requirement.
-Unit 1,Descriptive Statistics,,A type of statistics that describes existing data.
-Unit 1,Inferential Statistics,,A type of statistics that attempts to extrapolate data.
-Unit 1,Mean,,The average of a set.
-Unit 1,Median,,The middle value of a set.
-Unit 1,Mode,,The most common value in a set.
-Unit 1,Histogram,,A chart displaying the number of occurences in several ranges or types.
-Unit 1,Normal Distribution,,"A bell-shaped curved describing the distribution of many types of data. 34%, 13.5%, 2%, 0.1%"
-Unit 1,Skews,,How the data deviates from a normal distribution.
-Unit 1,Variance,,How similar or diverse scores are.
-Unit 1,APA Ethical Principles,,"Obtain informed consent, protect from harm or discomfort, keep information confidential, and fully debrief afterwards."
-Unit 2,Nature vs Nurture,,The debate in psychology over the influence of genetics versus environment.
-Unit 2,Twin Studies,,Studies involving identical or monozygotic twins. Genetics are identical so differences must be environmental.
-Unit 2,Endocrine System,,
-Unit 2,Glands,,
-Unit 2,Pituitary Gland,Pituitary,Most influential gland. Controlled by the hypothalamus. Regulates growth and other endocrine glands.
-Unit 2,Pineal Gland,Pineal,
-Unit 2,Adrenal Glands,,A pair of endocrine glands above the kidneys. Helps stimulate the body in times of stress.
-Unit 2,Primary Sex Characteristics,,
-Unit 2,Central Nervous System,,The brain and spinal cord.
-Unit 2,Somatic Nervous System,,Part of the peripherial nervous system. Controls the body's skeletal muscles.
-Unit 2,Sympathetic Nervous System,,Part of the autonomic nervous system. Stimulates the body to mobilize its energy.
-Unit 2,Parasympathetic Nervous System,,Part of the autonomic nervous system. Calms the body to conserve energy.
-Unit 2,Afferent/Sensory Neurons,Afferent,Carries information from sensory neurons to the brain.
-Unit 2,Efferent/Motor Neurons,Efferent,Carries outgoing information from the brain to muscles and glands.
-Unit 2,Nodes of Ranvier,Raniver,Points between the myelin sheath with faster travel.
-Unit 2,Myelin Sheath,,Fatty tissue layer in sgements on axons. Allows for faster transmission of signals.
-Unit 2,Glial Cell,Glial,Cell supporting and protecting neuron.
-Unit 2,Dendrites,,Branching extensions of a neuron receiving signals and conducting them to the cell body.
-Unit 2,Synapse,,The area where the terminal of one neuron sends signals to the dendrites of another neuron.
-Unit 2,Action Potential,,A neural impulse; a brief electrical charge that travels down an axon.
-Unit 2,Resting Potential,,
-Unit 2,Refractory Phase,,Period of inactivity after a neuron has fired.
-Unit 2,Reuptake,,Reabsorption of a neurotransmitter by the sending neuron.
-Unit 2,Postsynaptic Neuron,,Reciving neuron deciding whether to fire based on the inputs.
-Unit 2,Dopamine,,"Neurotransmitter. Influences movement, learning, attention, and emotion."
-Unit 2,Acetylcholine,,"Neurotransmitter. Responsible for voluntary movement, muscle contraction, learning, memory, and sleep."
-Unit 2,GABA,,Neurotransmitter. Inhibits excitation and anxiety.
-Unit 2,Serotonin,,"Neurotransmitter. Regulates mood, appetite, and sleep."
-Unit 2,Epinephrine,,"Also called adrenaline. Responsible for ""fight or flight"" response. Regulates alertness."
-Unit 2,Norepinephrine,,"Also called noradrenaline. Responsible for slowing down appetite and digestion during ""fight or flight."""
-Unit 2,Endorphins,,Neurotransmitter. Pain relief and feelings of pleasure.
-Unit 2,Glutamate,,Excitatory neurotransmitter. Responsible for memory and learning.
-Unit 2,Agonist,,Increases a neurotransmitter's action.
-Unit 2,Antagonist,,Inhibits or blocks a neurotransmitter's action.
-Unit 2,Alzheimer's Disease,Alzheimers,A brain disease which slowly destroys memory and basic thinking skills.
-Unit 2,Parkinson's Disease,Parkinsons,Disease involving loss of motor control and tremors.
-Unit 2,Down Syndrome,,
-Unit 2,Halluciongens,,
-Unit 2,Depressants,,
-Unit 2,Stimulants,,
-Unit 2,SSRIs,,
-Unit 2,Alcohol,,
-Unit 2,Cocaine,,
-Unit 2,Nicotine,,
-Unit 2,Morphine,,
-Unit 2,Heroin,,
-Unit 2,Barbiturates,,
-Unit 2,Spinal Reflex,,
-Unit 2,Contralaterality,,
-Unit 2,Lateralization,,
-Unit 2,Hemispheric Specialization,,
-Unit 2,Corpus Callosum,,
-Unit 2,Split Brain Surgery,,
-Unit 2,Occipetal Lobe,,"Located in the back portion of the brain. Responsible for visual perception, processing, and mapping."
-Unit 2,Parietal Lobe,,Located at the upper back portion of the brain. Respnsible for sensory information processing.
-Unit 2,Temporal Lobe,,Located at the bottom of the brain. Responsible for processing auditory information and memory.
-Unit 2,Frontal Lobe,,"Located at the front of the brain. Responsible for problem solving, memory, and emotions."
-Unit 2,Limbic Ststem,,A neural system including the hippocampus and amygdala located below the cerebral hemispheres. Associated with emotions.
-Unit 2,Wenicke's Area,,Area of the brain responsible for language comprehension.
-Unit 2,Broca's Area,,Area of the brain responsible for language production.
-Unit 2,Visual Cortex,,Cortex located at the back of the brain. Located for interpreting and processing visual information.
-Unit 2,Prefrontal Cortex,,
-Unit 2,Motor Cortex,,
-Unit 2,Sensory Cortex,,
-Unit 2,Somatosensory Cortex,,
-Unit 2,Cerebral Cortex,,Neural cells in the brain's hemispheres. Ultimate control and information processing center.
-Unit 2,Amygdala,,Neural clusters in the limbic system linked to emotion.
-Unit 2,Hypothalamus,,
-Unit 2,Hippocampus,,Located in the interior of the brain. Responsible for memory and the formation of memories.
-Unit 2,Thalamus,,Located on top of the brainstem. The brain's sensory control center.
-Unit 2,Cerebellum,,"The ""little brain"" at the rear of the brainstem. Sensory input, coordinating movement output, and nonverbal learning."
-Unit 2,Medulla,,
-Unit 2,Pons,,
-Unit 2,Reticular Formation,,
-Unit 2,MRI,,A giant circular magnet causes water molecules to re-align which is then observed with radio signals.
-Unit 2,CAT,,X-ray cross sections images are taken of the brain which are then stacked to create a 3d image. Can detect brain damage and changes in cerebral flow.
-Unit 2,PET,,Radioactive glucose is injected to then scan. Can detect deep brain structures the EEG cannot.
-Unit 2,fMRI,,Measure blood flow changes in the brain.
-Unit 2,EEG,,Electrodes are attached to someone's head to measure brain signals. Non-invasive.
-Unit 2,Circadian Rhythms,,
-Unit 2,Sleep Cycle,,
-Unit 2,Jet Lag,,
-Unit 2,Sleep Spindles,,
-Unit 2,REM Sleep,,
-Unit 2,Dream Analysis,,
-Unit 2,Wish Fulfillment,,
-Unit 2,Activation-Synthesis,,
-Unit 2,Night Terrors,,
-Unit 2,Somnambulism,,
-Unit 2,Narcolepsy,,Sudden attacks of sleeplessness
-Unit 2,Sleep Apnea,,Difficulty breathing when sleeping.
-Unit 3,Divided Attention,,
-Unit 3,Selective Attention,,
-Unit 3,Parallel Processing,,
-Unit 3,Absolute Threshold,,The minumum stimulation required to detect 50% of the time.
-Unit 3,Sensory Threshold,,
-Unit 3,Just-Noticeable Difference,,Minimum difference required to tell the difference between two stimuli 50% of the time.
-Unit 3,Weber's Law,,
-Unit 3,Sensory Adaptation,,
-Unit 3,Transduction,,Conversion of stimulus energy into neural impulses the brain can understand.
-Unit 3,Cocktail Party Effect,,
-Unit 3,Subliminal Perception,,Stimuli below one's absolute threshold.
-Unit 3,Bottom-Up Processing,,Using sensory information to form a perception.
-Unit 3,Top-Down Processing,,"Using memory, experience, and expectations to help form a perception."
-Unit 3,Pupil,,"The small, adjustable openning in the eye for light to pass through."
-Unit 3,Cornea,,Outer layer of the eye which bends light to help focus.
-Unit 3,Lens,,Behind the pupil. Focuses light rays.
-Unit 3,Fovea,,Central point of focus in the eye.
-Unit 3,Retina,,Tissue on the inner surface of the eye receiving light information.
-Unit 3,Iris,,Controls the size of the pupil expanding and contracting in response to light intensity.
-Unit 3,Photoreceptors,,Your eye's light receptors.
-Unit 3,Rods,,Retinal receptors used for twilight vision. Located at the peripery of the eye with about 120 million.
-Unit 3,Cones,,Retinal receptors used for color and daytime vision. Located in the center of the eye with about 6 million.
-Unit 3,Blind Spot,,Point where the optic nerve leaves the eye where there are no receptor cells.
-Unit 3,Bipolar Cells,,
-Unit 3,Ganglion Cells,,
-Unit 3,Optic Chiasm,,
-Unit 3,Feature Detectors,,Nerve cells in the brain that respond to specific features like shape or movement.
-Unit 3,Order of Visual Processing,,
-Unit 3,Hue,,The dimension of color determined by wavelength.
-Unit 3,Intensity,,Energy releaased in a light or sound wave perceived as brightness or loudness. Determined by the wave's amplitude.
-Unit 3,Trichromatic Theory of Vision,,
-Unit 3,Opponent-Process Theory of Vision,,
-Unit 3,Depth Perception,,Your brain's ability to see in three dimensions despite receiving information in only two. Allows us to judge depth.
-Unit 3,Monocular Depth Cues,,Depth cues like relative height and linear perspective to determine depth.
-Unit 3,Binocular Depth Cues,,
-Unit 3,Convergence,,
-Unit 3,Binocular Disparity,,Your brain using the differences in images of each eye to determine depth.
-Unit 3,Perceptual Constancy,,
-Unit 3,Phi Phenomenon,,An illusion of movement caused by multiple lights flashing on and off in quick succession.
-Unit 3,Muller-Lyer Illusion,,
-Unit 3,Pitch,,
-Unit 3,Frequency Theory,,
-Unit 3,Place Theory,,
-Unit 3,Hammer,,
-Unit 3,Anvil,,
-Unit 3,Stirrup,,
-Unit 3,Cochlea,,
-Unit 3,Basilar Membrane,,
-Unit 3,Dichotic Listening,,
-Unit 3,Auditory Localization,,
-Unit 3,Conduction Deafness,,
-Unit 3,Sensorineural Deafness,,
-Unit 3,Olfaction Receptors,,
-Unit 3,Anosmia,,
-Unit 3,Supertaster,,
-Unit 3,Bitter Taste,,in infants
-Unit 3,Proprioceptors,,
-Unit 3,Vestibular Sense,,
-Unit 3,Sensory Interaction,,
-Unit 3,Synesthesia,,
-Unit 4,Learning,,
-Unit 4,Discrimination,,Distinguishing stimuli.
-Unit 4,Generalization,,Grouping stimuli together.
-Unit 4,Classical Conditioning,,A type of learning involving neutral stimuli being associated with other things to then elicit a biological response.
-Unit 4,Ivan Pavlov,,
-Unit 4,John B. Watson,,
-Unit 4,Little Albert,,
-Unit 4,Acqusisition,,Learning a conditioned response from a previously unconditioned stimulus.
-Unit 4,Extinction,,The disappearance of a conditioned response.
-Unit 4,Unconditioned Stimulus,,
-Unit 4,Neutral Stimulus,,
-Unit 4,Conditioned Stimulus,,
-Unit 4,Unconditioned Response,,
-Unit 4,Conditioned Response,,
-Unit 4,Second Order Conditioning,,
-Unit 4,Spontaneous Recovery,,
-Unit 4,Taste Aversion,,
-Unit 4,Operant Conditioning,,
-Unit 4,B. F. Skinner,,
-Unit 4,Positive Reinforcement,,Adding a good reinforcer for a behavior.
-Unit 4,Negative Reinforcement,,Taking away a good reinforcer for a behavior.
-Unit 4,Positive Punishment,,Adding a bad reinforcer for a behavior.
-Unit 4,Negative Punishment,,
-Unit 4,Fixed Schedule,,
-Unit 4,Variable Schedule,,
-Unit 4,Ratio Schedule,,
-Unit 4,Interval Schedule,,Reinforcer occurs with a specific delay after the behavior.
-Unit 4,Continuous Schedule,,Reinforcer each time a behavior occurs.
-Unit 4,Partial Schedule,,
-Unit 4,Shaping,,
-Unit 4,Primary Reinforcer,,Unlearned reinforcers of biological importance. Ex. food.
-Unit 4,Secondary Reinforcer,,A stimulus learned to be associated with a primary reinforcer. Ex. money.
-Unit 4,Learned Helplessness,,
-Unit 4,Cognitive Map,,
-Unit 4,Latent Learning,,Learning not revealed until tested such as subcosciously remembering a maze.
-Unit 4,Positive Transfer,,
-Unit 4,Social Learning Theory,,Theory that learning occurs from observing and imitating others.
-Unit 4,Observational Learning,,
-Unit 4,Albert Vandura,,
-Unit 4,Modeling,,
-Unit 4,Mirror Neurons,,
-Unit 4,Token Economy,,
-Unit 4,Biofeedback,,
-Unit 5,Levels of Processing,,
-Unit 5,Parallel Processing,,"Your brain processing motion, shape, depth, and color all at once."
-Unit 5,Multitasking,,
-Unit 5,Encoding,,
-Unit 5,Dual Encoding,,
-Unit 5,Long-Term Potentiation,,
-Unit 5,Mnemonic,,
-Unit 5,Prspective Memory,,
-Unit 5,Iconic Memory,,
-Unit 5,Echonic Memory,,
-Unit 5,Nondeclarative Memory,,implicit
-Unit 5,Procedural Memory,,
-Unit 5,Delclarative memory,,explicit
-Unit 5,Semantic Memory,,
-Unit 5,Episodic Memory,,
-Unit 5,Flashbulb MEmory,,
-Unit 5,State-Dependent Memory,,
-Unit 5,Serial Position Effect,,
-Unit 5,Spacing Effect,,
-Unit 5,Self-reference Effect,,
-Unit 5,Elizabeth Loftus,,
-Unit 5,Hermann Ebbinghaus,,
-Unit 5,Tip-of-the-toungue Phenomenon,,
-Unit 5,Encoding Failure,,
-Unit 5,Short Term Memory Decay,,
-Unit 5,Misattribution,,
-Unit 5,Repression,,
-Unit 5,Retrograde Amnesia,,
-Unit 5,Anterograde Amnesia,,
-Unit 5,Proactive Interference,,
-Unit 5,Retroactive Interference,,
-Unit 5,Priming,,
-Unit 5,Prototype,,
-Unit 5,Divergent Thinking,,
-Unit 5,Convergent Thinking,,
-Unit 5,Fixation,,
-Unit 5,Deductive Resoning,,
-Unit 5,Inductive Reasoning,,
-Unit 5,Insight,,
-Unit 5,Algorithm,,
-Unit 5,Heurisitcs,,Mental shortcuts taken to quickly make decisions or solve problems with relative accuracy.
-Unit 5,Anchoring Heurisitc,,Heuristic. You judge everything relative to the first instance you saw.
-Unit 5,Representativeness Heuristic,,Heuristic. Judging based on the prototypical case.
-Unit 5,Availability Heurisitc,,Heuristic. Believing something is more common based on how easily it comes to mind.
-Unit 5,Confirmation Bias,,
-Unit 5,Hindsight Bias,,The tendence to believe after knowing the outcome that it would have been easy to foresee it.
-Unit 5,Self-Serving Bias,,
-Unit 5,Belief Perseverance,,
-Unit 5,Framing Effect,,
-Unit 5,Overconfidence,,
-Unit 5,Raymond Cattel,,
-Unit 5,g Factor,,
-Unit 5,Triarchic Theory of Intelligence,,"Practical, creative, and practical intelligence."
-Unit 5,Lingusitc Intelligence,,
-Unit 5,Spatial Intelligence,,
-Unit 5,Interpersonal Intellience,,
-Unit 5,Intrapersonal Intelligence,,
-Unit 5,Savant Syndrome,,
-Unit 5,Giftedness,,
-Unit 5,Multiple Intelligence,,
-Unit 5,Intelligence Quotient,,
-Unit 5,Emotional Intelligence,,
-Unit 5,Flynn Effect,,
-Unit 5,Achievement Test,,
-Unit 5,Aptitude Test,,
-Unit 5,Standardization,,
-Unit 5,Reliability,,
-Unit 5,Validitity,,
-Unit 5,Noam Chomsky,,
-Unit 5,Benjamin Whorf,,
-Unit 5,Surface Structure,,
-Unit 5,Deep Structure,,
-Unit 5,Phonemes,,"A unique unit of sound. Ex. the ""ba"" sound."
-Unit 5,Morphemes,,"The smallest unit of language that carries meaning. Ex. the prefix ""un""."
-Unit 5,Syntax,,How language is structured; grammar.
-Unit 5,Semantics,,Meaning carried by language.
+Unit 1 - Scientific Foundations of Psychology,Dorothea Dix,Dix,Created hospitals to treat the mentally ill. Nurse.
+Unit 1 - Scientific Foundations of Psychology,Wilhelm Wundt,Wundt,Created the first psychology laboratory. Father of Psychology.
+Unit 1 - Scientific Foundations of Psychology,Introspection,,Examination of one's own thoughts and feelings.
+Unit 1 - Scientific Foundations of Psychology,Structuralism,,Using introspection to reveal the structure of the mind. Promoted by Wundt and Titchner.
+Unit 1 - Scientific Foundations of Psychology,Functionalism,,Explored how mental and behavioral processes function through analyzing individual components. Promoted by James; influenced by Darwin.
+Unit 1 - Scientific Foundations of Psychology,Gestalt Psychology,Gestalt,A field in psychology emphasizing how our mind organizes piecing of information into a cohesive whole.
+Unit 1 - Scientific Foundations of Psychology,Psychoanalytic Approach,Psychoanalytic,A psychological approach concerned with how unconscious processes influence behavior. Promoted by Freud.
+Unit 1 - Scientific Foundations of Psychology,Biological Approach,Biological,A psychological approach concerned with how physical attributes and genetics influence behavior.
+Unit 1 - Scientific Foundations of Psychology,Cognitive Approach,Cognitive,A psychological approach focused on brain activity and consciousness.
+Unit 1 - Scientific Foundations of Psychology,Behavioral Approach,Behavioral,A psychological approach focusing on behavior. Asserts that psychology is an objective science. Promoted by Watson.
+Unit 1 - Scientific Foundations of Psychology,Humanisitic Approach,Humanistic,A psychological approach emphasizing human growth potential. Promoted by Rogers.
+Unit 1 - Scientific Foundations of Psychology,Evolutionary Approach,Evolutionary,A psychological approach focused on how evolutionary processes influence psychology. Influenced by Darwin.
+Unit 1 - Scientific Foundations of Psychology,Empirical,,Based on verifiable observation often involving a measure as opposed to opinion.
+Unit 1 - Scientific Foundations of Psychology,Hypothesis,,A testable prediction.
+Unit 1 - Scientific Foundations of Psychology,Operational Definition,Operational,Defining a concept in terms of a replicable and objective set of standards. A procedure used in research studies.
+Unit 1 - Scientific Foundations of Psychology,Independent Variable,Independent,The variable being purposefully manipulated to study its impact.
+Unit 1 - Scientific Foundations of Psychology,Dependent Variable,Dependent,The variable being measured to quantify the effect of something.
+Unit 1 - Scientific Foundations of Psychology,Confounding Variables,Confounding,Variables outside of the experimenter's control which may affect the results of the experiment.
+Unit 1 - Scientific Foundations of Psychology,Rendom Selection,,Selecting people to participate in an experiment randomly.
+Unit 1 - Scientific Foundations of Psychology,Random Assignment,,"Assigning people to different groups (control, experimental, placebo, etc) randomly in an experiment."
+Unit 1 - Scientific Foundations of Psychology,Double-Blind Design,Double-Blind,An experiment where the experimenter does not know who is receving the treatment vs placebo to remove possible bias and influence.
+Unit 1 - Scientific Foundations of Psychology,Confederate,,An actor in an experiment working with the researcher.
+Unit 1 - Scientific Foundations of Psychology,Sampling Bias,,A bias where the sample of a population studied is unrepresentative of the whole population.
+Unit 1 - Scientific Foundations of Psychology,Placebo Effect,Placebo,The phenomenon where the expectation of positive results results in improved health.
+Unit 1 - Scientific Foundations of Psychology,Observational Study,,A type of study where researchers make observations of participants to make findings.
+Unit 1 - Scientific Foundations of Psychology,Participant Observation,,A type of observational study where the researcher observes the day-to-day activities of a given participant.
+Unit 1 - Scientific Foundations of Psychology,Naturalistic Observation,,A type of observational study where the researcher observes particpants in their natural environment without trying to manipulate the situation.
+Unit 1 - Scientific Foundations of Psychology,Case Study,,A descriptive technique where an individual or group is studied in depth.
+Unit 1 - Scientific Foundations of Psychology,Survey,,A descriptive technique where a group self-reports attributes or behaviors.
+Unit 1 - Scientific Foundations of Psychology,Correlational Study,,A study attempting to find the relationship between variables without manipulating or controlling the situation.
+Unit 1 - Scientific Foundations of Psychology,Experiments,,A research method involving an investigator manipuating and controlling factors to study the effect on behavior.
+Unit 1 - Scientific Foundations of Psychology,Cross-sectional Study,,A study observing a fresh group of participants each time interval.
+Unit 1 - Scientific Foundations of Psychology,Longintudinal Study,,A study observing a single group of participants over time.
+Unit 1 - Scientific Foundations of Psychology,Meta-analysis,,A study compiling the results of other studies that meet a requirement.
+Unit 1 - Scientific Foundations of Psychology,Descriptive Statistics,,A type of statistics that describes existing data.
+Unit 1 - Scientific Foundations of Psychology,Inferential Statistics,,A type of statistics that attempts to extrapolate data.
+Unit 1 - Scientific Foundations of Psychology,Mean,,The average of a set.
+Unit 1 - Scientific Foundations of Psychology,Median,,The middle value of a set.
+Unit 1 - Scientific Foundations of Psychology,Mode,,The most common value in a set.
+Unit 1 - Scientific Foundations of Psychology,Histogram,,A chart displaying the number of occurences in several ranges or types.
+Unit 1 - Scientific Foundations of Psychology,Normal Distribution,,"A bell-shaped curved describing the distribution of many types of data. 34%, 13.5%, 2%, 0.1%"
+Unit 1 - Scientific Foundations of Psychology,Skews,,How the data deviates from a normal distribution.
+Unit 1 - Scientific Foundations of Psychology,Variance,,How similar or diverse scores are.
+Unit 1 - Scientific Foundations of Psychology,APA Ethical Principles,,"Obtain informed consent, protect from harm or discomfort, keep information confidential, and fully debrief afterwards."
+Unit 2 - Biological Bases of Behavior,Nature vs Nurture,,The debate in psychology over the influence of genetics versus environment.
+Unit 2 - Biological Bases of Behavior,Twin Studies,,Studies involving identical or monozygotic twins. Genetics are identical so differences must be environmental.
+Unit 2 - Biological Bases of Behavior,Endocrine System,,
+Unit 2 - Biological Bases of Behavior,Glands,,
+Unit 2 - Biological Bases of Behavior,Pituitary Gland,Pituitary,Most influential gland. Controlled by the hypothalamus. Regulates growth and other endocrine glands.
+Unit 2 - Biological Bases of Behavior,Pineal Gland,Pineal,
+Unit 2 - Biological Bases of Behavior,Adrenal Glands,,A pair of endocrine glands above the kidneys. Helps stimulate the body in times of stress.
+Unit 2 - Biological Bases of Behavior,Primary Sex Characteristics,,
+Unit 2 - Biological Bases of Behavior,Central Nervous System,,The brain and spinal cord.
+Unit 2 - Biological Bases of Behavior,Somatic Nervous System,,Part of the peripherial nervous system. Controls the body's skeletal muscles.
+Unit 2 - Biological Bases of Behavior,Sympathetic Nervous System,,Part of the autonomic nervous system. Stimulates the body to mobilize its energy.
+Unit 2 - Biological Bases of Behavior,Parasympathetic Nervous System,,Part of the autonomic nervous system. Calms the body to conserve energy.
+Unit 2 - Biological Bases of Behavior,Afferent/Sensory Neurons,Afferent,Carries information from sensory neurons to the brain.
+Unit 2 - Biological Bases of Behavior,Efferent/Motor Neurons,Efferent,Carries outgoing information from the brain to muscles and glands.
+Unit 2 - Biological Bases of Behavior,Nodes of Ranvier,Raniver,Points between the myelin sheath with faster travel.
+Unit 2 - Biological Bases of Behavior,Myelin Sheath,,Fatty tissue layer in sgements on axons. Allows for faster transmission of signals.
+Unit 2 - Biological Bases of Behavior,Glial Cell,Glial,Cell supporting and protecting neuron.
+Unit 2 - Biological Bases of Behavior,Dendrites,,Branching extensions of a neuron receiving signals and conducting them to the cell body.
+Unit 2 - Biological Bases of Behavior,Synapse,,The area where the terminal of one neuron sends signals to the dendrites of another neuron.
+Unit 2 - Biological Bases of Behavior,Action Potential,,A neural impulse; a brief electrical charge that travels down an axon.
+Unit 2 - Biological Bases of Behavior,Resting Potential,,
+Unit 2 - Biological Bases of Behavior,Refractory Phase,,Period of inactivity after a neuron has fired.
+Unit 2 - Biological Bases of Behavior,Reuptake,,Reabsorption of a neurotransmitter by the sending neuron.
+Unit 2 - Biological Bases of Behavior,Postsynaptic Neuron,,Reciving neuron deciding whether to fire based on the inputs.
+Unit 2 - Biological Bases of Behavior,Dopamine,,"Neurotransmitter. Influences movement, learning, attention, and emotion."
+Unit 2 - Biological Bases of Behavior,Acetylcholine,,"Neurotransmitter. Responsible for voluntary movement, muscle contraction, learning, memory, and sleep."
+Unit 2 - Biological Bases of Behavior,GABA,,Neurotransmitter. Inhibits excitation and anxiety.
+Unit 2 - Biological Bases of Behavior,Serotonin,,"Neurotransmitter. Regulates mood, appetite, and sleep."
+Unit 2 - Biological Bases of Behavior,Epinephrine,,"Also called adrenaline. Responsible for ""fight or flight"" response. Regulates alertness."
+Unit 2 - Biological Bases of Behavior,Norepinephrine,,"Also called noradrenaline. Responsible for slowing down appetite and digestion during ""fight or flight."""
+Unit 2 - Biological Bases of Behavior,Endorphins,,Neurotransmitter. Pain relief and feelings of pleasure.
+Unit 2 - Biological Bases of Behavior,Glutamate,,Excitatory neurotransmitter. Responsible for memory and learning.
+Unit 2 - Biological Bases of Behavior,Agonist,,Increases a neurotransmitter's action.
+Unit 2 - Biological Bases of Behavior,Antagonist,,Inhibits or blocks a neurotransmitter's action.
+Unit 2 - Biological Bases of Behavior,Alzheimer's Disease,Alzheimers,A brain disease which slowly destroys memory and basic thinking skills.
+Unit 2 - Biological Bases of Behavior,Parkinson's Disease,Parkinsons,Disease involving loss of motor control and tremors.
+Unit 2 - Biological Bases of Behavior,Down Syndrome,,
+Unit 2 - Biological Bases of Behavior,Halluciongens,,
+Unit 2 - Biological Bases of Behavior,Depressants,,
+Unit 2 - Biological Bases of Behavior,Stimulants,,
+Unit 2 - Biological Bases of Behavior,SSRIs,,
+Unit 2 - Biological Bases of Behavior,Alcohol,,
+Unit 2 - Biological Bases of Behavior,Cocaine,,
+Unit 2 - Biological Bases of Behavior,Nicotine,,
+Unit 2 - Biological Bases of Behavior,Morphine,,
+Unit 2 - Biological Bases of Behavior,Heroin,,
+Unit 2 - Biological Bases of Behavior,Barbiturates,,
+Unit 2 - Biological Bases of Behavior,Spinal Reflex,,
+Unit 2 - Biological Bases of Behavior,Contralaterality,,
+Unit 2 - Biological Bases of Behavior,Lateralization,,
+Unit 2 - Biological Bases of Behavior,Hemispheric Specialization,,
+Unit 2 - Biological Bases of Behavior,Corpus Callosum,,
+Unit 2 - Biological Bases of Behavior,Split Brain Surgery,,
+Unit 2 - Biological Bases of Behavior,Occipetal Lobe,,"Located in the back portion of the brain. Responsible for visual perception, processing, and mapping."
+Unit 2 - Biological Bases of Behavior,Parietal Lobe,,Located at the upper back portion of the brain. Respnsible for sensory information processing.
+Unit 2 - Biological Bases of Behavior,Temporal Lobe,,Located at the bottom of the brain. Responsible for processing auditory information and memory.
+Unit 2 - Biological Bases of Behavior,Frontal Lobe,,"Located at the front of the brain. Responsible for problem solving, memory, and emotions."
+Unit 2 - Biological Bases of Behavior,Limbic Ststem,,A neural system including the hippocampus and amygdala located below the cerebral hemispheres. Associated with emotions.
+Unit 2 - Biological Bases of Behavior,Wenicke's Area,,Area of the brain responsible for language comprehension.
+Unit 2 - Biological Bases of Behavior,Broca's Area,,Area of the brain responsible for language production.
+Unit 2 - Biological Bases of Behavior,Visual Cortex,,Cortex located at the back of the brain. Located for interpreting and processing visual information.
+Unit 2 - Biological Bases of Behavior,Prefrontal Cortex,,
+Unit 2 - Biological Bases of Behavior,Motor Cortex,,
+Unit 2 - Biological Bases of Behavior,Sensory Cortex,,
+Unit 2 - Biological Bases of Behavior,Somatosensory Cortex,,
+Unit 2 - Biological Bases of Behavior,Cerebral Cortex,,Neural cells in the brain's hemispheres. Ultimate control and information processing center.
+Unit 2 - Biological Bases of Behavior,Amygdala,,Neural clusters in the limbic system linked to emotion.
+Unit 2 - Biological Bases of Behavior,Hypothalamus,,
+Unit 2 - Biological Bases of Behavior,Hippocampus,,Located in the interior of the brain. Responsible for memory and the formation of memories.
+Unit 2 - Biological Bases of Behavior,Thalamus,,Located on top of the brainstem. The brain's sensory control center.
+Unit 2 - Biological Bases of Behavior,Cerebellum,,"The ""little brain"" at the rear of the brainstem. Sensory input, coordinating movement output, and nonverbal learning."
+Unit 2 - Biological Bases of Behavior,Medulla,,
+Unit 2 - Biological Bases of Behavior,Pons,,
+Unit 2 - Biological Bases of Behavior,Reticular Formation,,
+Unit 2 - Biological Bases of Behavior,MRI,,A giant circular magnet causes water molecules to re-align which is then observed with radio signals.
+Unit 2 - Biological Bases of Behavior,CAT,,X-ray cross sections images are taken of the brain which are then stacked to create a 3d image. Can detect brain damage and changes in cerebral flow.
+Unit 2 - Biological Bases of Behavior,PET,,Radioactive glucose is injected to then scan. Can detect deep brain structures the EEG cannot.
+Unit 2 - Biological Bases of Behavior,fMRI,,Measure blood flow changes in the brain.
+Unit 2 - Biological Bases of Behavior,EEG,,Electrodes are attached to someone's head to measure brain signals. Non-invasive.
+Unit 2 - Biological Bases of Behavior,Circadian Rhythms,,
+Unit 2 - Biological Bases of Behavior,Sleep Cycle,,
+Unit 2 - Biological Bases of Behavior,Jet Lag,,
+Unit 2 - Biological Bases of Behavior,Sleep Spindles,,
+Unit 2 - Biological Bases of Behavior,REM Sleep,,
+Unit 2 - Biological Bases of Behavior,Dream Analysis,,
+Unit 2 - Biological Bases of Behavior,Wish Fulfillment,,
+Unit 2 - Biological Bases of Behavior,Activation-Synthesis,,
+Unit 2 - Biological Bases of Behavior,Night Terrors,,
+Unit 2 - Biological Bases of Behavior,Somnambulism,,
+Unit 2 - Biological Bases of Behavior,Narcolepsy,,Sudden attacks of sleeplessness
+Unit 2 - Biological Bases of Behavior,Sleep Apnea,,Difficulty breathing when sleeping.
+Unit 3 - Sensation and Perception,Divided Attention,,
+Unit 3 - Sensation and Perception,Selective Attention,,
+Unit 3 - Sensation and Perception,Parallel Processing,,
+Unit 3 - Sensation and Perception,Absolute Threshold,,The minumum stimulation required to detect 50% of the time.
+Unit 3 - Sensation and Perception,Sensory Threshold,,
+Unit 3 - Sensation and Perception,Just-Noticeable Difference,,Minimum difference required to tell the difference between two stimuli 50% of the time.
+Unit 3 - Sensation and Perception,Weber's Law,,
+Unit 3 - Sensation and Perception,Sensory Adaptation,,
+Unit 3 - Sensation and Perception,Transduction,,Conversion of stimulus energy into neural impulses the brain can understand.
+Unit 3 - Sensation and Perception,Cocktail Party Effect,,
+Unit 3 - Sensation and Perception,Subliminal Perception,,Stimuli below one's absolute threshold.
+Unit 3 - Sensation and Perception,Bottom-Up Processing,,Using sensory information to form a perception.
+Unit 3 - Sensation and Perception,Top-Down Processing,,"Using memory, experience, and expectations to help form a perception."
+Unit 3 - Sensation and Perception,Pupil,,"The small, adjustable openning in the eye for light to pass through."
+Unit 3 - Sensation and Perception,Cornea,,Outer layer of the eye which bends light to help focus.
+Unit 3 - Sensation and Perception,Lens,,Behind the pupil. Focuses light rays.
+Unit 3 - Sensation and Perception,Fovea,,Central point of focus in the eye.
+Unit 3 - Sensation and Perception,Retina,,Tissue on the inner surface of the eye receiving light information.
+Unit 3 - Sensation and Perception,Iris,,Controls the size of the pupil expanding and contracting in response to light intensity.
+Unit 3 - Sensation and Perception,Photoreceptors,,Your eye's light receptors.
+Unit 3 - Sensation and Perception,Rods,,Retinal receptors used for twilight vision. Located at the peripery of the eye with about 120 million.
+Unit 3 - Sensation and Perception,Cones,,Retinal receptors used for color and daytime vision. Located in the center of the eye with about 6 million.
+Unit 3 - Sensation and Perception,Blind Spot,,Point where the optic nerve leaves the eye where there are no receptor cells.
+Unit 3 - Sensation and Perception,Bipolar Cells,,
+Unit 3 - Sensation and Perception,Ganglion Cells,,
+Unit 3 - Sensation and Perception,Optic Chiasm,,
+Unit 3 - Sensation and Perception,Feature Detectors,,Nerve cells in the brain that respond to specific features like shape or movement.
+Unit 3 - Sensation and Perception,Order of Visual Processing,,
+Unit 3 - Sensation and Perception,Hue,,The dimension of color determined by wavelength.
+Unit 3 - Sensation and Perception,Intensity,,Energy releaased in a light or sound wave perceived as brightness or loudness. Determined by the wave's amplitude.
+Unit 3 - Sensation and Perception,Trichromatic Theory of Vision,,
+Unit 3 - Sensation and Perception,Opponent-Process Theory of Vision,,
+Unit 3 - Sensation and Perception,Depth Perception,,Your brain's ability to see in three dimensions despite receiving information in only two. Allows us to judge depth.
+Unit 3 - Sensation and Perception,Monocular Depth Cues,,Depth cues like relative height and linear perspective to determine depth.
+Unit 3 - Sensation and Perception,Binocular Depth Cues,,
+Unit 3 - Sensation and Perception,Convergence,,
+Unit 3 - Sensation and Perception,Binocular Disparity,,Your brain using the differences in images of each eye to determine depth.
+Unit 3 - Sensation and Perception,Perceptual Constancy,,
+Unit 3 - Sensation and Perception,Phi Phenomenon,,An illusion of movement caused by multiple lights flashing on and off in quick succession.
+Unit 3 - Sensation and Perception,Muller-Lyer Illusion,,
+Unit 3 - Sensation and Perception,Pitch,,
+Unit 3 - Sensation and Perception,Frequency Theory,,
+Unit 3 - Sensation and Perception,Place Theory,,
+Unit 3 - Sensation and Perception,Hammer,,
+Unit 3 - Sensation and Perception,Anvil,,
+Unit 3 - Sensation and Perception,Stirrup,,
+Unit 3 - Sensation and Perception,Cochlea,,
+Unit 3 - Sensation and Perception,Basilar Membrane,,
+Unit 3 - Sensation and Perception,Dichotic Listening,,
+Unit 3 - Sensation and Perception,Auditory Localization,,
+Unit 3 - Sensation and Perception,Conduction Deafness,,
+Unit 3 - Sensation and Perception,Sensorineural Deafness,,
+Unit 3 - Sensation and Perception,Olfaction Receptors,,
+Unit 3 - Sensation and Perception,Anosmia,,
+Unit 3 - Sensation and Perception,Supertaster,,
+Unit 3 - Sensation and Perception,Bitter Taste,,in infants
+Unit 3 - Sensation and Perception,Proprioceptors,,
+Unit 3 - Sensation and Perception,Vestibular Sense,,
+Unit 3 - Sensation and Perception,Sensory Interaction,,
+Unit 3 - Sensation and Perception,Synesthesia,,
+Unit 4 - Learning,Learning,,
+Unit 4 - Learning,Discrimination,,Distinguishing stimuli.
+Unit 4 - Learning,Generalization,,Grouping stimuli together.
+Unit 4 - Learning,Classical Conditioning,,A type of learning involving neutral stimuli being associated with other things to then elicit a biological response.
+Unit 4 - Learning,Ivan Pavlov,,
+Unit 4 - Learning,John B. Watson,,
+Unit 4 - Learning,Little Albert,,
+Unit 4 - Learning,Acqusisition,,Learning a conditioned response from a previously unconditioned stimulus.
+Unit 4 - Learning,Extinction,,The disappearance of a conditioned response.
+Unit 4 - Learning,Unconditioned Stimulus,,
+Unit 4 - Learning,Neutral Stimulus,,
+Unit 4 - Learning,Conditioned Stimulus,,
+Unit 4 - Learning,Unconditioned Response,,
+Unit 4 - Learning,Conditioned Response,,
+Unit 4 - Learning,Second Order Conditioning,,
+Unit 4 - Learning,Spontaneous Recovery,,
+Unit 4 - Learning,Taste Aversion,,
+Unit 4 - Learning,Operant Conditioning,,
+Unit 4 - Learning,B. F. Skinner,,
+Unit 4 - Learning,Positive Reinforcement,,Adding a good reinforcer for a behavior.
+Unit 4 - Learning,Negative Reinforcement,,Taking away a good reinforcer for a behavior.
+Unit 4 - Learning,Positive Punishment,,Adding a bad reinforcer for a behavior.
+Unit 4 - Learning,Negative Punishment,,
+Unit 4 - Learning,Fixed Schedule,,
+Unit 4 - Learning,Variable Schedule,,
+Unit 4 - Learning,Ratio Schedule,,
+Unit 4 - Learning,Interval Schedule,,Reinforcer occurs with a specific delay after the behavior.
+Unit 4 - Learning,Continuous Schedule,,Reinforcer each time a behavior occurs.
+Unit 4 - Learning,Partial Schedule,,
+Unit 4 - Learning,Shaping,,
+Unit 4 - Learning,Primary Reinforcer,,Unlearned reinforcers of biological importance. Ex. food.
+Unit 4 - Learning,Secondary Reinforcer,,A stimulus learned to be associated with a primary reinforcer. Ex. money.
+Unit 4 - Learning,Learned Helplessness,,
+Unit 4 - Learning,Cognitive Map,,
+Unit 4 - Learning,Latent Learning,,Learning not revealed until tested such as subcosciously remembering a maze.
+Unit 4 - Learning,Positive Transfer,,
+Unit 4 - Learning,Social Learning Theory,,Theory that learning occurs from observing and imitating others.
+Unit 4 - Learning,Observational Learning,,
+Unit 4 - Learning,Albert Vandura,,
+Unit 4 - Learning,Modeling,,
+Unit 4 - Learning,Mirror Neurons,,
+Unit 4 - Learning,Token Economy,,
+Unit 4 - Learning,Biofeedback,,
+Unit 5 - Cognition,Levels of Processing,,
+Unit 5 - Cognition,Parallel Processing,,"Your brain processing motion, shape, depth, and color all at once."
+Unit 5 - Cognition,Multitasking,,
+Unit 5 - Cognition,Encoding,,
+Unit 5 - Cognition,Dual Encoding,,
+Unit 5 - Cognition,Long-Term Potentiation,,
+Unit 5 - Cognition,Mnemonic,,
+Unit 5 - Cognition,Prspective Memory,,
+Unit 5 - Cognition,Iconic Memory,,
+Unit 5 - Cognition,Echonic Memory,,
+Unit 5 - Cognition,Nondeclarative Memory,,implicit
+Unit 5 - Cognition,Procedural Memory,,
+Unit 5 - Cognition,Delclarative memory,,explicit
+Unit 5 - Cognition,Semantic Memory,,
+Unit 5 - Cognition,Episodic Memory,,
+Unit 5 - Cognition,Flashbulb MEmory,,
+Unit 5 - Cognition,State-Dependent Memory,,
+Unit 5 - Cognition,Serial Position Effect,,
+Unit 5 - Cognition,Spacing Effect,,
+Unit 5 - Cognition,Self-reference Effect,,
+Unit 5 - Cognition,Elizabeth Loftus,,
+Unit 5 - Cognition,Hermann Ebbinghaus,,
+Unit 5 - Cognition,Tip-of-the-toungue Phenomenon,,
+Unit 5 - Cognition,Encoding Failure,,
+Unit 5 - Cognition,Short Term Memory Decay,,
+Unit 5 - Cognition,Misattribution,,
+Unit 5 - Cognition,Repression,,
+Unit 5 - Cognition,Retrograde Amnesia,,
+Unit 5 - Cognition,Anterograde Amnesia,,
+Unit 5 - Cognition,Proactive Interference,,
+Unit 5 - Cognition,Retroactive Interference,,
+Unit 5 - Cognition,Priming,,
+Unit 5 - Cognition,Prototype,,
+Unit 5 - Cognition,Divergent Thinking,,
+Unit 5 - Cognition,Convergent Thinking,,
+Unit 5 - Cognition,Fixation,,
+Unit 5 - Cognition,Deductive Resoning,,
+Unit 5 - Cognition,Inductive Reasoning,,
+Unit 5 - Cognition,Insight,,
+Unit 5 - Cognition,Algorithm,,
+Unit 5 - Cognition,Heurisitcs,,Mental shortcuts taken to quickly make decisions or solve problems with relative accuracy.
+Unit 5 - Cognition,Anchoring Heurisitc,,Heuristic. You judge everything relative to the first instance you saw.
+Unit 5 - Cognition,Representativeness Heuristic,,Heuristic. Judging based on the prototypical case.
+Unit 5 - Cognition,Availability Heurisitc,,Heuristic. Believing something is more common based on how easily it comes to mind.
+Unit 5 - Cognition,Confirmation Bias,,
+Unit 5 - Cognition,Hindsight Bias,,The tendence to believe after knowing the outcome that it would have been easy to foresee it.
+Unit 5 - Cognition,Self-Serving Bias,,
+Unit 5 - Cognition,Belief Perseverance,,
+Unit 5 - Cognition,Framing Effect,,
+Unit 5 - Cognition,Overconfidence,,
+Unit 5 - Cognition,Raymond Cattel,,
+Unit 5 - Cognition,g Factor,,
+Unit 5 - Cognition,Triarchic Theory of Intelligence,,"Practical, creative, and practical intelligence."
+Unit 5 - Cognition,Lingusitc Intelligence,,
+Unit 5 - Cognition,Spatial Intelligence,,
+Unit 5 - Cognition,Interpersonal Intellience,,
+Unit 5 - Cognition,Intrapersonal Intelligence,,
+Unit 5 - Cognition,Savant Syndrome,,
+Unit 5 - Cognition,Giftedness,,
+Unit 5 - Cognition,Multiple Intelligence,,
+Unit 5 - Cognition,Intelligence Quotient,,
+Unit 5 - Cognition,Emotional Intelligence,,
+Unit 5 - Cognition,Flynn Effect,,
+Unit 5 - Cognition,Achievement Test,,
+Unit 5 - Cognition,Aptitude Test,,
+Unit 5 - Cognition,Standardization,,
+Unit 5 - Cognition,Reliability,,
+Unit 5 - Cognition,Validitity,,
+Unit 5 - Cognition,Noam Chomsky,,
+Unit 5 - Cognition,Benjamin Whorf,,
+Unit 5 - Cognition,Surface Structure,,
+Unit 5 - Cognition,Deep Structure,,
+Unit 5 - Cognition,Phonemes,,"A unique unit of sound. Ex. the ""ba"" sound."
+Unit 5 - Cognition,Morphemes,,"The smallest unit of language that carries meaning. Ex. the prefix ""un""."
+Unit 5 - Cognition,Syntax,,How language is structured; grammar.
+Unit 5 - Cognition,Semantics,,Meaning carried by language.
