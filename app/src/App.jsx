@@ -142,6 +142,7 @@ class App extends React.Component {
             incorrect: 0,
             total: 0,
         });
+        clearInterval(this.timer);
     }
 
     render() {
