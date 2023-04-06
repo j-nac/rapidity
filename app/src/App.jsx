@@ -99,6 +99,11 @@ class App extends React.Component {
 
     startGame() {
         this.getQuestion();
+        if (this.state.gameMode === 'Zen') {
+            this.setState({showStartGame: false});
+            return
+        }
+
         if (this.state.gameMode === 'Rapid') {
             this.setState({time: 60, displayTime: '01:00'});
         } else if (this.state.gameMode === 'Timed') {
@@ -119,7 +124,24 @@ class App extends React.Component {
         console.log(minutes);
         const seconds = (newTime%60).toString().padStart(2, '0');
         this.setState({time: newTime, displayTime: minutes+':'+seconds});
+    }
 
+    resetGame() {
+        this.setState({
+            showStartGame: true,
+            showGameOver: false,
+            time: 0,
+            displayTime: '00:00',
+
+            questionUnit: 'UNIT LOADING ERROR',
+            questionText: 'TEXT LOADING ERROR',
+            questionAnswer: '',
+            questionAlt: '',
+
+            correct: 0,
+            incorrect: 0,
+            total: 0,
+        });
     }
 
     render() {
@@ -186,21 +208,23 @@ class App extends React.Component {
                                 {this.state.units.map((unit) => <li className='text-2xl'>{unit}</li>)}
                             </ul>
                             <div>
-                                <Button1 label='Retry' styles='w-full mt-2 lg:w-auto transition hover:bg-white hover:text-black hover:border-white' />
-                                <Button1 label='Back' styles='w-full mt-2 lg:w-auto lg:ml-2 transition hover:bg-white hover:text-black hover:border-white' />
-                                <Button1 label='Quit' styles='w-full mt-2 lg:w-auto lg:ml-2 transition hover:bg-white hover:text-black hover:border-white' />
+                                <Button1 label='Retry' onClick={() => {this.resetGame();}} styles='w-full mt-2 lg:w-auto transition hover:bg-white hover:text-black hover:border-white' />
+                                <Button1 label='Back' onClick={() => {this.resetGame(); this.setState({currentPage: 'Game-Mode-Select'});}} styles='w-full mt-2 lg:w-auto lg:ml-2 transition hover:bg-white hover:text-black hover:border-white' />
+                                <Button1 label='Quit' onClick={() => {this.resetGame(); this.setState({currentPage: 'Landing', subject: '', units: [], gameMode: ''});}} styles='w-full mt-2 lg:w-auto lg:ml-2 transition hover:bg-white hover:text-black hover:border-white' />
                             </div>
                         </div>
                     </div>
                     : null}
                     <div>
-                        <BackButton label='Exit game' onClick={() => {this.setState({currentPage: 'Game-Mode-Select'})}} />
+                        <BackButton label='Exit game' onClick={() => {this.resetGame(); this.setState({currentPage: 'Game-Mode-Select'});}} />
                     </div>
                     <div className='bottom-0 flex-1 flex flex-col md:flex-row-reverse gap-3 px-10 pb-10 md:pt-10 justify-center'>
                         <div className='text-center min-w-fit'>
+                            {this.state.gameMode !== 'Zen' ?
                             <TimerText text={this.state.displayTime} />
+                            : null}
                             <ScoreWidget correct={this.state.correct} incorrect={this.state.incorrect} total={this.state.total} />
-                            <Button1 label='get question' onClick={() => {this.getQuestion()}} />
+                            <Button1 label='Skip' onClick={() => {this.getQuestion()}} styles='w-full transition hover:bg-white hover:text-black hover:border-white' />
                         </div>
                         <div className='grow flex flex-col max-w-4xl'>
                             <QuestionText text={'[' + this.state.questionUnit + '] ' + this.state.questionText} />
