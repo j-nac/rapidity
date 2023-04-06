@@ -3,7 +3,7 @@ const TitleText = () => {
 }
 
 const Button1 = ({label, onClick, styles}) => {
-    return <button className={'text-2xl border-2 px-7 py-2 ' + styles} onClick={onClick}>{label}</button>
+    return <button className={'text-xl lg:text-2xl border-2 px-7 py-2 ' + styles} onClick={onClick}>{label}</button>
 }
 
 const SubjectTile = ({subject, icon, styles, onClick}) => {
@@ -26,7 +26,7 @@ const BackButton = ({label, onClick}) => {
 }
 
 const QuestionText = ({text}) => {
-    return <p className="w-full border-2 p-5 text-2xl grow flex-1">{text}</p>
+    return <p className="w-full border-2 p-5 text-md lg:text-2xl grow flex-1">{text}</p>
 }
 
 const AnswerBox = () => {

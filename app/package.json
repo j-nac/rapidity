@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^5.0.0",
     "jquery": "^3.6.4",
     "jquery-csv": "^1.0.21",
     "react": "^18.2.0",
@@ -14,7 +15,10 @@
     "tailwindcss": "^3.3.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://j-nac.github.io/rapidity/",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
