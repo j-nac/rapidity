@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rapidity/static/css/main.b3f1afc8.css",
+    "main.js": "/rapidity/static/js/main.fda038f8.js",
+    "index.html": "/rapidity/index.html",
+    "main.b3f1afc8.css.map": "/rapidity/static/css/main.b3f1afc8.css.map",
+    "main.fda038f8.js.map": "/rapidity/static/js/main.fda038f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3f1afc8.css",
+    "static/js/main.fda038f8.js"
+  ]
+}
