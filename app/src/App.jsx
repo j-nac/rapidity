@@ -24,8 +24,12 @@ class App extends React.Component {
             subject: '',
             units: [],
 
-            gameInProgress: false,
+            showStartGame: true,
+            showGameOver: false,
             gameMode: '',
+            time: 0,
+            displayTime: '00:00',
+
             questionUnit: 'UNIT LOADING ERROR',
             questionText: 'TEXT LOADING ERROR',
             questionAnswer: '',
@@ -34,9 +38,10 @@ class App extends React.Component {
             correct: 0,
             incorrect: 0,
             total: 0,
-
         };
         this.subjectData = null;
+        this.timer = null;
+        this.updateTime = this.updateTime.bind(this);
     }
 
     loadSubjectData(subject) {
@@ -92,6 +97,31 @@ class App extends React.Component {
         }
     };
 
+    startGame() {
+        this.getQuestion();
+        if (this.state.gameMode === 'Rapid') {
+            this.setState({time: 60, displayTime: '01:00'});
+        } else if (this.state.gameMode === 'Timed') {
+            this.setState({time: 180, displayTime: '03:00'});
+        }
+        this.timer = setInterval(this.updateTime, 1000);
+        this.setState({showStartGame: false});
+    }
+
+    updateTime() {
+        if (this.state.time === 0) {
+            clearInterval(this.timer);
+            this.setState({showGameOver: true});
+            return
+        }
+        const newTime = this.state.time-1;
+        const minutes = ((newTime-(newTime%60))/60).toString().padStart(2, '0');
+        console.log(minutes);
+        const seconds = (newTime%60).toString().padStart(2, '0');
+        this.setState({time: newTime, displayTime: minutes+':'+seconds});
+
+    }
+
     render() {
         return (
             <div className='App bg-black text-white h-screen w-screen'>
@@ -142,12 +172,28 @@ class App extends React.Component {
 
                 {this.state.currentPage === 'Game' ?
                 <div className='Game fixed bg-black h-screen w-screen flex flex-col' onKeyDown={(e) => {this.onKeyDownHandler(e)}}>
+                    {this.state.showStartGame ?
+                    <div className='fixed h-full w-full bg-black'>
+                        <Button1 label='START' onClick={() => {this.startGame()}} styles='fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 transition hover:bg-white hover:text-black hover:border-white' />
+                    </div>
+                    : null}
+                    {this.state.showGameOver ?
+                    <div className='fixed h-full w-full bg-black'>
+                        <div className='fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'>
+                            <h1 className='text-4xl'>{this.state.subject}</h1>
+                            <ul className='list-disc'>
+                                {this.state.units.map((unit) => <li className='text-2xl'>{unit}</li>)}
+                            </ul>
+                            <ScoreWidget correct={this.state.correct} incorrect={this.state.incorrect} total={this.state.total} />
+                        </div>
+                    </div>
+                    : null}
                     <div>
                         <BackButton label='Exit game' onClick={() => {this.setState({currentPage: 'Game-Mode-Select'})}} />
                     </div>
                     <div className='bottom-0 flex-1 flex flex-col md:flex-row-reverse gap-3 px-10 pb-10 md:pt-10 justify-center'>
                         <div className='text-center min-w-fit'>
-                            <TimerText text='00:00' />
+                            <TimerText text={this.state.displayTime} />
                             <ScoreWidget correct={this.state.correct} incorrect={this.state.incorrect} total={this.state.total} />
                             <Button1 label='get question' onClick={() => {this.getQuestion()}} />
                         </div>
