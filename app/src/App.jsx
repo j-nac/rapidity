@@ -205,9 +205,7 @@ class App extends React.Component {
                         <div className='fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'>
                             <ScoreWidget correct={this.state.correct} incorrect={this.state.incorrect} total={this.state.total} />
                             <h1 className='text-4xl'>{this.state.subject}</h1>
-                            <ul className='list-disc'>
-                                {this.state.units.map((unit) => <li className='text-2xl'>{unit}</li>)}
-                            </ul>
+                            {this.state.units.map((unit) => <li className='text-2xl'>{unit}</li>)}
                             <div>
                                 <Button1 label='Retry' onClick={() => {this.resetGame();}} styles='w-full mt-2 lg:w-auto transition hover:bg-white hover:text-black hover:border-white' />
                                 <Button1 label='Back' onClick={() => {this.resetGame(); this.setState({currentPage: 'Game-Mode-Select'});}} styles='w-full mt-2 lg:w-auto lg:ml-2 transition hover:bg-white hover:text-black hover:border-white' />
