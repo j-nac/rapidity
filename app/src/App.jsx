@@ -180,11 +180,16 @@ class App extends React.Component {
                     {this.state.showGameOver ?
                     <div className='fixed h-full w-full bg-black'>
                         <div className='fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'>
+                            <ScoreWidget correct={this.state.correct} incorrect={this.state.incorrect} total={this.state.total} />
                             <h1 className='text-4xl'>{this.state.subject}</h1>
                             <ul className='list-disc'>
                                 {this.state.units.map((unit) => <li className='text-2xl'>{unit}</li>)}
                             </ul>
-                            <ScoreWidget correct={this.state.correct} incorrect={this.state.incorrect} total={this.state.total} />
+                            <div>
+                                <Button1 label='Retry' styles='w-full mt-2 lg:w-auto transition hover:bg-white hover:text-black hover:border-white' />
+                                <Button1 label='Back' styles='w-full mt-2 lg:w-auto lg:ml-2 transition hover:bg-white hover:text-black hover:border-white' />
+                                <Button1 label='Quit' styles='w-full mt-2 lg:w-auto lg:ml-2 transition hover:bg-white hover:text-black hover:border-white' />
+                            </div>
                         </div>
                     </div>
                     : null}

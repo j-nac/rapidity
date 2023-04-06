@@ -46,7 +46,7 @@ const ScoreWidget = ({correct, incorrect, total}) => {
 }
 
 const GameModeSelectCard = ({subject, icon, styles, onClick}) => {
-    return <button className={'text-2xl lg:text-4xl border-2 w-full h-2/6 lg:w-80 lg:h-4/6 p-5 flex-none min-h-min transition ' + styles} onClick={onClick}>{subject}<br /><span className="material-symbols-outlined text-ixl">{icon}</span></button>
+    return <button className={'text-2xl lg:text-4xl border-2 w-full h-2/6 lg:w-80 lg:h-4/6 p-5 flex-none min-h-min transition ' + styles} onClick={onClick}>{subject}<br /><span className="material-symbols-outlined text-5xl lg:text-ixl">{icon}</span></button>
 }
 
 export {
