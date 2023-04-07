@@ -14,6 +14,17 @@ import {
 } from './components';
 import SubjectData from './dataProcess';
 
+import {
+    MdOutlinePsychology,
+    MdOutlinedFlag,
+    MdOutlineMode,
+    MdCode,
+    MdOutlineLocalFireDepartment,
+    MdOutlineTimer,
+    MdSelfImprovement,
+} from "react-icons/md";
+
+
 const SUBJECTS_FILEPATHS = {'AP Psychology': 'ap-psychology.csv'};
 
 class App extends React.Component {
@@ -159,10 +170,10 @@ class App extends React.Component {
                 <div className='Subject-Select fixed bg-black h-screen w-screen'>
                     <div className='flex gap-3 p-10 h-screen overflow-x-scroll overflow-y-hidden items-center'>
                         {/* I would adjust tile color more cleanly but for some reason the styles don't update if I just try to add the color string and concatenate */}
-                        <SubjectTile subject='AP Psychology' icon='psychology' styles='bg-magenta lg:bg-transparent hover:lg:bg-magenta lg:text-magenta hover:lg:text-white' onClick={() => this.subjectHandler('AP Psychology')} />
-                        <SubjectTile subject='AP US History' icon='flag' styles='bg-red lg:bg-transparent hover:lg:bg-red lg:text-red hover:lg:text-white' onClick={() => this.subjectHandler('AP US History')} />
-                        <SubjectTile subject='AP Language and Composition' icon='edit' styles='bg-purple lg:bg-transparent hover:lg:bg-purple lg:text-purple hover:lg:text-white' onClick={() => this.subjectHandler('AP Language and Composition')} />
-                        <SubjectTile subject='AP Computer Science A' icon='code' styles='bg-green lg:bg-transparent hover:lg:bg-green lg:text-green hover:lg:text-white' onClick={() => this.subjectHandler('AP Computer Science A')} />
+                        <SubjectTile subject='AP Psychology' icon={<MdOutlinePsychology />} styles='bg-magenta lg:bg-transparent hover:lg:bg-magenta lg:text-magenta hover:lg:text-white' onClick={() => this.subjectHandler('AP Psychology')} />
+                        <SubjectTile subject='AP US History' icon={<MdOutlinedFlag />} styles='bg-red lg:bg-transparent hover:lg:bg-red lg:text-red hover:lg:text-white' onClick={() => this.subjectHandler('AP US History')} />
+                        <SubjectTile subject='AP Language and Composition' icon={<MdOutlineMode />} styles='bg-purple lg:bg-transparent hover:lg:bg-purple lg:text-purple hover:lg:text-white' onClick={() => this.subjectHandler('AP Language and Composition')} />
+                        <SubjectTile subject='AP Computer Science A' icon={<MdCode />} styles='bg-green lg:bg-transparent hover:lg:bg-green lg:text-green hover:lg:text-white' onClick={() => this.subjectHandler('AP Computer Science A')} />
                     </div>
                 </div>
                 : null}
@@ -186,9 +197,9 @@ class App extends React.Component {
                         <BackButton label='Back' onClick={() => {this.setState({currentPage: 'Unit-Select'})}} />
                     </div>
                     <div className='grow flex flex-col lg:flex-row gap-3 p-10 h-full overflow-x-scroll overflow-y-hidden items-center place-content-center'>
-                        <GameModeSelectCard subject='Rapid' icon='bolt' styles='bg-dark-magenta lg:bg-transparent hover:lg:bg-dark-magenta lg:text-dark-magenta hover:lg:text-white' onClick={() => {this.setState({gameMode: 'Rapid', currentPage: 'Game'});}} />
-                        <GameModeSelectCard subject='Timed' icon='timer' styles='bg-dark-orange lg:bg-transparent hover:lg:bg-dark-orange lg:text-dark-orange hover:lg:text-white' onClick={() => {this.setState({gameMode: 'Timed', currentPage: 'Game'});}} />
-                        <GameModeSelectCard subject='Zen' icon='self_improvement' styles='bg-dark-azure lg:bg-transparent hover:lg:bg-dark-azure lg:text-dark-azure hover:lg:text-white' onClick={() => {this.setState({gameMode: 'Zen', currentPage: 'Game'});}} />
+                        <GameModeSelectCard subject='Rapid' icon={<MdOutlineLocalFireDepartment />} styles='bg-dark-magenta lg:bg-transparent hover:lg:bg-dark-magenta lg:text-dark-magenta hover:lg:text-white' onClick={() => {this.setState({gameMode: 'Rapid', currentPage: 'Game'});}} />
+                        <GameModeSelectCard subject='Timed' icon={<MdOutlineTimer />} styles='bg-dark-orange lg:bg-transparent hover:lg:bg-dark-orange lg:text-dark-orange hover:lg:text-white' onClick={() => {this.setState({gameMode: 'Timed', currentPage: 'Game'});}} />
+                        <GameModeSelectCard subject='Zen' icon={<MdSelfImprovement />} styles='bg-dark-azure lg:bg-transparent hover:lg:bg-dark-azure lg:text-dark-azure hover:lg:text-white' onClick={() => {this.setState({gameMode: 'Zen', currentPage: 'Game'});}} />
                     </div>
                 </div>
                 : null}

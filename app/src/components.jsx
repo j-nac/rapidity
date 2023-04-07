@@ -1,3 +1,5 @@
+import { MdArrowBack } from "react-icons/md";
+
 const TitleText = () => {
     return <h1 className='text-title absolute bottom-0 w-screen'><span className='text-dark-magenta'>Rapid</span>ity</h1>
 }
@@ -7,7 +9,7 @@ const Button1 = ({label, onClick, styles}) => {
 }
 
 const SubjectTile = ({subject, icon, styles, onClick}) => {
-    return <button className={'text-2xl lg:text-4xl border-2 w-60 h-full lg:w-80 lg:h-4/6 p-5 flex-none min-h-min transition ' + styles} onClick={onClick}>{subject}<br /><span className="material-symbols-outlined text-ixl">{icon}</span></button>
+    return <button className={'text-2xl lg:text-4xl border-2 w-60 h-full lg:w-80 lg:h-4/6 p-5 flex-none min-h-min transition ' + styles} onClick={onClick}>{subject}<br /><span className="text-5xl lg:text-ixl inline-block w-full flex justify-center">{icon}</span></button>
 }
 
 const Checkbox = ({name, id, onClick}) => {
@@ -22,7 +24,7 @@ const SubjectHeading = ({text}) => {
 }
 
 const BackButton = ({label, onClick}) => {
-    return <button className='text-xl p-2' onClick={onClick}><span className='material-symbols-outlined text-xl align-middle'>arrow_back</span> {label}</button>
+    return <button className='text-xl p-2 align-middle' onClick={onClick}><span className='text-2xl align-middle inline-block h-full'><MdArrowBack /></span> {label}</button>
 }
 
 const QuestionText = ({text}) => {
@@ -46,7 +48,7 @@ const ScoreWidget = ({correct, incorrect, total}) => {
 }
 
 const GameModeSelectCard = ({subject, icon, styles, onClick}) => {
-    return <button className={'text-2xl lg:text-4xl border-2 w-full h-2/6 lg:w-80 lg:h-4/6 p-5 flex-none min-h-min transition ' + styles} onClick={onClick}>{subject}<br /><span className="material-symbols-outlined text-5xl lg:text-ixl">{icon}</span></button>
+    return <button className={'text-2xl lg:text-4xl border-2 w-full h-2/6 lg:w-80 lg:h-4/6 p-5 flex-none min-h-min transition ' + styles} onClick={onClick}>{subject}<br /><span className="text-5xl lg:text-ixl inline-block w-full flex justify-center">{icon}</span></button>
 }
 
 export {
