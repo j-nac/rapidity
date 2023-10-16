@@ -50,7 +50,6 @@ export default class SubjectData {
         if(this.questions.length === 0){
             this.instantiateQuestions()
         }
-        console.log()
         return this.questions.pop()
     }
 }

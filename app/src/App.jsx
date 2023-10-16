@@ -133,7 +133,6 @@ class App extends React.Component {
         }
         const newTime = this.state.time-1;
         const minutes = ((newTime-(newTime%60))/60).toString().padStart(2, '0');
-        console.log(minutes);
         const seconds = (newTime%60).toString().padStart(2, '0');
         this.setState({time: newTime, displayTime: minutes+':'+seconds});
     }
