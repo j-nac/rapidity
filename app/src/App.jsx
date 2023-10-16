@@ -105,7 +105,6 @@ class App extends React.Component {
 
     checkAnswer(answer) {
         answer = answer.toLowerCase()
-        console.log(answer, this.state.questionAnswer.toLowerCase().split(";"))
         if (this.state.questionAnswer.toLowerCase().split(";").some(a=>this.levenshtein(a.trim(), answer.trim()) < answer.length/5)) {
             return true;
         }
