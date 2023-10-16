@@ -21,10 +21,8 @@ export default class SubjectData {
     }
 
     loadSubjectData() {
-        // why two lines?
-        let data = csv.toArrays(loadFile(this.filepath));
-        data.shift()
-        this.data = data;
+        this.data = csv.toArrays(loadFile(this.filepath));
+        this.data.shift()
     }
 
     getUnits() {
