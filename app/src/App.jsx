@@ -204,7 +204,7 @@ class App extends React.Component {
                     <div className='ml-10'>
                         <SubjectHeading text={this.state.subject} />
                         {this.subjectData.units.map((unit, index, arr) => <Checkbox name={unit} id={arr[index]} onClick={(e) => this.checkboxClick(e)} />)}
-                        <Button1 label='Continue' onClick={() => this.setState({currentPage: 'Game-Mode-Select'})} styles='mt-3 transition hover:bg-white hover:text-black hover:border-white' />
+                        <Button1 label='Continue' onClick={() => this.state.units.length > 0?this.setState({currentPage: 'Game-Mode-Select'}):0 } styles='mt-3 transition hover:bg-white hover:text-black hover:border-white' />
                     </div>
 
                 </div>
