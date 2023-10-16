@@ -21,20 +21,14 @@ export default class SubjectData {
     }
 
     loadSubjectData() {
+        // why two lines?
         let data = csv.toArrays(loadFile(this.filepath));
+        data.shift()
         this.data = data;
     }
 
-    // This is inefficient. I don't have the energy rn
     getUnits() {
-        let units = [];
-        for (let i=1; i < this.data.length; i++) {
-            if (units.includes(this.data[i][0]) === false) {
-                units.push(this.data[i][0]);
-            }
-        }
-
-        this.units = units.sort();
+        this.units = Array.from(new Set(this.data.map(a=>a[0]))).sort();
     }
 
     init() {
@@ -42,12 +36,23 @@ export default class SubjectData {
         this.getUnits();
     }
 
-    getRandomQuestion(units) {
-        while (true) {
-            var question = this.data[Math.floor(Math.random()*this.data.length)];
-            if (units.includes(question[0])) {
-                return question;
-            }
+    instantiateRun(units) {
+        this.selectedUnits = units
+        this.instantiateQuestions()
+    }
+    instantiateQuestions(){
+        this.questions = this.data.filter(a=>this.selectedUnits.includes(a[0]))
+        for (let i = this.questions.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [this.questions[i], this.questions[j]] = [this.questions[j], this.questions[i]];
         }
+    }
+
+    getRandomQuestion() {
+        if(this.questions.length === 0){
+            this.instantiateQuestions()
+        }
+        console.log()
+        return this.questions.pop()
     }
 }

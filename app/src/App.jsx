@@ -78,18 +78,17 @@ class App extends React.Component {
     }
 
     getQuestion() {
-        var rawQuestion = this.subjectData.getRandomQuestion(this.state.units);
+        var rawQuestion = this.subjectData.getRandomQuestion();
         this.setState({
             questionUnit: rawQuestion[0],
-            questionText: rawQuestion[3],
+            questionText: rawQuestion[2],
             questionAnswer: rawQuestion[1],
-            questionAlt: rawQuestion[2],
         })
     }
 
     checkAnswer(answer) {
         answer = answer.toLowerCase()
-        if (this.state.questionAnswer.toLowerCase().split(";").indexOf(answer)>-1) {
+        if (this.state.questionAnswer.toLowerCase().split(";").some(a=>answer=a.trim())) {
             return true;
         }
         return false;
@@ -110,6 +109,7 @@ class App extends React.Component {
     };
 
     startGame() {
+        this.subjectData.instantiateRun(this.state.units);
         this.getQuestion();
         if (this.state.gameMode === 'Zen') {
             this.setState({showStartGame: false});
@@ -181,7 +181,7 @@ class App extends React.Component {
                 : null}
 
                 {this.state.currentPage === 'Unit-Select' ?
-                <div className='Unit-Select fixed bg-black h-screen w-screen'>
+                <div className='Unit-Select fixed bg-black h-screen w-screen overflow-scroll'>
                     <BackButton label='Back to subjects' onClick={() => {this.setState({currentPage: 'Subject-Select'})}} />
 
                     <div className='ml-10'>
