@@ -86,9 +86,27 @@ class App extends React.Component {
         })
     }
 
+    levenshtein(text0, text1) {
+        let levenDist = Array(text0.length + 1).fill().map(() => Array(text1.length + 1).fill(0));
+        for(let i = 1; i <= text0.length; i ++){
+            levenDist[i][0] = i
+        }
+        for(let j = 1; j <= text1.length; j ++){
+            levenDist[0][j] = j
+        }
+        for(let i = 1; i <= text0.length; i ++){
+            for(let j = 1; j <= text1.length; j ++){
+                levenDist[i][j] = Math.min(levenDist[i - 1][j] + 1, levenDist[i][j-1] + 1, levenDist[i-1][j-1] + (text0[i - 1]===text1[j - 1]?0:1))
+            }
+        }
+        return levenDist[text0.length][text1.length]
+
+    }
+
     checkAnswer(answer) {
         answer = answer.toLowerCase()
-        if (this.state.questionAnswer.toLowerCase().split(";").some(a=>answer=a.trim())) {
+        console.log(answer, this.state.questionAnswer.toLowerCase().split(";"))
+        if (this.state.questionAnswer.toLowerCase().split(";").some(a=>this.levenshtein(a.trim(), answer.trim()) < answer.length/5)) {
             return true;
         }
         return false;
