@@ -89,7 +89,7 @@ class App extends React.Component {
 
     checkAnswer(answer) {
         answer = answer.toLowerCase()
-        if (answer === this.state.questionAnswer.toLowerCase() || answer === this.state.questionAlt.toLowerCase()) {
+        if (this.state.questionAnswer.toLowerCase().split(";").indexOf(answer)>-1) {
             return true;
         }
         return false;
