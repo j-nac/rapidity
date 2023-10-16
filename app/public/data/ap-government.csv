@@ -3,13 +3,13 @@ Constitutional Amendments,Amendment I,1,"Freedom of religion, speech, press, ass
 Constitutional Amendments,Amendment II,2,Right to bear arms.
 Constitutional Amendments,Amendment III,3,Right to not quarter soldiers (except in times of war as perscribed by law).
 Constitutional Amendments,Amendment IV,4,"Right against unreasonable search and seizure, outlines proper warrents."
-Constitutional Amendments,Amendment V,5,"Right to due process, against double jeopardy, against self incrimination. Outlines due process."
+Constitutional Amendments,Amendment V,5,"Right to due process, against double jeopardy, against self incrimination. Outlines due process. Also has eminent domain."
 Constitutional Amendments,Amendment VI,6,"Right to a speedy public trial by an impartial jury, right to question witnesses, right to council."
 Constitutional Amendments,Amendment VII,7,Right to a jury in civil trials over $20. Juries cannot be overruled by a court in a manner that doesn't follow common law.
 Constitutional Amendments,Amendment VIII,8,"Right against cruel and unusual punishment, right against excessive fines and fees."
-Constitutional Amendments,Amendment IX,9,Says the rights given in the bil of rights don't block other rights.
-Constitutional Amendments,Amendment X,10,"Says any power not given to the federal government, nor prohibited to the states, is given to the states and the people."
-Constitutional Amendments,Amendment XI,11,Says you must be a citizen of a state to sue said state in federal court.
+Constitutional Amendments,Amendment IX,9,Rights given in the Bill of Rights don't block other rights.
+Constitutional Amendments,Amendment X,10,"Any power not given to the federal government, nor prohibited to the states, is given to the states and the people."
+Constitutional Amendments,Amendment XI,11,You must be a citizen of a state to sue said state in federal court.
 Constitutional Amendments,Amendment XII,12,Seperates the race for the president and the vice president.
 Constitutional Amendments,Amendment XIII,13,Ended slavery and involentary bondage in the US (except for in prison).
 Constitutional Amendments,Amendment XIV,14,States cannot deprive rights and due process for all citizens. Responsible for incorporation theory applying the Bill of Rights to states. Later used for birthright citizenship.
@@ -24,11 +24,11 @@ Constitutional Amendments,Amendment XXII,22,Instates a limit on presidency - eit
 Constitutional Amendments,Amendment XXIII,23,Gives Washington DC three votes in the presidential election.
 Constitutional Amendments,Amendment XXIV,24,Forbids poll taxes.
 Constitutional Amendments,Amendment XXV,25,Outlines succession of the presidency (to the VP) and how a president unable to perform their duties may be removed.
-Constitutional Amendments,Amendment XXVI,26,Allows 18 year olds to vote. Instated during WWII.
-Constitutional Amendments,Amendment XXVII,27,Says increases in pay for congress don't take effect until after the next election.
+Constitutional Amendments,Amendment XXVI,26,Allows 18 year olds to vote. Instated during the Vietnam War.
+Constitutional Amendments,Amendment XXVII,27,Says increases in pay for Congress don't take effect until after the next election.
 Supreme Court Cases,Marbury v. Madison (1803),Marbury v. Madison,Establishes judicial review.
-Supreme Court Cases,McCulloch v. Maryland (1819),McCulloch v. Maryland,Allows for the creation of the national bank under Art. I Sec. 8. Allows the government to stretch to meet the needs of the people.
-Supreme Court Cases,Worcester v. Georgia (1832),Worcester v. Georgia,"Rulled that it was illegal to take land from Native americans who wanted to assimilate. Ignored by andrew Jackson, which led to the trail of tears."
+Supreme Court Cases,McCulloch v. Maryland (1819),McCulloch v. Maryland,Allows the government to stretch to meet the needs of the people. Reaffirms supremacy clause.
+Supreme Court Cases,Worcester v. Georgia (1832),Worcester v. Georgia,"Rulled that states could not regulate cherokee land. Ignored by andrew Jackson, which led to the trail of tears."
 Supreme Court Cases,Gibbons v. Ogden (1824),Gibbons v. Ogden,Only the federal government can regulate interstate trade.
 Supreme Court Cases,Dred Scott v. Sanford (1857),Scott v. Sanford,Build up to civil war fugitive slave law. Rules that descendants of slaves could not be citizens.
 Supreme Court Cases,Plessy v. Ferguson (1896),Plessy v. Ferguson,"Segregation deemed legal under ""separate but equal"" doctrine."
@@ -43,15 +43,15 @@ Supreme Court Cases,Tinker v. Des Moines,,You do not shed your rights at the sch
 Supreme Court Cases,Roe v. Wade,,Right to abortion through 4th amendment right to privacy.
 Supreme Court Cases,Obergefell v. Hodges,,Right to same-sex marriage.
 Supreme Court Cases,Dobbs v. Jackson,,Overruled Roe v. Wade removing the right to abortion.
-Supreme Court Cases,Engle v. Vitale,,Ruled that it is unconstitutional for state officials to lead school prayers.
+Supreme Court Cases,Engel v. Vitale,,Ruled that it is unconstitutional for state officials to lead school prayers.
 Supreme Court Cases,Mapp v. Ohio,,Evidence obtained illegally may not be used in court under the 4th amendment.
 Supreme Court Cases,Gitlow v. New York,,Government can punish speech that threatens its existence; anarchy speech implies a national security threat. Freedom of speech applies to the states.
 Supreme Court Cases,Lemon v. Kurtzman,,Direct state aid cannot be used to subsidize religious instruction (private religious schools). Aid has to be solely secular and states should gennerally avoid entanglement with religion.
-Supreme Court Cases,Buckley v. Valeo,,Upheld restrictions on the amount of money an individual can contribute to their campaign.
+Supreme Court Cases,Buckley v. Valeo,,Upheld restrictions on the amount of money an individual can contribute to their campaign but limits on campaign spending is unconstitutional.
 Supreme Court Cases,Loving v. Virginia,,Ruled right to interracial marriage.
 Supreme Court Cases,Griswold v. Conn,,State ban of contraceptive violated the rights to martial privacy.
-Supreme Court Cases,Nixon v. US,,"(Walter Nixon) Established that the court could not review impeachment, as Article I, Section 3, Constitution gives Senate sole power over all impeachment. Judicial will not review impeachment cases."
-Supreme Court Cases,To find out who's not here and more importantly who's here.,,Why does Dremousis do attendance?
+Supreme Court Cases,Nixon v. US,,"Established that the court could not review impeachment, as Article I, Section 3, Constitution gives Senate sole power over all impeachment. Judicial will not review impeachment cases."
+,To find out who's not here and more importantly who's here.,,Why does Dremousis do attendance?
 "Unit 1 - One Republic, Two Americas?",Anarchy,,The absence of political institutions.
 "Unit 1 - One Republic, Two Americas?",Aristocracy,,A form of government in which power is held by the nobility.
 "Unit 1 - One Republic, Two Americas?",Authoritarianism,,A form of government where power is intensely concentrated in the few. Allows some non-government-conctrolled social and economic institutions.
@@ -94,7 +94,7 @@ Supreme Court Cases,To find out who's not here and more importantly who's here.,
 "Unit 1 - One Republic, Two Americas?",Totalitarian regime,,A form of government that controls all aspects of politicals and social life.
 "Unit 1 - One Republic, Two Americas?",Universal suffrage,,The right of all adults to vote for their representatives.
 Unit 2 - The Constitution,Anti-federalist,,Opposed the new Constitution in 1787 and in general opposed a strong central goverment.
-Unit 2 - The Constitution,Bicameral legistlature,Bicameral,"A legistlature with two chambers. In the US, the Senate and House of Representatives."
+Unit 2 - The Constitution,Bicameral legistlature,Bicameral,Allows the public to vote for the Senate.
 Unit 2 - The Constitution,Checks and balances,,The principle of government where the actions of one branch are checked by the others.
 Unit 2 - The Constitution,Confederation,,A political system of independent states that have ultimate authority except for powers they delegate to a central government; a voluntary association of states with few limits on the action of states.
 Unit 2 - The Constitution,Electoral college,,The system of voting for president and vice president where electors from each state and DC cast votes. The number of electors per state is equal to the number of representatives in both chambers of Congress.
@@ -127,18 +127,18 @@ Unit 3 - Federalism,Interstate compact,,An agreement between two or more states.
 Unit 3 - Federalism,Picket-fence federalism,,A model of federalism where all policies (the vertical pickets) involve and are supported by all levels of government (the horizontal boards).
 Unit 3 - Federalism,Police power,,"The authority to legistlate the protection of health, morals, safety, and welfare of the people. Mostly reserved for states in the US."
 Unit 3 - Federalism,Privileges and immunities,,Special rights and excemptions provided by the law. States may not discriminate against the citzens of another state. Ex. a student from Oregon attending school at UW is given the same right as Washingtonians to hold a job and travel freely.
-Unit 3 - Federalism,Supremacy clause,,Art. VI. The Constitution and federal laws are superior to conflicting state and local laws.
-Unit 3 - Federalism,Unitary system,,A system of centralized government in which subdivisional governments only exercise powers handed down from the central government.
+Unit 3 - Federalism,Supremacy clause,Supremacy,Art. VI. The Constitution and federal laws are superior to conflicting state and local laws.
+Unit 3 - Federalism,Unitary system,Unitary,A system of centralized government in which subdivisional governments only exercise powers handed down from the central government.
 Unit 4 - Civil Liberties,Actual malice,,Either a person's (1) knowledge of the falsity of a defamatory statement or (2) reckless disregard for the truth.
 Unit 4 - Civil Liberties,Civil liberties,,"Freedoms that protect indviduals, usually by restraining the actions of governments against individuals."
-Unit 4 - Civil Liberties,Clear and present danger test,,A test proposed by Juustice Oliver Wendell Holmes. Free speech can be restricted when there is a clear and present danger to the public order.
+Unit 4 - Civil Liberties,Clear and present danger test,,A test proposed by Justice Oliver Wendell Holmes. Free speech can be restricted when there is a clear and present danger to the public order.
 Unit 4 - Civil Liberties,Commercial speech,,Advertising statements. Have increasingly been given 1st amendment protections.
 Unit 4 - Civil Liberties,Defamation of character,,Wrongfully hurting one's good reputation.
-Unit 4 - Civil Liberties,Establisment clause,,Prohibits the federal government from establishing and officially supporting a church. Guarantees separation of church and state.
+Unit 4 - Civil Liberties,Establisment clause,Defamation,Prohibits the federal government from establishing and officially supporting a church. Guarantees separation of church and state.
 Unit 4 - Civil Liberties,Exclusionary rule,,Illegally obtained evidence cannot be used. Similar to legal principle of fruit of the poisonous tree.
 Unit 4 - Civil Liberties,Free exercise clause,,Prohibits the government from constraining the exercise of religion.
-Unit 4 - Civil Liberties,Gag order,,An order issued by a judge to restrict news coverage of a trial to protect the accused's right to a fair trial.
-Unit 4 - Civil Liberties,Incorporation theory,,The idea that protections in Bill of Rights applies to states through the 14th amendment's due process clause.
+Unit 4 - Civil Liberties,Gag order,Gag,An order issued by a judge to restrict news coverage of a trial to protect the accused's right to a fair trial.
+Unit 4 - Civil Liberties,Incorporation theory,Incorporation,The idea that protections in Bill of Rights applies to states through the 14th amendment's due process clause.
 Unit 4 - Civil Liberties,Libel,,"Written defamation of a person's character, reputation, business, or property rights."
 Unit 4 - Civil Liberties,Prior restraint,,Restraining an activity before it has occurred. Called censorship when expression is involved.
 Unit 4 - Civil Liberties,Public figure,,A public official or celebrity known to the public.
