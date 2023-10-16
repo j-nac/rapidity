@@ -170,6 +170,7 @@ class App extends React.Component {
             correct: 0,
             incorrect: 0,
             total: 0,
+            units: [],
         });
         clearInterval(this.timer);
     }
