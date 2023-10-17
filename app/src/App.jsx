@@ -11,6 +11,8 @@ import {
     TimerText,
     ScoreWidget,
     GameModeSelectCard,
+    Link,
+    UploadArea
 } from './components';
 import SubjectData from './dataProcess';
 
@@ -20,6 +22,7 @@ import {
     MdOutlinedFlag,
     MdOutlineMode,
     MdCode,
+    MdArrowCircleUp,
     MdOutlineLocalFireDepartment,
     MdOutlineTimer,
     MdSelfImprovement,
@@ -36,8 +39,7 @@ class App extends React.Component {
             subject: '',
             units: [],
 
-            showStartGame: true,
-            showGameOver: false,
+            gameState: 0,
             gameMode: '',
             time: 0,
             displayTime: '00:00',
@@ -52,13 +54,36 @@ class App extends React.Component {
             incorrect: 0,
             total: 0,
         };
+        this.file = null;
         this.subjectData = null;
         this.timer = null;
         this.updateTime = this.updateTime.bind(this);
     }
 
+    loadServerFile(filePath) {
+        var result = null;
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open('GET', process.env.PUBLIC_URL + '/data/' + filePath, false);
+        xmlhttp.send();
+        if (xmlhttp.status === 200) {
+            result = xmlhttp.responseText;
+        }
+        return result;
+    }
+    setLocalFile({target}){
+        target.files[0].text().then((t)=>{
+            this.text = t
+        }, ()=>{
+            target.value = ""
+        })
+    }
+    loadLocalData(){
+        console.log(this.text)
+        this.subjectData = new SubjectData(this.file)
+        this.setState({currentPage: 'Unit-Select', subject: "Custom Flashcards"})
+    }
     loadSubjectData(subject) {
-        this.subjectData = new SubjectData(subject, SUBJECTS_FILEPATHS[subject])
+        this.subjectData = new SubjectData(subject, this.loadServerFile(SUBJECTS_FILEPATHS[subject]))
     }
 
     subjectHandler(subject) {
@@ -79,12 +104,9 @@ class App extends React.Component {
     }
 
     getQuestion() {
-        if (this.state.questionText !== ""){
-            this.setState({
-                alertText: this.state.questionAnswer.split(";")[0].trim(),
-                showAlert: true,
-            })
-        }
+        this.setState({
+            alertText: this.state.questionAnswer.split(";")[0].trim(),
+        })
         var rawQuestion = this.subjectData.getRandomQuestion();
         this.setState({
             questionUnit: rawQuestion[0],
@@ -136,7 +158,7 @@ class App extends React.Component {
         this.subjectData.instantiateRun(this.state.units);
         this.getQuestion();
         if (this.state.gameMode === 'Zen') {
-            this.setState({showStartGame: false});
+            this.setState({gameState: 1});
             return
         }
 
@@ -146,13 +168,13 @@ class App extends React.Component {
             this.setState({time: 180, displayTime: '03:00'});
         }
         this.timer = setInterval(this.updateTime, 1000);
-        this.setState({showStartGame: false});
+        this.setState({gameState: 1});
     }
 
     updateTime() {
         if (this.state.time === 0) {
             clearInterval(this.timer);
-            this.setState({showGameOver: true});
+            this.setState({gameState: 2});
             return
         }
         const newTime = this.state.time-1;
@@ -163,8 +185,7 @@ class App extends React.Component {
 
     resetGame() {
         this.setState({
-            showStartGame: true,
-            showGameOver: false,
+            gameState: 0, // 0 = start, 1 = play, 2 = end
             time: 0,
             displayTime: '00:00',
 
@@ -196,9 +217,26 @@ class App extends React.Component {
                         {/* I would adjust tile color more cleanly but for some reason the styles don't update if I just try to add the color string and concatenate */}
                         <SubjectTile subject='AP Government' icon={<MdGavel />} styles='bg-blue lg:bg-transparent hover:lg:bg-blue lg:text-blue hover:lg:text-white' onClick={() => this.subjectHandler('AP Government')} />
                         <SubjectTile subject='AP Psychology' icon={<MdOutlinePsychology />} styles='bg-magenta lg:bg-transparent hover:lg:bg-magenta lg:text-magenta hover:lg:text-white' onClick={() => this.subjectHandler('AP Psychology')} />
+                        <SubjectTile subject='Custom Flashcards' icon={<MdArrowCircleUp />} styles='bg-red lg:bg-transparent hover:lg:bg-red lg:text-red hover:lg:text-white' onClick={() => {this.setState({currentPage: 'Loader'})}} />
                         {/*<SubjectTile subject='AP US History' icon={<MdOutlinedFlag />} styles='bg-red lg:bg-transparent hover:lg:bg-red lg:text-red hover:lg:text-white' onClick={() => this.subjectHandler('AP US History')} />
                         <SubjectTile subject='AP Language and Composition' icon={<MdOutlineMode />} styles='bg-purple lg:bg-transparent hover:lg:bg-purple lg:text-purple hover:lg:text-white' onClick={() => this.subjectHandler('AP Language and Composition')} />
                         <SubjectTile subject='AP Computer Science A' icon={<MdCode />} styles='bg-green lg:bg-transparent hover:lg:bg-green lg:text-green hover:lg:text-white' onClick={() => this.subjectHandler('AP Computer Science A')} />*/}
+                    </div>
+                </div>
+                : null}
+                
+
+                {this.state.currentPage === 'Loader' ?
+                <div className='Game-Mode-Select fixed bg-black h-screen w-screen flex flex-col'>
+                    <div>
+                        <BackButton label='Back' onClick={() => {this.setState({currentPage: 'Subject-Select'})}} />
+                    </div>
+                    <div className='flex flex-col h-screen w-screen justify-between items-center my-12'>
+                        <UploadArea change={this.setLocalFile.bind(this)}/>
+                        <Link href={process.env.PUBLIC_URL + "/data/" + SUBJECTS_FILEPATHS["AP Government"]} text="Click to view an example"/>
+                        <div>
+                            <Button1 label='Continue' onClick={() => this.loadLocalData() } styles='mt-3 transition hover:bg-white hover:text-black hover:border-white' />
+                        </div>
                     </div>
                 </div>
                 : null}
@@ -231,12 +269,12 @@ class App extends React.Component {
 
                 {this.state.currentPage === 'Game' ?
                 <div className='Game fixed bg-black h-screen w-screen flex flex-col' onKeyDown={(e) => {this.onKeyDownHandler(e)}}>
-                    {this.state.showStartGame ?
+                    {this.state.gameState===0 ?
                     <div className='fixed h-full w-full bg-black'>
                         <Button1 label='START' onClick={() => {this.startGame()}} styles='fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 transition hover:bg-white hover:text-black hover:border-white' />
                     </div>
                     : null}
-                    {this.state.showGameOver ?
+                    {this.gameState === 2 ?
                     <div className='fixed h-full w-full bg-black'>
                         <div className='fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'>
                             <ScoreWidget correct={this.state.correct} incorrect={this.state.incorrect} total={this.state.total} />

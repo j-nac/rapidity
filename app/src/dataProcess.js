@@ -1,27 +1,15 @@
 import * as csv from 'jquery-csv';
 
-function loadFile(filePath) {
-    var result = null;
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open('GET', process.env.PUBLIC_URL + '/data/' + filePath, false);
-    xmlhttp.send();
-    if (xmlhttp.status === 200) {
-        result = xmlhttp.responseText;
-    }
-
-    return result;
-}
-
 export default class SubjectData {
-    constructor(subject, filepath) {
+    constructor(subject, file) {
         this.subject = subject;
-        this.filepath = filepath;
+        this.file = file;
 
         this.init();
     }
 
     loadSubjectData() {
-        this.data = csv.toArrays(loadFile(this.filepath));
+        this.data = csv.toArrays(this.file);
         this.data.shift()
     }
 

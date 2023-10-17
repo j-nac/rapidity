@@ -50,6 +50,12 @@ const ScoreWidget = ({correct, incorrect, total}) => {
 const GameModeSelectCard = ({subject, icon, styles, onClick}) => {
     return <button className={'text-2xl lg:text-4xl border-2 w-full h-2/6 lg:w-80 lg:h-4/6 p-5 flex-none min-h-min transition ' + styles} onClick={onClick}>{subject}<br /><span className="text-5xl lg:text-ixl inline-block w-full flex justify-center">{icon}</span></button>
 }
+const Link = ({href, text}) => {
+
+}
+const UploadArea = ({change}) => {
+    return <input onChange={(f)=>{change(f)}} id="custom-sheet" type="file" name="custom-sheet" />
+}
 
 export {
     TitleText,
@@ -63,4 +69,6 @@ export {
     TimerText,
     ScoreWidget,
     GameModeSelectCard,
+    Link,
+    UploadArea,
 }
