@@ -58,7 +58,7 @@ const UploadArea = ({change}) => {
     const [color, setColor] = useState("white");
     return <label for="custom-sheet" className={"text-" + color}>
         Click to Upload a File
-        <input onChange={(f)=>{change(f); setColor(f.target.value!==""?"red":"white")}} id="custom-sheet" className="hidden color-red color-white" type="file" name="custom-sheet" />
+        <input onChange={(f)=>{change(f); setColor(f.target.value!==""?"red":"white")}} id="custom-sheet" className="hidden" type="file" name="custom-sheet" />
     </label>
 }
 
