@@ -47,7 +47,6 @@ class App extends React.Component {
             questionAnswer: '',
 
             alertText:'',
-            showAlert:false,
 
             correct: 0,
             incorrect: 0,
@@ -174,7 +173,6 @@ class App extends React.Component {
             questionAnswer: '',
 
             alertText: '',
-            showAlert: false,
 
             correct: 0,
             incorrect: 0,
@@ -268,9 +266,7 @@ class App extends React.Component {
                             <QuestionText text={'[' + this.state.questionUnit + '] ' + this.state.questionText} />
                             <AnswerBox />
                         </div>
-                        {this.state.showAlert?
                         <div className='absolute bottom-0 mx-auto'>{this.state.alertText}</div>
-                        : null}
                     </div>
                 </div>
                 : null}
