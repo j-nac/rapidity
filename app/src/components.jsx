@@ -1,4 +1,5 @@
 import { MdArrowBack } from "react-icons/md";
+import { useState } from "react";
 
 const TitleText = () => {
     return <h1 className='text-title absolute bottom-0 w-screen'><span className='text-dark-magenta'>Rapid</span>ity</h1>
@@ -51,10 +52,14 @@ const GameModeSelectCard = ({subject, icon, styles, onClick}) => {
     return <button className={'text-2xl lg:text-4xl border-2 w-full h-2/6 lg:w-80 lg:h-4/6 p-5 flex-none min-h-min transition ' + styles} onClick={onClick}>{subject}<br /><span className="text-5xl lg:text-ixl inline-block w-full flex justify-center">{icon}</span></button>
 }
 const Link = ({href, text}) => {
-
+    return <a href={href} className="text-blue">{text}</a>
 }
 const UploadArea = ({change}) => {
-    return <input onChange={(f)=>{change(f)}} id="custom-sheet" type="file" name="custom-sheet" />
+    const [color, setColor] = useState("white");
+    return <label for="custom-sheet" className={"text-" + color}>
+        Click to Upload a File
+        <input onChange={(f)=>{change(f); setColor(f.target.value!==""?"red":"white")}} id="custom-sheet" className="hidden color-red color-white" type="file" name="custom-sheet" />
+    </label>
 }
 
 export {
