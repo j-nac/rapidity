@@ -45,7 +45,9 @@ class App extends React.Component {
             questionUnit: 'UNIT LOADING ERROR',
             questionText: 'TEXT LOADING ERROR',
             questionAnswer: '',
-            questionAlt: '',
+
+            alertText:'',
+            showAlert:false,
 
             correct: 0,
             incorrect: 0,
@@ -78,6 +80,12 @@ class App extends React.Component {
     }
 
     getQuestion() {
+        if (this.state.questionText !== ""){
+            this.setState({
+                alertText: this.state.questionAnswer.split(";")[0].trim(),
+                showAlert: true,
+            })
+        }
         var rawQuestion = this.subjectData.getRandomQuestion();
         this.setState({
             questionUnit: rawQuestion[0],
@@ -164,7 +172,9 @@ class App extends React.Component {
             questionUnit: 'UNIT LOADING ERROR',
             questionText: 'TEXT LOADING ERROR',
             questionAnswer: '',
-            questionAlt: '',
+
+            alertText: '',
+            showAlert: false,
 
             correct: 0,
             incorrect: 0,
@@ -173,10 +183,9 @@ class App extends React.Component {
         });
         clearInterval(this.timer);
     }
-
     render() {
         return (
-            <div className='App bg-black text-white h-screen w-screen'>
+            <div className='App bg-black text-white h-screen w-screen relative'>
                 {this.state.currentPage === 'Landing' ?
                 <div className='Landing fixed bg-black h-screen w-screen'>
                     <TitleText />
@@ -259,6 +268,9 @@ class App extends React.Component {
                             <QuestionText text={'[' + this.state.questionUnit + '] ' + this.state.questionText} />
                             <AnswerBox />
                         </div>
+                        {this.state.showAlert?
+                        <div className='absolute bottom-0 mx-auto'>{this.state.alertText}</div>
+                        : null}
                     </div>
                 </div>
                 : null}

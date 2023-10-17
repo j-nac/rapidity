@@ -1,32 +1,32 @@
 Unit,Term,Definition
-Bill of Rights,Amendment I; Amendment 1; 1,"Freedom of religion, speech, press, assembly, and petition."
-Bill of Rights,Amendment II; Amendment 2; 2,Right to bear arms.
-Bill of Rights,Amendment III; Amendment 3; 3,Right to not quarter soldiers (except in times of war as perscribed by law).
-Bill of Rights,Amendment IV; Amendment 4; 4,"Right against unreasonable search and seizure, outlines proper warrents."
-Bill of Rights,Amendment V; amendment 5; 5,"Right to due process, against double jeopardy, against self incrimination. Outlines due process and eminent domain."
-Bill of Rights,Amendment VI; Amendment 6; 6,"Right to a speedy public trial by an impartial jury, right to question witnesses, right to council."
-Bill of Rights,Amendment VII; Amendment 7; 7,Right to a jury in civil trials over $20. Juries cannot be overruled by a court in a manner that doesn't follow common law.
-Bill of Rights,Amendment VIII; Amendment 8; 8,"Right against cruel and unusual punishment, right against excessive fines and fees."
-Bill of Rights,Amendment IX; Amendment 9; 9,Rights given in the Bill of Rights don't block other rights.
-Bill of Rights,Amendment V; Amendment 5; 5,"Any power not given to the federal government, nor prohibited to the states, is given to the states and the people."
-Later Amendments,Amendment XI; Amendment 11; 11,You must be a citizen of a state to sue said state in federal court.
-Later Amendments,Amendment XII; Amendment 12; 12,Separates the race for the president and the vice president.
-Later Amendments,Amendment XIII; Amendment 13; 13,Ended slavery and involentary bondage in the US (except for in prison).
-Later Amendments,Amendment XIV; Amendment 14; 14,States cannot deprive rights and due process for all citizens. Responsible for incorporation theory applying the Bill of Rights to states. Later used for birthright citizenship.
-Later Amendments,Amendment XV; Amendment 15; 15,Gives universal manhood suffrage.
-Later Amendments,Amendment XVI; Amendment 16; 16,Instates income tax.
-Later Amendments,Amendment XVII; Amendment 17; 17,Allows the public to vote for the senate.
-Later Amendments,Amendment XVIII; Amendment 18; 18,Begins prohibition.
-Later Amendments,Amendment XIX; Amendment 19; 19,Gives women's suffrage.
-Later Amendments,Amendment XX; Amendment 20; 20,The lame duck ammendment - moves the start and end of terms to lessen time between election and appointment.
-Later Amendments,Amendment XXI; Amendment 21; 21,Ends prohibition.
-Later Amendments,Amendment XXII; Amendment 22; 22,Instates a limit on presidency - either two terms or 10 years.
-Later Amendments,Amendment XXIII; Amendment 23; 23,Gives Washington DC three votes in the presidential election.
-Later Amendments,Amendment XXIV; Amendment 24; 24,Forbids poll taxes.
-Later Amendments,Amendment XXV; Amendment 25; 25,Outlines succession of the presidency (to the VP) and how a president unable to perform their duties may be removed.
-Later Amendments,Amendment XXVI; Amendment 26; 26,Allows 18 year olds to vote. Instated during the Vietnam War.
-Later Amendments,Amendment XXVII; Amendment 27; 27,Says increases in pay for Congress don't take effect until after the next election.
-Unit 3 Supreme Court Cases,Roper v. Simmons,"The death penalty for minors deemed unconstitutional under the 8th amendment ""cruel and unusual punishment""."
+Bill of Rights,Amendment I; Amendment 1; 1; 1st Amendment,"Freedom of religion, speech, press, assembly, and petition. (1791)"
+Bill of Rights,Amendment II; Amendment 2; 2; 2nd Amendment,Right to bear arms. (1791)
+Bill of Rights,Amendment III; Amendment 3; 3; 3rd Anendment,Right to not quarter soldiers (except in times of war as perscribed by law). (1791)
+Bill of Rights,Amendment IV; Amendment 4; 4; 4th Amendment,"Right against unreasonable search and seizure, outlines proper warrents. (1791)"
+Bill of Rights,Amendment V; amendment 5; 5; 5th Amendment,"Right to due process, against double jeopardy, against self incrimination. Outlines due process and eminent domain. (1791)"
+Bill of Rights,Amendment VI; Amendment 6; 6; 6th Amendment,"Right to a speedy public trial by an impartial jury, right to question witnesses, right to council. (1791)"
+Bill of Rights,Amendment VII; Amendment 7; 7; 7th Amendment,Right to a jury in civil trials over $20. Juries cannot be overruled by a court in a manner that doesn't follow common law. (1791)
+Bill of Rights,Amendment VIII; Amendment 8; 8; 8th Amendment,"Right against cruel and unusual punishment, right against excessive fines and fees. (1791)"
+Bill of Rights,Amendment IX; Amendment 9; 9; 9th Amendment,Rights given in the Bill of Rights don't block other rights. (1791)
+Bill of Rights,Amendment V; Amendment 5; 5; 10th Amendment,"Any power not given to the federal government, nor prohibited to the states, is given to the states and the people. (1791)"
+Later Amendments,Amendment XI; Amendment 11; 11; 11th Amendment,You must be a citizen of a state to sue said state in federal court. (1794)
+Later Amendments,Amendment XII; Amendment 12; 12; 12th Amendment,Separates the race for the president and the vice president. (1804)
+Later Amendments,Amendment XIII; Amendment 13; 13; 13th Amendment,Ended slavery and involentary bondage in the US (except for in prison). (1865)
+Later Amendments,Amendment XIV; Amendment 14; 14; 14th Amendment,States cannot deprive rights and due process for all citizens. Responsible for incorporation theory applying the Bill of Rights to states. Later used for birthright citizenship. (1868)
+Later Amendments,Amendment XV; Amendment 15; 15; 15th Amendment,Gives universal manhood suffrage. (1870)
+Later Amendments,Amendment XVI; Amendment 16; 16; 16th Amendment,Instates income tax. (1913)
+Later Amendments,Amendment XVII; Amendment 17; 17; 17th Amendment,Allows the public to vote for the senate. (1913)
+Later Amendments,Amendment XVIII; Amendment 18; 18; 18th Amendment,Begins prohibition. (1919)
+Later Amendments,Amendment XIX; Amendment 19; 19; 19th Amendment,Gives women's suffrage. (1920)
+Later Amendments,Amendment XX; Amendment 20; 20; 20th Amendment,The lame duck ammendment - moves the start and end of terms to lessen time between election and appointment. (1933)
+Later Amendments,Amendment XXI; Amendment 21; 21; 21st Amendment,Ends prohibition. (1933)
+Later Amendments,Amendment XXII; Amendment 22; 22; 22nd Amendment,Instates a limit on presidency - either two terms or 10 years. (1951)
+Later Amendments,Amendment XXIII; Amendment 23; 23; 23rd Amendment,Gives Washington DC three votes in the presidential election. (1961)
+Later Amendments,Amendment XXIV; Amendment 24; 24; 24th Amendment,Forbids poll taxes. (1964)
+Later Amendments,Amendment XXV; Amendment 25; 25; 25th Amendment,Outlines succession of the presidency (to the VP) and how a president unable to perform their duties may be removed. (1967)
+Later Amendments,Amendment XXVI; Amendment 26; 26; 26th Amendment,Allows 18 year olds to vote. Instated during the Vietnam War. (1971)
+Later Amendments,Amendment XXVII; Amendment 27; 27; 27th Amendment,Says increases in pay for Congress don't take effect until after the next election. (1992)
+Unit 3 Supreme Court Cases,Roper v. Simmons,"The death penalty for minors deemed unconstitutional under the 8th amendment ""cruel and unusual punishment"". (2005)"
 Unit 3 Supreme Court Cases,Marbury v. Madison,Establishes judicial review. (1803)
 Unit 3 Supreme Court Cases,McCulloch v. Maryland,Allows the government to stretch to meet the needs of the people. Reaffirms supremacy clause. (1819)
 Unit 3 Supreme Court Cases,Worcester v. Georgia,"Ruled that states could not regulate cherokee land. Ignored by Andrew Jackson, which led to the trail of tears. (1832)"
@@ -36,22 +36,22 @@ Unit 3 Supreme Court Cases,Plessy v. Ferguson,"Segregation deemed legal under ""
 Unit 3 Supreme Court Cases,Schenck v. US,"Freedom of speech limitations for national security under the espionage act. ""Clear and present danger."" (1919)"
 Unit 3 Supreme Court Cases,Gideon v. Wainwright,Right to an attorney if accused of a crime or a public defender if you can't afford one. (1963)
 Unit 3 Supreme Court Cases,Miranda v. Arizona,Right to be read rights when detained. (1966)
-Unit 3 Supreme Court Cases,Brown v. Board of Education,Ruled segragation violated the 14th amendment. (1954)
+Unit 3 Supreme Court Cases,Brown v. Board of Education; Brown v. Board,Ruled segragation violated the 14th amendment. (1954)
 Unit 3 Supreme Court Cases,Korematsu v. US,Internments camps were allowed during a time of war under risk of espionage. (1944)
 Unit 3 Supreme Court Cases,Miller v. California,"Redefines obscene material, which is not protected under the first amendment. (1973)"
 Unit 3 Supreme Court Cases,Regents of the University of California v. Bakke; UC v. Bakke,"Ruled that universities' racial ""quotas"" in admission process was unconstitutional. ""Affirmative action"" to accept more minority applicants was constitutional in some cases. (1978)"
-Unit 3 Supreme Court Cases,Tinker v. Des Moines,You do not shed your rights at the schoolhouse gates. Centered around vietnam protests in school.
-Unit 3 Supreme Court Cases,Roe v. Wade,Right to abortion through 4th amendment right to privacy.
-Unit 3 Supreme Court Cases,Obergefell v. Hodges,Right to same-sex marriage.
-Unit 3 Supreme Court Cases,Dobbs v. Jackson,Overruled Roe v. Wade removing the right to abortion.
-Unit 3 Supreme Court Cases,Engel v. Vitale,Ruled that it is unconstitutional for state officials to lead school prayers.
-Unit 3 Supreme Court Cases,Mapp v. Ohio,Evidence obtained illegally may not be used in court under the 4th amendment.
-Unit 3 Supreme Court Cases,Gitlow v. New York,Government can punish speech that threatens its existence; anarchy speech implies a national security threat. Freedom of speech applies to the states.
-Unit 3 Supreme Court Cases,Lemon v. Kurtzman,Direct state aid cannot be used to subsidize religious instruction (private religious schools). Aid has to be solely secular and states should gennerally avoid entanglement with religion.
-Unit 3 Supreme Court Cases,Buckley v. Valeo,Upheld restrictions on the amount of money an individual can contribute to their campaign but limits on campaign spending is unconstitutional.
-Unit 3 Supreme Court Cases,Loving v. Virginia,Ruled right to interracial marriage.
-Unit 3 Supreme Court Cases,Griswold v. Conn,State ban of contraceptive violated the rights to martial privacy.
-Unit 3 Supreme Court Cases,Nixon v. US,"Established that the court could not review impeachment, as Article I, Section 3, Constitution gives Senate sole power over all impeachment. Judicial will not review impeachment cases."
+Unit 3 Supreme Court Cases,Tinker v. Des Moines,You do not shed your rights at the schoolhouse gates. Centered around vietnam protests in school. (1969)
+Unit 3 Supreme Court Cases,Roe v. Wade,Right to abortion through 4th amendment right to privacy. (1973)
+Unit 3 Supreme Court Cases,Obergefell v. Hodges,Right to same-sex marriage. (2015)
+Unit 3 Supreme Court Cases,Dobbs v. Jackson,Overruled Roe v. Wade removing the right to abortion. (2022)
+Unit 3 Supreme Court Cases,Engel v. Vitale,Ruled that it is unconstitutional for state officials to lead school prayers. (1962)
+Unit 3 Supreme Court Cases,Mapp v. Ohio,Evidence obtained illegally may not be used in court under the 4th amendment. (1961)
+Unit 3 Supreme Court Cases,Gitlow v. New York,Government can punish speech that threatens its existence; anarchy speech implies a national security threat. Freedom of speech applies to the states. (1925)
+Unit 3 Supreme Court Cases,Lemon v. Kurtzman,Direct state aid cannot be used to subsidize religious instruction (private religious schools). Aid has to be solely secular and states should gennerally avoid entanglement with religion. (1971)
+Unit 3 Supreme Court Cases,Buckley v. Valeo,Upheld restrictions on the amount of money an individual can contribute to their campaign but limits on campaign spending is unconstitutional. (1976)
+Unit 3 Supreme Court Cases,Loving v. Virginia,Ruled right to interracial marriage. (1967)
+Unit 3 Supreme Court Cases,Griswold v. Conn; Griswold v. Connecticut,State ban of contraceptive violated the rights to martial privacy. (1965)
+Unit 3 Supreme Court Cases,Nixon v. US,"Established that the court could not review impeachment, as Article I, Section 3, Constitution gives Senate sole power over all impeachment. Judicial will not review impeachment cases. (1993)"
 "Unit 1 - One Republic, Two Americas?",Anarchy,The absence of political institutions.
 "Unit 1 - One Republic, Two Americas?",Aristocracy,A form of government in which power is held by the nobility.
 "Unit 1 - One Republic, Two Americas?",Authoritarianism,A form of government where power is intensely concentrated in the few. Allows some non-government-controlled social and economic institutions.
