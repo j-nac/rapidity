@@ -1,8 +1,7 @@
 import * as csv from 'jquery-csv';
 
 export default class SubjectData {
-    constructor(subject, file) {
-        this.subject = subject;
+    constructor(file) {
         this.file = file;
 
         this.init();

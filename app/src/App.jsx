@@ -78,12 +78,14 @@ class App extends React.Component {
         })
     }
     loadLocalData(){
-        console.log(this.text)
-        this.subjectData = new SubjectData(this.file)
+        console.log(typeof this.text, typeof this.loadServerFile(SUBJECTS_FILEPATHS["AP Government"]), this.text.length, this.loadServerFile(SUBJECTS_FILEPATHS["AP Government"]).length, this.text === this.loadServerFile(SUBJECTS_FILEPATHS["AP Government"]))
+        console.log(JSON.stringify(this.text), JSON.stringify(this.loadServerFile(SUBJECTS_FILEPATHS["AP Government"])))
         this.setState({currentPage: 'Unit-Select', subject: "Custom Flashcards"})
+        this.subjectData = new SubjectData(this.text)
     }
     loadSubjectData(subject) {
-        this.subjectData = new SubjectData(subject, this.loadServerFile(SUBJECTS_FILEPATHS[subject]))
+        console.log(this.loadServerFile(SUBJECTS_FILEPATHS[subject]))
+        this.subjectData = new SubjectData(this.loadServerFile(SUBJECTS_FILEPATHS[subject]))
     }
 
     subjectHandler(subject) {
