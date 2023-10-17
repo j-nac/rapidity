@@ -177,7 +177,6 @@ class App extends React.Component {
             correct: 0,
             incorrect: 0,
             total: 0,
-            units: [],
         });
         clearInterval(this.timer);
     }
@@ -206,7 +205,7 @@ class App extends React.Component {
 
                 {this.state.currentPage === 'Unit-Select' ?
                 <div className='Unit-Select fixed bg-black h-screen w-screen overflow-scroll'>
-                    <BackButton label='Back to subjects' onClick={() => {this.setState({currentPage: 'Subject-Select'})}} />
+                    <BackButton label='Back to subjects' onClick={() => {this.setState({currentPage: 'Subject-Select', units: []})}} />
 
                     <div className='ml-10'>
                         <SubjectHeading text={this.state.subject} />
