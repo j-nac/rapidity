@@ -204,7 +204,7 @@ class App extends React.Component {
         return (
             <div className='App bg-black text-white h-screen w-screen relative'>
                 {this.state.currentPage === 'Landing' ?
-                <div className='Landing fixed bg-black h-screen w-screen'>
+                <div className='Landing fixed overflow-scroll bg-black h-screen w-screen'>
                     <TitleText />
                     <Button1 label="LET'S PLAY" onClick={() => {this.setState({currentPage: 'Subject-Select'});}} styles='fixed 2xl:top-1/3 top-1/2 left-1/2 2xl:-translate-y-1/3 -translate-y-1/2 -translate-x-1/2 transition hover:bg-white hover:text-black hover:border-white' />
                 </div>
@@ -242,7 +242,7 @@ class App extends React.Component {
 
                 {this.state.currentPage === 'Unit-Select' ?
                 <div className='Unit-Select fixed bg-black h-screen w-screen overflow-scroll'>
-                    <BackButton label='Back to subjects' onClick={() => {this.setState({currentPage: 'Subject-Select', units: []})}} />
+                    <BackButton label='Back to subjects' onClick={() => {this.setState({currentPage: 'Subject-Select'})}} />
 
                     <div className='ml-10'>
                         <SubjectHeading text={this.state.subject} />
@@ -256,7 +256,7 @@ class App extends React.Component {
                 {this.state.currentPage === 'Game-Mode-Select' ?
                 <div className='Game-Mode-Select fixed bg-black h-screen w-screen flex flex-col'>
                     <div>
-                        <BackButton label='Back' onClick={() => {this.setState({currentPage: 'Unit-Select'})}} />
+                        <BackButton label='Back' onClick={() => {this.setState({currentPage: 'Unit-Select', units:[]})}} />
                     </div>
                     <div className='grow flex flex-col lg:flex-row gap-3 p-10 h-full overflow-x-scroll overflow-y-hidden items-center place-content-center'>
                         <GameModeSelectCard subject='Rapid' icon={<MdOutlineLocalFireDepartment />} styles='bg-dark-magenta lg:bg-transparent hover:lg:bg-dark-magenta lg:text-dark-magenta hover:lg:text-white' onClick={() => {this.setState({gameMode: 'Rapid', currentPage: 'Game'});}} />
