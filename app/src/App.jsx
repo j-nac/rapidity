@@ -133,7 +133,7 @@ class App extends React.Component {
 
     checkAnswer(answer) {
         if (this.state.gameMode=="Rapid" && this.state.time > 0){
-            const newTime = this.state.time + 10s;
+            const newTime = this.state.time + 10;
             const minutes = ((newTime-(newTime%60))/60).toString().padStart(2, '0');
             const seconds = (newTime%60).toString().padStart(2, '0');
             this.setState({time: newTime, displayTime: minutes+':'+seconds});
