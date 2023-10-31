@@ -132,6 +132,12 @@ class App extends React.Component {
     }
 
     checkAnswer(answer) {
+        if (this.state.gameMode=="Rapid" && this.state.time > 0){
+            const newTime = this.state.time + 10s;
+            const minutes = ((newTime-(newTime%60))/60).toString().padStart(2, '0');
+            const seconds = (newTime%60).toString().padStart(2, '0');
+            this.setState({time: newTime, displayTime: minutes+':'+seconds});
+        }
         answer = answer.toLowerCase()
         if (this.state.questionAnswer.toLowerCase().split(";").some(a=>this.levenshtein(a.trim(), answer.trim()) < answer.length/5)) {
             return true;
@@ -162,7 +168,7 @@ class App extends React.Component {
         }
 
         if (this.state.gameMode === 'Rapid') {
-            this.setState({time: 60, displayTime: '01:00'});
+            this.setState({time: 15, displayTime: '00:15'});
         } else if (this.state.gameMode === 'Timed') {
             this.setState({time: 180, displayTime: '03:00'});
         }
