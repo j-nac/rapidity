@@ -132,14 +132,14 @@ class App extends React.Component {
     }
 
     checkAnswer(answer) {
-        if (this.state.gameMode=="Rapid" && this.state.time > 0){
-            const newTime = this.state.time + 10;
-            const minutes = ((newTime-(newTime%60))/60).toString().padStart(2, '0');
-            const seconds = (newTime%60).toString().padStart(2, '0');
-            this.setState({time: newTime, displayTime: minutes+':'+seconds});
-        }
         answer = answer.toLowerCase()
         if (this.state.questionAnswer.toLowerCase().split(";").some(a=>this.levenshtein(a.trim(), answer.trim()) < answer.length/5)) {
+            if (this.state.gameMode === "Rapid" && this.state.time > 0){
+                const newTime = this.state.time + 10;
+                const minutes = ((newTime-(newTime%60))/60).toString().padStart(2, '0');
+                const seconds = (newTime%60).toString().padStart(2, '0');
+                this.setState({time: newTime, displayTime: minutes+':'+seconds});
+            }
             return true;
         }
         return false;
@@ -168,7 +168,7 @@ class App extends React.Component {
         }
 
         if (this.state.gameMode === 'Rapid') {
-            this.setState({time: 15, displayTime: '00:15'});
+            this.setState({time: 30, displayTime: '00:15'});
         } else if (this.state.gameMode === 'Timed') {
             this.setState({time: 180, displayTime: '03:00'});
         }
