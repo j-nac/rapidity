@@ -47,6 +47,7 @@ class App extends React.Component {
             questionUnit: 'UNIT LOADING ERROR',
             questionText: 'TEXT LOADING ERROR',
             questionAnswer: '',
+            answerText: '',
 
             alertText:'',
 
@@ -105,6 +106,7 @@ class App extends React.Component {
     getQuestion() {
         this.setState({
             alertText: this.state.questionAnswer.split(";")[0].trim(),
+            answerText: "",
         })
         var rawQuestion = this.subjectData.getRandomQuestion();
         this.setState({
@@ -134,7 +136,7 @@ class App extends React.Component {
     checkAnswer(answer) {
         answer = answer.toLowerCase()
         if (this.state.questionAnswer.toLowerCase().split(";").some(a=>this.levenshtein(a.trim(), answer.trim()) < answer.length/5)) {
-            if (this.state.gameMode === "Rapid" && this.state.time > 0){
+            if (this.state.gameMode === "Rapid"){
                 const newTime = this.state.time + 10;
                 const minutes = ((newTime-(newTime%60))/60).toString().padStart(2, '0');
                 const seconds = (newTime%60).toString().padStart(2, '0');
@@ -147,8 +149,7 @@ class App extends React.Component {
 
     onKeyDownHandler(e) {
         if (e.keyCode === 13) {
-            if (this.checkAnswer(e.target.value)) {
-                e.target.value = '';
+            if (this.checkAnswer(this.state.answerText)) {
                 this.setState({correct: this.state.correct+1, total: this.state.total+1});
                 this.getQuestion();
             } else {
@@ -305,8 +306,8 @@ class App extends React.Component {
                             <Button1 label='Skip' onClick={() => {this.getQuestion()}} styles='w-full transition hover:bg-white hover:text-black hover:border-white' />
                         </div>
                         <div className='grow flex flex-col max-w-4xl'>
-                            <QuestionText text={'[' + this.state.questionUnit + '] ' + this.state.questionText} />
-                            <AnswerBox />
+                            <QuestionText text={'[' + this.state.questionUnit + '] ' + this.state.questionText}/>
+                            <AnswerBox value={this.state.answerText} onChange={(t)=>this.setState({answerText:t.target.value})} />
                         </div>
                         <div className='absolute bottom-0 mx-auto'>{this.state.alertText}</div>
                     </div>

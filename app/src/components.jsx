@@ -32,8 +32,8 @@ const QuestionText = ({text}) => {
     return <p className="w-full border-2 p-5 text-md lg:text-2xl grow flex-1">{text}</p>
 }
 
-const AnswerBox = () => {
-    return <input className="AnswerBox mt-3 w-full p-2 border-2 text-white bg-transparent focus:outline-none flex-none" type="text" name="Answer Box" id="" placeholder="Type answer and ENTER" />
+const AnswerBox = ({value, onChange}) => {
+    return <input className="AnswerBox mt-3 w-full p-2 border-2 text-white bg-transparent focus:outline-none flex-none" type="text" name="Answer Box" id="" placeholder="Type answer and ENTER" value={value} onChange={onChange} />
 }
 
 const TimerText = ({text}) => {
