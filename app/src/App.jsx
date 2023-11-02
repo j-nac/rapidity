@@ -19,17 +19,21 @@ import SubjectData from './dataProcess';
 import {
     MdOutlinePsychology,
     MdGavel,
-    MdOutlinedFlag,
-    MdOutlineMode,
-    MdCode,
     MdArrowCircleUp,
     MdOutlineLocalFireDepartment,
     MdOutlineTimer,
     MdSelfImprovement,
 } from "react-icons/md";
+import {
+    LuDna
+} from "react-icons/lu";
 
 
-const SUBJECTS_FILEPATHS = {'AP Psychology': 'ap-psychology.csv', 'AP Government': 'ap-government.csv'};
+const SUBJECTS_FILEPATHS = {
+    'AP Psychology': 'ap-psychology.csv', 
+    'AP Government': 'ap-government.csv', 
+    "AP Biology": 'ap-biology.csv',
+};
 
 class App extends React.Component {
     constructor(props) {
@@ -223,9 +227,9 @@ class App extends React.Component {
                         {/* I would adjust tile color more cleanly but for some reason the styles don't update if I just try to add the color string and concatenate */}
                         <SubjectTile subject='AP Government' icon={<MdGavel />} styles='bg-blue lg:bg-transparent hover:lg:bg-blue lg:text-blue hover:lg:text-white' onClick={() => this.subjectHandler('AP Government')} />
                         <SubjectTile subject='AP Psychology' icon={<MdOutlinePsychology />} styles='bg-magenta lg:bg-transparent hover:lg:bg-magenta lg:text-magenta hover:lg:text-white' onClick={() => this.subjectHandler('AP Psychology')} />
+                        <SubjectTile subject='AP Biology' icon={<LuDna />} styles='bg-red lg:bg-transparent hover:lg:bg-red lg:text-red hover:lg:text-white' onClick={() => this.subjectHandler('AP Biology')} />
                         <SubjectTile subject='Custom Flashcards' icon={<MdArrowCircleUp />} styles='bg-red lg:bg-transparent hover:lg:bg-red lg:text-red hover:lg:text-white' onClick={() => {this.setState({currentPage: 'Loader'})}} />
-                        {/*<SubjectTile subject='AP US History' icon={<MdOutlinedFlag />} styles='bg-red lg:bg-transparent hover:lg:bg-red lg:text-red hover:lg:text-white' onClick={() => this.subjectHandler('AP US History')} />
-                        <SubjectTile subject='AP Language and Composition' icon={<MdOutlineMode />} styles='bg-purple lg:bg-transparent hover:lg:bg-purple lg:text-purple hover:lg:text-white' onClick={() => this.subjectHandler('AP Language and Composition')} />
+                        {/*<SubjectTile subject='AP Language and Composition' icon={<MdOutlineMode />} styles='bg-purple lg:bg-transparent hover:lg:bg-purple lg:text-purple hover:lg:text-white' onClick={() => this.subjectHandler('AP Language and Composition')} />
                         <SubjectTile subject='AP Computer Science A' icon={<MdCode />} styles='bg-green lg:bg-transparent hover:lg:bg-green lg:text-green hover:lg:text-white' onClick={() => this.subjectHandler('AP Computer Science A')} />*/}
                     </div>
                 </div>
