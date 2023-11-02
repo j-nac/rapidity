@@ -40,11 +40,11 @@ const TimerText = ({text}) => {
     return <h3 className="TimerText text-5xl">{text}</h3>
 }
 
-const ScoreWidget = ({correct, incorrect, total}) => {
+const ScoreWidget = ({correct, incorrect, skipped}) => {
     return <h3 className="ScoreWidget text-5xl">
         <span className="text-green">{correct}</span>/
         <span className="text-red">{incorrect}</span>/
-        <span className="text-yellow">{total}</span>
+        <span className="text-yellow">{skipped}</span>
     </h3>
 }
 

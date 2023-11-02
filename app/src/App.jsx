@@ -53,7 +53,7 @@ class App extends React.Component {
 
             correct: 0,
             incorrect: 0,
-            total: 0,
+            skipped: 0,
         };
         this.file = null;
         this.subjectData = null;
@@ -150,12 +150,12 @@ class App extends React.Component {
     onKeyDownHandler(e) {
         if (e.keyCode === 13) {
             if (this.checkAnswer(this.state.answerText)) {
-                this.setState({correct: this.state.correct+1, total: this.state.total+1});
+                this.setState({correct: this.state.correct+1});
                 this.getQuestion();
             } else {
                 e.target.focus();
                 e.target.select();
-                this.setState({incorrect: this.state.incorrect+1, total: this.state.total+1});
+                this.setState({incorrect: this.state.incorrect+1});
             }
         }
     };
@@ -203,7 +203,7 @@ class App extends React.Component {
 
             correct: 0,
             incorrect: 0,
-            total: 0,
+            skipped: 0,
         });
         clearInterval(this.timer);
     }
@@ -283,7 +283,7 @@ class App extends React.Component {
                     {this.state.gameState === 2 ?
                     <div className='fixed h-full w-full bg-black'>
                         <div className='fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'>
-                            <ScoreWidget correct={this.state.correct} incorrect={this.state.incorrect} total={this.state.total} />
+                            <ScoreWidget correct={this.state.correct} incorrect={this.state.incorrect} skipped={this.state.skipped} />
                             <h1 className='text-4xl'>{this.state.subject}</h1>
                             {this.state.units.map((unit) => <li className='text-2xl'>{unit}</li>)}
                             <div>
@@ -302,8 +302,8 @@ class App extends React.Component {
                             {this.state.gameMode !== 'Zen' ?
                             <TimerText text={this.state.displayTime} />
                             : null}
-                            <ScoreWidget correct={this.state.correct} incorrect={this.state.incorrect} total={this.state.total} />
-                            <Button1 label='Skip' onClick={() => {this.getQuestion()}} styles='w-full transition hover:bg-white hover:text-black hover:border-white' />
+                            <ScoreWidget correct={this.state.correct} incorrect={this.state.incorrect} skipped={this.state.skipped} />
+                            <Button1 label='Skip' onClick={() => {this.getQuestion(); this.setState({skipped: this.state.skipped + 1})}} styles='w-full transition hover:bg-white hover:text-black hover:border-white' />
                         </div>
                         <div className='grow flex flex-col max-w-4xl'>
                             <QuestionText text={'[' + this.state.questionUnit + '] ' + this.state.questionText}/>
