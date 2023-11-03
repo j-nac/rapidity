@@ -143,6 +143,11 @@ class App extends React.Component {
                 this.setState({time: newTime, displayTime: minutes+':'+seconds});
             }
             return true;
+        } else if (this.state.gameMode === "Rapid"){
+            const newTime = Math.max(this.state.time - 5, 0);
+            const minutes = ((newTime-(newTime%60))/60).toString().padStart(2, '0');
+            const seconds = (newTime%60).toString().padStart(2, '0');
+            this.setState({time: newTime, displayTime: minutes+':'+seconds});
         }
         return false;
     }
@@ -178,7 +183,7 @@ class App extends React.Component {
     }
 
     updateTime() {
-        if (this.state.time === 0) {
+        if (this.state.time <= 0) {
             clearInterval(this.timer);
             this.setState({gameState: 2});
             return
