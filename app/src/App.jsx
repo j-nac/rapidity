@@ -209,7 +209,7 @@ class App extends React.Component {
   updateTime() {
     if (this.state.time <= 0) {
       clearInterval(this.timer);
-      this.setState({ gameState: 2, answerText: this.state.questionAnswer});
+      this.setState({ gameState: 2, alertText: this.state.questionAnswer});
       return;
     }
     const newTime = this.state.time - 1;
