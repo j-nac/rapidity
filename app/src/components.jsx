@@ -157,7 +157,7 @@ const SelectionContainer = ({children, name, click, downIcon, upIcon}) => {
     children = children.map((unit, index, arr) => (
         <Checkbox
           name={unit}
-          id={arr[index]}
+          id={name + "-" + unit}
           onClick={(e) => click(e, name)}
         />
     ));
