@@ -13,7 +13,15 @@ export default class SubjectData {
   }
 
   getUnits() {
-    this.units = Array.from(new Set(this.data.map((a) => a[0]))).sort();
+    this.units = {}
+    for(let i = 0; i < this.data.length; i++){
+      if (!(this.data[i][0] in this.units)){
+        this.units[this.data[i][0]] = [this.data[i][1]]
+      }
+      else if (!(this.units[this.data[i][0]].includes(this.data[i][1]))) {
+        this.units[this.data[i][0]].push(this.data[i][1])
+      }
+    }
   }
 
   init() {
@@ -27,7 +35,7 @@ export default class SubjectData {
   }
 
   instantiateQuestions() {
-    this.questions = this.data.filter((a) => this.selectedUnits.includes(a[0]));
+    this.questions = this.data.filter((a) => a[0] in this.selectedUnits && this.selectedUnits[a[0]].includes(a[1]));
     for (let i = this.questions.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [this.questions[i], this.questions[j]] = [

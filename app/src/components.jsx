@@ -153,6 +153,32 @@ const UploadArea = ({ change }) => {
   );
 };
 
+const SelectionContainer = ({children, name, click, downIcon, upIcon}) => {
+    children = children.map((unit, index, arr) => (
+        <Checkbox
+          name={unit}
+          id={arr[index]}
+          onClick={(e) => click(e, name)}
+        />
+    ));
+    if (name === ""){
+        return <>{children}</>
+    }
+    return (
+      <div className="category-container">
+        <h1 
+          className="box-title text-xl lg:text-4xl relative before:absolute before:w-full before:h-full hover:before:bg-white before:opacity-5" 
+          onClick={(e)=>e.target.parentElement.classList.toggle("active")}
+        >
+          <div className="down-icon inline mr-2">{downIcon}</div>
+          <div className="up-icon inline mr-2">{upIcon}</div>
+          {name}
+        </h1>
+        {children}
+      </div>
+    )
+}
+
 export {
   TitleText,
   Button1,
@@ -167,4 +193,5 @@ export {
   GameModeSelectCard,
   Link,
   UploadArea,
+  SelectionContainer,
 };

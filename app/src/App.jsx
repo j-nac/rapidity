@@ -3,7 +3,6 @@ import {
   TitleText,
   Button1,
   SubjectTile,
-  Checkbox,
   SubjectHeading,
   BackButton,
   QuestionText,
@@ -13,6 +12,7 @@ import {
   GameModeSelectCard,
   Link,
   UploadArea,
+  SelectionContainer,
 } from "./components";
 import SubjectData from "./dataProcess";
 
@@ -24,6 +24,8 @@ import {
   MdOutlineLocalFireDepartment,
   MdOutlineTimer,
   MdSelfImprovement,
+  MdArrowDropDown,
+  MdArrowDropUp,
 } from "react-icons/md";
 
 const SUBJECTS_FILEPATHS = {
@@ -101,14 +103,22 @@ class App extends React.Component {
     this.loadSubjectData(subject);
   }
 
-  checkboxClick(e) {
+  checkboxClick(e, name) {
+    var copy = {...this.state.units};
     if (e.target.checked) {
-      this.state.units.push(e.target.value);
-      this.setState({ units: this.state.units });
+      if (!(name in this.state.units)){
+        copy[name] = [e.target.value]
+      } else {
+        copy[name].push(e.target.value);
+      }
     } else {
-      const result = this.state.units.filter((i) => i !== e.target.value);
-      this.setState({ units: result });
+      copy[name] = copy[name].filter((i) => i !== e.target.value);
+      if (copy[name].length === 0){
+        delete copy[name]
+      }
     }
+    console.log(copy)
+    this.setState({ units: copy });
   }
 
   getQuestion() {
@@ -118,9 +128,10 @@ class App extends React.Component {
     });
     var rawQuestion = this.subjectData.getRandomQuestion();
     this.setState({
-      questionUnit: rawQuestion[0],
-      questionText: rawQuestion[2],
-      questionAnswer: rawQuestion[1],
+      questionCategory: rawQuestion[0],
+      questionUnit: rawQuestion[1],
+      questionText: rawQuestion[3],
+      questionAnswer: rawQuestion[2],
     });
   }
 
@@ -334,17 +345,19 @@ class App extends React.Component {
 
             <div className="ml-10">
               <SubjectHeading text={this.state.subject} />
-              {this.subjectData.units.map((unit, index, arr) => (
-                <Checkbox
-                  name={unit}
-                  id={arr[index]}
-                  onClick={(e) => this.checkboxClick(e)}
-                />
+              {Object.entries(this.subjectData.units).map(([k, v], i) => (
+                <SelectionContainer 
+                  name={k}
+                  id={k}
+                  click={this.checkboxClick.bind(this)}
+                  downIcon={<MdArrowDropDown/>}
+                  upIcon={<MdArrowDropUp />}
+                >{v}</SelectionContainer>
               ))}
               <Button1
                 label="Continue"
                 onClick={() =>
-                  this.state.units.length > 0
+                  Object.keys(this.state.units).length > 0
                     ? this.setState({ currentPage: "Game-Mode-Select" })
                     : 0
                 }
@@ -488,7 +501,13 @@ class App extends React.Component {
                 <QuestionText
                   text={
                     "[" +
-                    this.state.questionUnit +
+                    (this.state.questionCategory === "" ? 
+                      this.state.questionUnit : 
+                      this.state.questionCategory + 
+                      "(" +
+                      this.state.questionUnit +
+                      ")"
+                    ) +
                     "] " +
                     this.state.questionText
                   }

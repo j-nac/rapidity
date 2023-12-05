@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.category-container:not(.active) > *:not(h1){
+    display: none;
+}
+
+.category-container > *:not(h1) {
+    margin-left: 40px;
+}
+
+.category-container.active > h1 > .down-icon{
+    display: none;
+}
+.category-container:not(.active) > h1 > .up-icon{
+    display: none;
+}
+
+.up-icon > *, .down-icon > * {
+    display: inline-block;
+}
