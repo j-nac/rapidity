@@ -209,7 +209,7 @@ class App extends React.Component {
     }
 
     if (this.state.gameMode === "Rapid") {
-      this.setState({ time: 30, displayTime: "00:15" });
+      this.setState({ time: 30, displayTime: "00:30" });
     } else if (this.state.gameMode === "Timed") {
       this.setState({ time: 180, displayTime: "03:00" });
     }
@@ -433,9 +433,12 @@ class App extends React.Component {
                     skipped={this.state.skipped}
                   />
                   <h1 className="text-4xl">{this.state.subject}</h1>
-                  {this.state.units.map((unit) => (
-                    <li className="text-2xl">{unit}</li>
-                  ))}
+                  {Object.entries(this.state.units).map(([unit, categories]) => categories.map((category)=>
+                    unit === "" ? (
+                      <li className="text-2xl">{category}</li>
+                    ) :(
+                      <li className="text-2xl">{unit}({category})</li>
+                  ))).flat()}
                   <div>
                     <Button1
                       label="Retry"
