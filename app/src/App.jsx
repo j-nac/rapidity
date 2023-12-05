@@ -437,7 +437,7 @@ class App extends React.Component {
                     unit === "" ? (
                       <li className="text-2xl">{category}</li>
                     ) :(
-                      <li className="text-2xl">{unit}({category})</li>
+                      <li className="text-2xl">{unit} ({category})</li>
                   ))).flat()}
                   <div>
                     <Button1
@@ -507,7 +507,7 @@ class App extends React.Component {
                     (this.state.questionCategory === "" ? 
                       this.state.questionUnit : 
                       this.state.questionCategory + 
-                      "(" +
+                      " (" +
                       this.state.questionUnit +
                       ")"
                     ) +
