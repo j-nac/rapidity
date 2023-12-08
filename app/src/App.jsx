@@ -74,7 +74,7 @@ class App extends React.Component {
 
   loadServerFile(filePath) {
     console.log(filePath)
-    if (this.queryParameters.get("refresh") === "true") {
+    if (this.queryParameters.get("refresh") === "true" && filePath in REFRESHABLES) {
       filePath = REFRESHABLES[filePath]
     } else {
       filePath = process.env.PUBLIC_URL + "/data/" + filePath
