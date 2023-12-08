@@ -34,6 +34,10 @@ const SUBJECTS_FILEPATHS = {
   "AP Biology": "ap-biology.csv",
 };
 
+const REFRESHABLES = {
+  "ap-government.csv": "https://docs.google.com/spreadsheets/d/1CKj7oSHGEllcSIdrfaeiQQYu_Xnsl23YL9EiYC5p1cU/gviz/tq?tqx=out:csv&sheet=Categorized"
+}
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -64,14 +68,25 @@ class App extends React.Component {
     this.updateTime = this.updateTime.bind(this);
   }
 
+  componentDidMount(){
+    this.queryParameters = new URLSearchParams(window.location.search)
+  }
+
   loadServerFile(filePath) {
+    console.log(filePath)
+    if (this.queryParameters.get("refresh") === "true") {
+      filePath = REFRESHABLES[filePath]
+    } else {
+      filePath = process.env.PUBLIC_URL + "/data/" + filePath
+    }
     var result = null;
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("GET", process.env.PUBLIC_URL + "/data/" + filePath, false);
+    xmlhttp.open("GET", filePath, false);
     xmlhttp.send();
     if (xmlhttp.status === 200) {
       result = xmlhttp.responseText;
     }
+    console.log(result)
     return result;
   }
   setLocalFile({ target }) {
