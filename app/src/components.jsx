@@ -24,7 +24,7 @@ const SubjectTile = ({ subject, icon, styles, onClick }) => {
   return (
     <button
       className={
-        "text-2xl lg:text-4xl border-2 w-60 h-full lg:w-80 lg:h-4/6 p-5 flex-none min-h-min transition " +
+        "text-2xl lg:text-4xl border-2 p-10 w-60 h-full lg:w-80 lg:h-4/6 min-h-min transition " +
         styles
       }
       onClick={onClick}
