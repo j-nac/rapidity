@@ -20,3 +20,7 @@
 .up-icon > *, .down-icon > * {
     display: inline-block;
 }
+.h-screen {
+    height: 100vh;
+    height: -webkit-fill-available;
+}
