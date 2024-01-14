@@ -16,10 +16,14 @@ export default class SubjectData {
     this.units = {}
     for(let i = 0; i < this.data.length; i++){
       if (!(this.data[i][0] in this.units)){
-        this.units[this.data[i][0]] = [this.data[i][1]]
+        this.units[this.data[i][0]] = {}
+        this.units[this.data[i][0]][this.data[i][1]] = 1
       }
-      else if (!(this.units[this.data[i][0]].includes(this.data[i][1]))) {
-        this.units[this.data[i][0]].push(this.data[i][1])
+      else if (!(this.data[i][1] in this.units[this.data[i][0]])) {
+        this.units[this.data[i][0]][this.data[i][1]] = 1
+      }
+      else {
+        this.units[this.data[i][0]][this.data[i][1]] += 1
       }
     }
   }

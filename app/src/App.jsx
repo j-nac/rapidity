@@ -213,6 +213,10 @@ class App extends React.Component {
         this.setState({ incorrect: this.state.incorrect + 1 });
       }
     }
+    else if (e.keyCode === 9) {
+      this.setState({ skipped: this.state.skipped + 1 });
+      this.getQuestion();
+    }
   }
 
   startGame() {

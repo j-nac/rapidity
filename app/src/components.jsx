@@ -38,7 +38,7 @@ const SubjectTile = ({ subject, icon, styles, onClick }) => {
   );
 };
 
-const Checkbox = ({ name, id, onClick }) => {
+const Checkbox = ({ name, count, id, onClick }) => {
   return (
     <>
       <input
@@ -50,7 +50,7 @@ const Checkbox = ({ name, id, onClick }) => {
         className="h-4 w-4 lg:h-8 lg:w-8 appearance-none checked:bg-yellow bg-gray"
       />
       <label for={id} className="text-xl lg:text-4xl ml-5 select-none">
-        {name}
+        {name} ({count} term{ count > 0?"s":"" })
       </label>
       <br />
     </>
@@ -154,9 +154,10 @@ const UploadArea = ({ change }) => {
 };
 
 const SelectionContainer = ({children, name, click, downIcon, upIcon}) => {
-    children = children.map((unit, index, arr) => (
+    children = Object.keys(children).map((unit, index, arr) => (
         <Checkbox
           name={unit}
+          count={children[unit]}
           id={name + "-" + unit}
           onClick={(e) => click(e, name)}
         />
