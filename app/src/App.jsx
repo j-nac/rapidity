@@ -19,6 +19,7 @@ import SubjectData from "./dataProcess";
 import {
   MdOutlinePsychology,
   MdGavel,
+  MdPublic,
   MdBiotech,
   MdArrowCircleUp,
   MdOutlineLocalFireDepartment,
@@ -32,6 +33,7 @@ const SUBJECTS_FILEPATHS = {
   "AP Psychology": "ap-psychology.csv",
   "AP Government": "ap-government.csv",
   "AP Biology": "ap-biology.csv",
+  "AP World": "ap-world.csv",
 };
 
 const REFRESHABLES = {
@@ -296,6 +298,12 @@ class App extends React.Component {
                 onClick={() => this.subjectHandler("AP Government")}
               />
               <SubjectTile
+                subject="AP World"
+                icon={<MdPublic />}
+                styles="bg-orange lg:bg-transparent hover:lg:bg-orange lg:text-orange hover:lg:text-white"
+                onClick={() => this.subjectHandler("AP World")}
+              />
+              <SubjectTile
                 subject="AP Psychology"
                 icon={<MdOutlinePsychology />}
                 styles="bg-magenta lg:bg-transparent hover:lg:bg-magenta lg:text-magenta hover:lg:text-white"
@@ -530,7 +538,7 @@ class App extends React.Component {
                       this.state.questionUnit +
                       ")"
                     ) +
-                    "] " +
+                    "]" +
                     this.state.questionText
                   }
                 />
