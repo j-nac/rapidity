@@ -37,7 +37,7 @@ Trivia,General,270,How many electoral votes are needed to win the presidency?
 Trivia,General,435,How many members of the House of Representatives are there?
 Trivia,General,4 ways laws are created,"Act of Congress, Supreme Court decision, Constitutional Amendments, Executive Order"
 Trivia,General,66.8%; 66%; 67%; 2/3,What percent of voting age Americans voted in the 2020 election?
-Trivia,General,Jay Inslee or Maria Cantwell; Jay Inslee; Inslee; Maria Cantwell; Cantwell; ,Name a major Democrat that endorsed Bob Ferguson
+Trivia,General,Jay Inslee or Maria Cantwell; Jay Inslee; Inslee; Maria Cantwell; Cantwell;,Name a major Democrat that endorsed Bob Ferguson
 Trivia,General,Restorative justice,Seeks to restore from damages and open a dialogue between the perpetrator and victims.
 Trivia,General,Semi Bird or Dave Reichert; Semi Bird; Bird; Dave Reichert; Riechert,Name one of the two republican candidates in the WA state gubernatorial race
 Trivia,General,Social welfare systems; Welfare,"Social security, medicaid, medicare, unemployment, and disability are examples of what?"
@@ -62,7 +62,7 @@ Trivia,Isreal,West Bank,The Palestinian settlement led by the Palestinian Libera
 "Unit 1 - One Republic, Two Americas?",Core,Eminent domain,The ability of the government to take land with just compensation. Allowed in the 5th amendment.
 "Unit 1 - One Republic, Two Americas?",Core,Equality,The political value that everyone is of equal worth.
 "Unit 1 - One Republic, Two Americas?",Core,Government,An institution made to resolve conflicts or allocate benefits. Is the ultimate authority of a society.
-"Unit 1 - One Republic, Two Americas?",Core,Ideology,A comprehensive set of beliefs about the role of government. 
+"Unit 1 - One Republic, Two Americas?",Core,Ideology,A comprehensive set of beliefs about the role of government.
 "Unit 1 - One Republic, Two Americas?",Core,Legistlature,A governmental body responsible for making laws.
 "Unit 1 - One Republic, Two Americas?",Core,Liberalism,"A set of beliefs characterized by positive government action for welfare, support for civil rights, and tolerance for political and social change."
 "Unit 1 - One Republic, Two Americas?",Core,Libertarianism,A political ideology based on skepticism toward government activities.
@@ -189,7 +189,7 @@ Unit 7 - Interest Groups,Core,Interest groups,An organized group of individuals 
 Unit 7 - Interest Groups,Core,Labor Movement,"Generally, the economic and political expression of working-class interests; politically, the organization of working-class interests."
 Unit 7 - Interest Groups,Core,Lobbyist,An organization or individual who attempts to influence legislation and the administrative decisions of government.
 Unit 7 - Interest Groups,Core,Material Incentive; Material,A reason or motive for supporting or participating in the activities of a group based on economic benefits or opportunities.
-Unit 7 - Interest Groups,Core,Purposive Incentive; Purposive,A reason for supporting or participating in the activities of a group based on agreement with the goals of the group. 
+Unit 7 - Interest Groups,Core,Purposive Incentive; Purposive,A reason for supporting or participating in the activities of a group based on agreement with the goals of the group.
 Unit 7 - Interest Groups,Core,Social movement,"A movement that represents the demands of a large segment of the public for political, economic, or social change."
 Unit 7 - Interest Groups,Core,Solidary Incentive; Solidary,A reason or motive for supporting or participating in the activities of a group based on the desire to associate with others and to share with others a particular interest or hobby.
 Unit 7 - Interest Groups,Extended,Hill style politician; Hill style,A politician that pursues personal interests and represents lobbyist.
@@ -198,7 +198,7 @@ Unit 7 - Interest Groups,Extended,Latent Interests,Public-policy interests that 
 Unit 7 - Interest Groups,Extended,Lobbying Disclosure Act; LDA,"An act passed in 1995 that created, among other things, a comprehensive reporting and disclosure structure for lobbyists, prohibited the spending of federal money on lobbying, and, in some cases, limited the percent of spending that can go to lobbying."
 Unit 7 - Interest Groups,Extended,Public Interest,"The best interests of the overall community; the national good, rather than the narrow interests of a particular group."
 Unit 7 - Interest Groups,Extended,Service sector,"The sector of the economy that provides services—such as health care, banking, and education—in contrast to the sector that produces goods."
-Unit 8 - Political Parties,Core,3/4; 75%,What portion of promises made in a party platform eventually become laws?  
+Unit 8 - Political Parties,Core,3/4; 75%,What portion of promises made in a party platform eventually become laws?
 Unit 8 - Political Parties,Core,Dealignment,A decline in party loyalties that reduces long-term party commitment.
 Unit 8 - Political Parties,Core,Democratic Party,One of the two major American political parties. It evolved out of the Republican Party of Thomas Jefferson in the early 1800s after Andrew Jackson caused a party schism.
 Unit 8 - Political Parties,Core,Divided Government,"A situation in which one major political party controls the presidency and the other controls the chambers of Congress, or in which one party controls a state governorship and the other controls the state legislature."
@@ -272,8 +272,6 @@ Unit 10 - Campaigning for Office,Extended,Political Consultant,A paid profession
 Unit 10 - Campaigning for Office,Extended,Pollster,The person or firm who conducts public opinion polls for the campaign.
 Unit 10 - Campaigning for Office,Extended,Spin Doctors,Political campaign advisers who try to convince journalists of hte truth of a particular interpretation of events.
 Unit 10 - Campaigning for Office,Extended,Tracking Poll,A poll taken for the candidate on a nearly daily basis as election day approaches.
-Unit 11 - The Congress,Core,Constituent,One of the persons represented by a legislator or other elected or appointed official.
-Unit 11 - The Congress,Core,Homestyle,The actions and behaviors of a member of Congress aimed at the constituents and intended to win the support and trust of the voters at home.
 Unit 11 - The Congress,Core,Hillstyle,"The actions and behaviors of a member of Congress in Washington, D.C., intended to promote policies and the member's own career aspirations."
 Unit 11 - The Congress,Core,Bicameralism,The division of a legislature into two separate assemblies.
 Unit 11 - The Congress,Core,Lawmaking,The process of establishing the legal rules that govern society.
@@ -295,7 +293,6 @@ Unit 11 - The Congress,Core,Standing Committee,A permanent committee in the Hous
 Unit 11 - The Congress,Core,Select Committee,A temporary legislative committee established for a limited time period and for a special purpose.
 Unit 11 - The Congress,Core,Joint Committee,A legislative committee composed of members from both chambers of Congress.
 Unit 11 - The Congress,Core,Conference Committee,A special joint committee appointed to reconcile differences when bills pass the two chambers of Congress in different forms.
-Unit 11 - The Congress,Core,Seniority System,A custom followed in both chambers of Congress specifying that the member of the majority party with the longest term of continuous service will be given preference when a committee chairperson (or a holder of some other significant post) is selected.
 Unit 11 - The Congress,Core,Safe Seat,A district that returns a legislator with 55 percent of the vote or more.
 Unit 11 - The Congress,Core,Speaker of the House,The presiding officer in the House of Representatives. The Speaker is always a member of the majority party and is the most powerful and influential member of the House.
 Unit 11 - The Congress,Core,Majority Leader of the House,A legislative position held by an important party member in the House of Representatives. The majority leader is selected by the majority party in caucus or conference to foster cohesion among party members and to act as spokesperson for the majority party in the House.
@@ -304,7 +301,6 @@ Unit 11 - The Congress,Core,Whip,A member of Congress who aids the majority or m
 Unit 11 - The Congress,Core,President Pro Tempore,The temporary presiding officer of the Senate in the absence of the vice president.
 Unit 11 - The Congress,Core,Senate Majority Leader,"The chief spokesperson of the majority party in the Senate, who directs the legislative program and party strategy."
 Unit 11 - The Congress,Core,Senate Minority Leader,The party officer in the Senate who commands the minority party's opposition to the policies of the majority party and directs the legislative program and strategy of his or her party.
-Unit 11 - The Congress,Core,Blue Dog Democrats,Members of Congress from more moderate states or districts who sometimes “cross over” to vote with Republicans on legislation.
 Unit 11 - The Congress,Core,Earmarks,Funding appropriations that are specifically designated for a named project in a member's state or district.
 Unit 11 - The Congress,Core,Pork,Special projects or appropriations that are intended to benefit a member's district or state; slang term for earmarks.
 Unit 11 - The Congress,Core,Executive Budget,The budget prepared and submitted by the president to Congress.
@@ -315,6 +311,10 @@ Unit 11 - The Congress,Core,Appropriation,"The passage, by Congress, of a spendi
 Unit 11 - The Congress,Core,First Budget Resolution,A resolution passed by Congress in May that sets overall revenue and spending goals for the following fiscal year.
 Unit 11 - The Congress,Core,Second Budget Resolution,A resolution passed by Congress in September that sets “binding” limits on taxes and spending for the following fiscal year.
 Unit 11 - The Congress,Core,Continuing Resolution,A temporary funding law that Congress passes when an appropriations bill has not been decided by the beginning of the new fiscal year on October 1.
+Unit 11 - The Congress,Extended,Constituent,One of the persons represented by a legislator or other elected or appointed official.
+Unit 11 - The Congress,Extended,Homestyle,The actions and behaviors of a member of Congress aimed at the constituents and intended to win the support and trust of the voters at home.
+Unit 11 - The Congress,Extended,Seniority System,A custom followed in both chambers of Congress specifying that the member of the majority party with the longest term of continuous service will be given preference when a committee chairperson (or a holder of some other significant post) is selected.
+Unit 11 - The Congress,Extended,Blue Dog Democrats,Members of Congress from more moderate states or districts who sometimes “cross over” to vote with Republicans on legislation.
 Unit 11 - The Congress,Extended,Rules Committee,"A standing committee of the House of Representatives that provides special rules under which specific bills can be debated, amended, and considered by the House."
 Unit 11 - The Congress,Extended,Rule,The proposal by the Rules Committee of the House that states the conditions for debate for one piece of legislation.
 Unit 11 - The Congress,Extended,Unanimous Consent Agreement,An agreement on the rules of debate for proposed legislation in the Senate that is approved by all the members.
@@ -324,6 +324,46 @@ Unit 11 - The Congress,Extended,Franking,A policy that enables members of Congre
 Unit 11 - The Congress,Extended,Discharge Petition,A procedure by which a bill in the House of Representatives may be forced (discharged) out of a committee that has refused to report it for consideration by the House. The petition must be signed by an absolute majority (218) of representatives and is used only on rare occasions.
 Unit 11 - The Congress,Extended,Conservative Coalition,An alliance of Republicans and southern Democrats that can form in the House or the Senate to oppose liberal legislation and support conservative legislation.
 Unit 11 - The Congress,Extended,Fiscal Year,"A 12-month period that is used for bookkeeping, or accounting, purposes. Usually doesn't coincide with the calender year."
+Unit 12 - The President,Core,Advice and Consent,Terms in the Constitution describing the U.S. Senate's power to review and approve treaties and presidential appointments.
+Unit 12 - The President,Core,Appointment Power,"The authority vested in the president to fill a government office or position. Positions filled by presidential appointment include those in the executive branch and the federal judiciary, commissioned officers in the armed forces, and members of the independent regulatory commissions."
+Unit 12 - The President,Core,Cabinet,An advisory group selected by the president to aid in making decisions. The cabinet includes the heads of 15 executive departments and others named by the president.
+Unit 12 - The President,Core,Chief Diplomat,"The role of the president in recognizing foreign governments, making treaties, and effecting executive agreements."
+Unit 12 - The President,Core,Chief Executive,The role of the president as head of the executive branch of the government.
+Unit 12 - The President,Core,Chief Legislator,The role of the president in influencing the making of laws.
+Unit 12 - The President,Core,Chief of Staff,The person who is named to direct the White House Office and advise the president.
+Unit 12 - The President,Core,Civil Service,"A collective term for the body of employees working for the government. Generally, this is understood to apply to all those who gain government employment through a merit system."
+Unit 12 - The President,Core,Commander in Chief,The role of the president as supreme commander of the military forces of the United States and of the state National Guard units when they are called into federal service.
+Unit 12 - The President,Core,Constitutional Power,A power vested in the president by Article || of the Constitution.
+Unit 12 - The President,Core,Diplomatic Recognition,The formal acknowledgment of a foreign government as legitimate.
+Unit 12 - The President,Core,Emergency Powers,Inherent powers exercised by the president during a period of national crisis
+Unit 12 - The President,Core,Executive Agreement,"An international agreement made by the president, without senatorial ratification, with the head of a foreign state."
+Unit 12 - The President,Core,Executive Office of the President; EOP,An organization established by President Franklin D. Roosevelt to assist the president in carrying out major duties.
+Unit 12 - The President,Core,Executive Order,"A rule or regulation issued by the president that has the effect of law. Executive orders can implement and give administrative effect to provisions in the Constitution, to treaties, and to statutes."
+Unit 12 - The President,Core,Executive Privilege,The right of executive officials to withhold information from or refuse to appear before a legislative committee or court.
+Unit 12 - The President,Core,Expressed Power,A power of the president that is expressly written into the Constitution or into statutory law.
+Unit 12 - The President,Core,Head of State,The role of the president as ceremonial head of the government.
+Unit 12 - The President,Core,Impeachment,"An action by the House of Representatives to accuse the president, vice president, or other civil officers of the United States of committing “Treason, Bribery, or other high Crimes and Misdemeanors.”"
+Unit 12 - The President,Core,Inherent Powers,Powers of the president derived from the statements in the Constitution that “the executive Power shall be vested in a President” and that the president should “take Care that the Laws be faithfully executed”; defined through practice rather than through law.
+Unit 12 - The President,Core,Kitchen Cabinet,The informal advisers to the president.
+Unit 12 - The President,Core,National Security Council; NSC,An agency in the Executive Office of the President that advises the president on national security.
+Unit 12 - The President,Core,Office of Management and Budget; OMB,"A division of the Executive Office of the President. The OMB assists the president in preparing the annual budget, clearing and coordinating departmental agency budgets, and supervising the administration of the federal budget."
+Unit 12 - The President,Core,Pardon,A release from the punishment for or legal consequences of a crime; a pardon can be granted by the president before or after a conviction.
+Unit 12 - The President,Core,Permanent Campaign,A coordinated and planned strategy carried out by the White House to increase the president's popularity and support.
+Unit 12 - The President,Core,Pocket Veto,"A special veto exercised by the chief executive after a legislative body has adjourned. Bills not signed by the chief executive die after a specified period of time. If Congress wishes to reconsider such a bill, it must be reintroduced in the following session of Congress."
+Unit 12 - The President,Core,policy tsar,A high-ranking member of the Executive Office of the President appopinted to coordinate action in one specific policy area.
+Unit 12 - The President,Core,Reprieve,A formal postponement of the execution of a sentence imposed by a court of law.
+Unit 12 - The President,Core,Signing Statement,"A written declaration that a president may make when signing a bill into law. Usually, such statements point out sections of the law that the president deems unconstitutional."
+Unit 12 - The President,Core,State of the Union Message,An annual message to Congress in which the president proposes a legislative program. The message Is addressed not only to Congress but also to the American people and to the world.
+Unit 12 - The President,Core,Statutory Power,A power created for the president through laws enacted by Congress.
+Unit 12 - The President,Core,Veto Message,The president's formal explanation of a veto when legislation is returned to Congress.
+Unit 12 - The President,Core,War Powers Resolution,A law passed in 1973 spelling out the conditions under which the president can commit troops without congressional approval.
+Unit 12 - The President,Core,White House Office,"The personal office of the president, which tends to presidential political needs and manages the media."
+Unit 12 - The President,Extended,Federal Register,"A publication of the U.S. government that prints executive orders, rules, and regulations."
+Unit 12 - The President,Extended,Line-Item Veto,The power of an executive to veto individual lines or items within a piece of legislation without vetoing the entire bill. (ruled unconstitutional)
+Unit 12 - The President,Extended,Patronage,The practice of rewarding faithful party workers and followers with government employment and contracts.
+Unit 12 - The President,Extended,Twelfth Amendment,"An amendment to the Constitution, adopted in 1804, that specifies the separate election of the president and vice president by the electoral college."
+Unit 12 - The President,Extended,Twenty-fifth Amendment,A 1967 amendment to the Constitution that establishes procedures for filling presidential and vice presidential vacancies and makes provisions for presidential disability.
+Unit 12 - The President,Extended,Washington Community,Individuals regularly involved with politics in Washington D.C.
 ,Supreme Court Cases,Brown v. Board of Education; Brown v. Board,Ruled that segragation in public schools violated the 14th amendment. (1954)
 ,Supreme Court Cases,Buckley v. Valeo,Upheld restrictions on the amount of money an individual can contribute to their campaign but limits on campaign spending is unconstitutional. (1976)
 ,Supreme Court Cases,Dobbs v. Jackson,Overruled Roe v. Wade removing the right to abortion. (2022)
