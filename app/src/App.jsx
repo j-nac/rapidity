@@ -589,7 +589,7 @@ class App extends React.Component {
                 label="Exit game"
                 onClick={() => {
                   this.resetGame();
-                  this.setState({ currentPage: "Game-Mode-Select", correct: this.state.correct + 1 });
+                  this.setState({ currentPage: "Game-Mode-Select" });
                 }}
               />
             </div>
@@ -600,6 +600,7 @@ class App extends React.Component {
                   label="Next"
                   onClick={() => {
                     this.nextCard();
+                    this.setState({ correct: this.state.correct + 1 })
                   }}
                   styles="w-full transition hover:bg-white hover:text-black hover:border-white"
                 />
