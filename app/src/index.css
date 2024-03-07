@@ -34,11 +34,11 @@
 }
 
 .fc-slide.active .fc-back, .fc-slide:not(.active) .fc-front {
-    transition: transform calc(var(--transition-length)/2) ease-in-out calc(var(--transition-length)/2);
+    transition: transform calc(var(--transition-length)/2) ease-in calc(var(--transition-length)/2);
 }
 
 .fc-slide.active .fc-front, .fc-slide:not(.active) .fc-back {
-    transition: transform calc(var(--transition-length)/2) ease-in-out;
+    transition: transform calc(var(--transition-length)/2) ease-in;
 }
 
 .fc-slide:not(.active) .fc-back {
