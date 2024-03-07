@@ -42,9 +42,9 @@
 }
 
 .fc-slide:not(.active) .fc-back {
-    transform: scaleX(0);
+    transform: scaleY(0);
 }
 
 .fc-slide.active .fc-front {
-    transform: scaleX(0);
+    transform: scaleY(0);
 }
