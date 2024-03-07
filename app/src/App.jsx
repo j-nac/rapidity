@@ -13,6 +13,8 @@ import {
   Link,
   UploadArea,
   SelectionContainer,
+  FlashCardFront,
+  FlashCardBack,
 } from "./components";
 import SubjectData from "./dataProcess";
 
@@ -27,6 +29,7 @@ import {
   MdSelfImprovement,
   MdArrowDropDown,
   MdArrowDropUp,
+  MdFilterNone,
 } from "react-icons/md";
 
 const SUBJECTS_FILEPATHS = {
@@ -270,6 +273,24 @@ class App extends React.Component {
     });
     clearInterval(this.timer);
   }
+
+  getQuestionText(){
+    return ("[" +
+      (this.state.questionCategory === "" ? 
+        this.state.questionUnit : 
+        this.state.questionCategory + 
+        " (" +
+        this.state.questionUnit +
+        ")"
+      ) +
+      "] " +
+      this.state.questionText
+    )
+  }
+
+  activate(e) {
+    e.target.classList.toggle("active");
+  }
   
   render() {
     return (
@@ -429,6 +450,15 @@ class App extends React.Component {
                   this.setState({ gameMode: "Zen", currentPage: "Game" });
                 }}
               />
+              <GameModeSelectCard
+                subject="Flash Cards"
+                icon={<MdFilterNone />}
+                styles="bg-dark-azure lg:bg-transparent hover:lg:bg-dark-azure lg:text-dark-azure hover:lg:text-white"
+                onClick={() => {
+                  this.setState({ currentPage: "Cards" });
+                  this.startGame();
+                }}
+              />
             </div>
           </div>
         ) : null}
@@ -529,18 +559,7 @@ class App extends React.Component {
               </div>
               <div className="grow flex flex-col max-w-4xl">
                 <QuestionText
-                  text={
-                    "[" +
-                    (this.state.questionCategory === "" ? 
-                      this.state.questionUnit : 
-                      this.state.questionCategory + 
-                      " (" +
-                      this.state.questionUnit +
-                      ")"
-                    ) +
-                    "]" +
-                    this.state.questionText
-                  }
+                  text={this.getQuestionText()}
                 />
                 <AnswerBox
                   value={this.state.answerText}
@@ -554,6 +573,34 @@ class App extends React.Component {
               </div>
             </div>
           </div>
+        ) : null}
+        {this.state.currentPage === "Cards" ? (
+          <div className="Game fixed bg-black h-screen w-screen flex flex-col">
+            <div>
+              <BackButton
+                label="Exit game"
+                onClick={() => {
+                  this.resetGame();
+                  this.setState({ currentPage: "Game-Mode-Select" });
+                }}
+              />
+            </div>
+            <div className="bottom-0 flex-1 flex flex-col md:flex-row-reverse gap-3 px-10 pb-10 md:pt-10 justify-center">
+              <div className="text-center min-w-fit">
+                <Button1
+                  label="Next"
+                  onClick={() => {
+                    this.getQuestion();
+                  }}
+                  styles="w-full transition hover:bg-white hover:text-black hover:border-white"
+                />
+              </div>
+              <div className="grow max-w-4xl relative fc-slide" onClick={this.activate}>
+                <FlashCardFront text={this.getQuestionText()} />
+                <FlashCardBack text={this.state.questionAnswer.split("; ")[0].trim()} />
+              </div>
+            </div>
+        </div>
         ) : null}
       </div>
     );

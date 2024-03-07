@@ -24,3 +24,23 @@
     height: 100vh;
     height: -webkit-fill-available;
 }
+
+.fc-slide {
+    --transition-length: .4s;
+}
+
+.fc-slide.active .fc-back, .fc-slide:not(.active) .fc-front {
+    transition: transform calc(var(--transition-length)/2) ease-in-out calc(var(--transition-length)/2);
+}
+
+.fc-slide.active .fc-front, .fc-slide:not(.active) .fc-back {
+    transition: transform calc(var(--transition-length)/2) ease-in-out;
+}
+
+.fc-slide:not(.active) .fc-back {
+    transform: scaleY(0);
+}
+
+.fc-slide.active .fc-front {
+    transform: scaleY(0);
+}
