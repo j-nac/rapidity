@@ -29,6 +29,10 @@
     --transition-length: .4s;
 }
 
+.fc-slide.transitioning * {
+    transition: none !important;
+}
+
 .fc-slide.active .fc-back, .fc-slide:not(.active) .fc-front {
     transition: transform calc(var(--transition-length)/2) ease-in-out calc(var(--transition-length)/2);
 }

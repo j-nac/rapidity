@@ -288,8 +288,15 @@ class App extends React.Component {
     )
   }
 
-  activate(e) {
+  flipCard(e) {
     e.target.classList.toggle("active");
+    document.getElementsByClassName("fc-slide")[0].classList.remove("transitioning")
+  }
+
+  nextCard() {
+    document.getElementsByClassName("fc-slide")[0].classList.add("transitioning")
+    document.getElementsByClassName("fc-slide")[0].classList.remove("active")
+    this.getQuestion()
   }
   
   render() {
@@ -590,12 +597,12 @@ class App extends React.Component {
                 <Button1
                   label="Next"
                   onClick={() => {
-                    this.getQuestion();
+                    this.nextCard();
                   }}
                   styles="w-full transition hover:bg-white hover:text-black hover:border-white"
                 />
               </div>
-              <div className="grow max-w-4xl relative fc-slide" onClick={this.activate}>
+              <div className="grow max-w-4xl relative fc-slide" onClick={this.flipCard}>
                 <FlashCardFront text={this.getQuestionText()} />
                 <FlashCardBack text={this.state.questionAnswer.split("; ")[0].trim()} />
               </div>

@@ -90,7 +90,7 @@ const FlashCardFront = ({ text }) => {
 
 const FlashCardBack = ({ text }) => {
   return (
-    <h1 className="select-none pointer-events-none fc-back h-full w-full border-2 p-5 text-xl lg:text-5xl grow flex-1 absolute t-0 text-center">
+    <h1 className="select-none pointer-events-none fc-back h-full w-full border-2 p-5 text-md lg:text-2xl grow flex-1 absolute t-0">
       {text}
     </h1>
   );
