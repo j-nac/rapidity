@@ -196,6 +196,14 @@ const SelectionContainer = ({children, name, click, downIcon, upIcon}) => {
     )
 }
 
+const CompletedWidget = ({text}) => {
+    return (
+        <h3 className="ScoreWidget text-5xl">
+          <span className="text-green">{text}</span>
+        </h3>
+      );
+}
+
 export {
   TitleText,
   Button1,
@@ -213,4 +221,5 @@ export {
   Link,
   UploadArea,
   SelectionContainer,
+  CompletedWidget,
 };

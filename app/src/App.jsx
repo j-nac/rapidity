@@ -15,6 +15,7 @@ import {
   SelectionContainer,
   FlashCardFront,
   FlashCardBack,
+  CompletedWidget,
 } from "./components";
 import SubjectData from "./dataProcess";
 
@@ -588,12 +589,13 @@ class App extends React.Component {
                 label="Exit game"
                 onClick={() => {
                   this.resetGame();
-                  this.setState({ currentPage: "Game-Mode-Select" });
+                  this.setState({ currentPage: "Game-Mode-Select", correct: this.state.correct + 1 });
                 }}
               />
             </div>
             <div className="bottom-0 flex-1 flex flex-col md:flex-row-reverse gap-3 px-10 pb-10 md:pt-10 justify-center">
               <div className="text-center min-w-fit">
+                <CompletedWidget text={this.state.correct} />
                 <Button1
                   label="Next"
                   onClick={() => {
