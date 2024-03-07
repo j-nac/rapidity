@@ -31,6 +31,7 @@ export default class SubjectData {
   init() {
     this.loadSubjectData();
     this.getUnits();
+    this.card_index = 0;
   }
 
   instantiateRun(units) {
@@ -39,7 +40,12 @@ export default class SubjectData {
   }
 
   instantiateQuestions() {
-    this.questions = this.data.filter((a) => a[0] in this.selectedUnits && this.selectedUnits[a[0]].includes(a[1]));
+    this.questionTemplate = this.data.filter((a) => a[0] in this.selectedUnits && this.selectedUnits[a[0]].includes(a[1]));
+    this.resetQuestions()
+  }
+
+  resetQuestions() {
+    this.questions = [...this.questionTemplate]
     for (let i = this.questions.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [this.questions[i], this.questions[j]] = [
@@ -51,8 +57,18 @@ export default class SubjectData {
 
   getRandomQuestion() {
     if (this.questions.length === 0) {
-      this.instantiateQuestions();
+      this.resetQuestions();
     }
     return this.questions.pop();
+  }
+
+  getNextQuestion() {
+    this.card_index = (this.card_index + 1) % this.questionTemplate.length
+    return this.questionTemplate[this.card_index]
+  }
+
+  getLastQuestion() {
+    this.card_index = (this.card_index - 1) % this.questionTemplate.length
+    return this.questionTemplate[this.card_index]
   }
 }

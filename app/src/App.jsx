@@ -79,7 +79,6 @@ class App extends React.Component {
   }
 
   loadServerFile(filePath) {
-    console.log(filePath)
     if (this.queryParameters.get("refresh") === "true" && filePath in REFRESHABLES) {
       filePath = REFRESHABLES[filePath]
     } else {
@@ -138,7 +137,7 @@ class App extends React.Component {
         delete copy[name]
       }
     }
-    console.log(copy)
+
     this.setState({ units: copy });
   }
 
@@ -154,6 +153,27 @@ class App extends React.Component {
       questionText: rawQuestion[3],
       questionAnswer: rawQuestion[2],
     });
+  }
+
+  nextCard(){
+    var rawQuestion = this.subjectData.getNextQuestion();
+    this.setState({
+      questionCategory: rawQuestion[0],
+      questionUnit: rawQuestion[1],
+      questionText: rawQuestion[3],
+      questionAnswer: rawQuestion[2],
+    });
+  }
+
+  lastCard(){
+    var rawQuestion = this.subjectData.getLastQuestion();
+    this.setState({
+      questionCategory: rawQuestion[0],
+      questionUnit: rawQuestion[1],
+      questionText: rawQuestion[3],
+      questionAnswer: rawQuestion[2],
+    });
+
   }
 
   levenshtein(text0, text1) {
@@ -294,10 +314,16 @@ class App extends React.Component {
     document.getElementsByClassName("fc-slide")[0].classList.remove("transitioning")
   }
 
-  nextCard() {
+  transitionCardForward() {
     document.getElementsByClassName("fc-slide")[0].classList.add("transitioning")
     document.getElementsByClassName("fc-slide")[0].classList.remove("active")
-    this.getQuestion()
+    this.nextCard()
+  }
+
+  transitionCardBackward() {
+    document.getElementsByClassName("fc-slide")[0].classList.add("transitioning")
+    document.getElementsByClassName("fc-slide")[0].classList.remove("active")
+    this.lastCard()
   }
   
   render() {
@@ -599,8 +625,17 @@ class App extends React.Component {
                 <Button1
                   label="Next"
                   onClick={() => {
-                    this.nextCard();
+                    this.transitionCardForward();
                     this.setState({ correct: this.state.correct + 1 })
+                  }}
+                  styles="w-full transition hover:bg-white hover:text-black hover:border-white"
+                />
+                <Button1
+                  label="Back"
+                  onClick={() => {
+                    if (this.subjectData.card_index <= 0) { return }
+                    this.transitionCardBackward();
+                    this.setState({ correct: this.state.correct - 1 })
                   }}
                   styles="w-full transition hover:bg-white hover:text-black hover:border-white"
                 />
