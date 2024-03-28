@@ -1,486 +1,540 @@
-Unit,Category,Term,Definition
-Ammendments,Bill of Rights,Amendment I; Amendment 1; 1; 1st Amendment,"Freedom of religion, speech, press, assembly, and petition. (1791)"
-Ammendments,Bill of Rights,Amendment II; Amendment 2; 2; 2nd Amendment,Right to bear arms. (1791)
-Ammendments,Bill of Rights,Amendment III; Amendment 3; 3; 3rd Anendment,Right to not quarter soldiers (except in times of war as perscribed by law). (1791)
-Ammendments,Bill of Rights,Amendment IV; Amendment 4; 4; 4th Amendment,"Right against unreasonable search and seizure, outlines proper warrents. (1791)"
-Ammendments,Bill of Rights,Amendment IX; Amendment 9; 9; 9th Amendment,Rights given in the Bill of Rights don't block other rights. (1791)
-Ammendments,Bill of Rights,Amendment V; amendment 5; 5; 5th Amendment,"Right to due process, against double jeopardy, against self incrimination. Outlines due process and eminent domain. (1791)"
-Ammendments,Bill of Rights,Amendment VI; Amendment 6; 6; 6th Amendment,"Right to a speedy public trial by an impartial jury, right to question witnesses, right to council. (1791)"
-Ammendments,Bill of Rights,Amendment VII; Amendment 7; 7; 7th Amendment,Right to a jury in civil trials over $20. Juries cannot be overruled by a court in a manner that doesn't follow common law. (1791)
-Ammendments,Bill of Rights,Amendment VIII; Amendment 8; 8; 8th Amendment,"Right against cruel and unusual punishment, right against excessive fines and fees. (1791)"
-Ammendments,Bill of Rights,Amendment X; Amendment 10; 10; 10th Amendment,"Any power not given to the federal government, nor prohibited to the states, is given to the states and the people. (1791)"
-Ammendments,Later Amendments,Amendment XI; Amendment 11; 11; 11th Amendment,You must be a citizen of a state to sue said state in federal court. (1794)
-Ammendments,Later Amendments,Amendment XII; Amendment 12; 12; 12th Amendment,Separates the race for the president and the vice president. (1804)
-Ammendments,Later Amendments,Amendment XIII; Amendment 13; 13; 13th Amendment,Ended slavery and involentary bondage in the US (except for in prison). (1865)
-Ammendments,Later Amendments,Amendment XIV; Amendment 14; 14; 14th Amendment,States cannot deprive rights and due process for all citizens. Responsible for incorporation theory applying the Bill of Rights to states. Later used for birthright citizenship. (1868)
-Ammendments,Later Amendments,Amendment XIX; Amendment 19; 19; 19th Amendment,Gives women's suffrage. (1920)
-Ammendments,Later Amendments,Amendment XV; Amendment 15; 15; 15th Amendment,Gives universal manhood suffrage. (1870)
-Ammendments,Later Amendments,Amendment XVI; Amendment 16; 16; 16th Amendment,Instates income tax. (1913)
-Ammendments,Later Amendments,Amendment XVII; Amendment 17; 17; 17th Amendment,Allows the public to vote for the senate. (1913)
-Ammendments,Later Amendments,Amendment XVIII; Amendment 18; 18; 18th Amendment,Begins prohibition. (1919)
-Ammendments,Later Amendments,Amendment XX; Amendment 20; 20; 20th Amendment,The lame duck ammendment - moves the start and end of terms to lessen time between election and appointment. (1933)
-Ammendments,Later Amendments,Amendment XXI; Amendment 21; 21; 21st Amendment,Ends prohibition. (1933)
-Ammendments,Later Amendments,Amendment XXII; Amendment 22; 22; 22nd Amendment,Instates a limit on presidency - either two terms or 10 years. (1951)
-Ammendments,Later Amendments,Amendment XXIII; Amendment 23; 23; 23rd Amendment,Gives Washington DC three votes in the presidential election. (1961)
-Ammendments,Later Amendments,Amendment XXIV; Amendment 24; 24; 24th Amendment,Forbids poll taxes. (1964)
-Ammendments,Later Amendments,Amendment XXV; Amendment 25; 25; 25th Amendment,Outlines succession of the presidency (to the VP) and how a president unable to perform their duties may be removed. (1967)
-Ammendments,Later Amendments,Amendment XXVI; Amendment 26; 26; 26th Amendment,Allows 18 year olds to vote. Instated during the Vietnam War. (1971)
-Ammendments,Later Amendments,Amendment XXVII; Amendment 27; 27; 27th Amendment,Denies any laws that vary the salaries of Congress members until the beginning of the next terms of office for Representatives
-Trivia,General,37%,What was the voter turnout in the 2023 snohomish elections?
-Trivia,General,1,How many Hispanic people are on the Supreme court?
-Trivia,General,2,How many African Americans are on the Supreme court?
-Trivia,General,2,The number of senators per state.
-Trivia,General,4,How many women are on the Supreme court?
-Trivia,General,6,How many conservatives are on the Supreme court?
-Trivia,General,10,The number of House of Representative members from Washington.
-Trivia,General,270,How many electoral votes are needed to win the presidency?
-Trivia,General,435,How many members of the House of Representatives are there?
-Trivia,General,4 ways laws are created,"Act of Congress, Supreme Court decision, Constitutional Amendments, Executive Order"
-Trivia,General,66.8%; 66%; 67%; 2/3,What percent of voting age Americans voted in the 2020 election?
-Trivia,General,Jay Inslee or Maria Cantwell; Jay Inslee; Inslee; Maria Cantwell; Cantwell;,Name a major Democrat that endorsed Bob Ferguson
-Trivia,General,Restorative justice,Seeks to restore from damages and open a dialogue between the perpetrator and victims.
-Trivia,General,Semi Bird or Dave Reichert; Semi Bird; Bird; Dave Reichert; Riechert,Name one of the two republican candidates in the WA state gubernatorial race
-Trivia,General,Social welfare systems; Welfare,"Social security, medicaid, medicare, unemployment, and disability are examples of what?"
-Trivia,General,To find out who's not here and more importantly who's here.,Why does Dremousis do attendance?
-Trivia,House of Representatives,Kevin McCarthy; McCarthy,Former House speaker ousted by vote of no confidence by six Republican votes.
-Trivia,House of Representatives,Matt Gaetz; Gaetz,Led removal of Speaker McCarthy.
-Trivia,House of Representatives,Mike Johnson; Johnson,Current Speaker of the House
-Trivia,Isreal,Gaza strip; Gaza,The Palestinian settlement which is mostly led by Hamas.
-Trivia,Isreal,Hamas,What is the name of the terrorist group associated with the Palestinians which has recently gotten into war against the Israeli government?
-Trivia,Isreal,Iran,Govenment that majorly funds Hamas.
-Trivia,Isreal,Mahmoud Abbas; Abbas,Head of the recognized Palestinian government.
-Trivia,Isreal,West Bank,The Palestinian settlement led by the Palestinian Liberation Organization.
-"Unit 1 - One Republic, Two Americas?",Core,Anarchy,The absence of political institutions.
-"Unit 1 - One Republic, Two Americas?",Core,Aristocracy,A form of government in which power is held by the nobility.
-"Unit 1 - One Republic, Two Americas?",Core,Authoritarianism,A form of government where power is intensely concentrated in the few. Allows some non-government-controlled social and economic institutions.
-"Unit 1 - One Republic, Two Americas?",Core,Capitalism,An economic system characterized by private ownership and free markets.
-"Unit 1 - One Republic, Two Americas?",Core,Conservatism,"A set of beliefs characterized by minimizing the role of national government in welfare, supporting traditional values, and a cautious response to change."
-"Unit 1 - One Republic, Two Americas?",Core,Democracy,A type of government where authority is given to the people as a whole.
-"Unit 1 - One Republic, Two Americas?",Core,Democratic republic,A republic in which elected representatives make and enforce laws and policies.
-"Unit 1 - One Republic, Two Americas?",Core,Direct democracy,A system of government where people directly make decisions rather than elected officials. Typically found in smaller communities.
-"Unit 1 - One Republic, Two Americas?",Core,Elite theory,The perspective that society is ruled by a small number of people who exercise power to further their own interests.
-"Unit 1 - One Republic, Two Americas?",Core,Eminent domain,The ability of the government to take land with just compensation. Allowed in the 5th amendment.
-"Unit 1 - One Republic, Two Americas?",Core,Equality,The political value that everyone is of equal worth.
-"Unit 1 - One Republic, Two Americas?",Core,Government,An institution made to resolve conflicts or allocate benefits. Is the ultimate authority of a society.
-"Unit 1 - One Republic, Two Americas?",Core,Ideology,A comprehensive set of beliefs about the role of government.
-"Unit 1 - One Republic, Two Americas?",Core,Legistlature,A governmental body responsible for making laws.
-"Unit 1 - One Republic, Two Americas?",Core,Liberalism,"A set of beliefs characterized by positive government action for welfare, support for civil rights, and tolerance for political and social change."
-"Unit 1 - One Republic, Two Americas?",Core,Libertarianism,A political ideology based on skepticism toward government activities.
-"Unit 1 - One Republic, Two Americas?",Core,Limited government,"The principle that government powers should be limited, usually by institutional checks."
-"Unit 1 - One Republic, Two Americas?",Core,Majority,More than half.
-"Unit 1 - One Republic, Two Americas?",Core,Oligarchy,Rule by the few; a government run by a small group of people for corrupt and self-serving purposes.
-"Unit 1 - One Republic, Two Americas?",Core,Politics,The process of resolving conflicts. Understanding the struggle for power.
-"Unit 1 - One Republic, Two Americas?",Core,Recall,A procedure for people to vote to remove an official from office.
-"Unit 1 - One Republic, Two Americas?",Core,Referendum,When decisions on legistlative or constitutional measures are referred from the legistlature to the people.
-"Unit 1 - One Republic, Two Americas?",Core,Representative democracy,A form of government in which representatives are elected by the people to make and enforce laws; may retain monarchy in a ceremonial role.
-"Unit 1 - One Republic, Two Americas?",Core,Republic,A form of government where soverignty rests with the people rather than a king or monarch.
-"Unit 1 - One Republic, Two Americas?",Core,Social contract,A theory of politics asserting that individuals form political communities and give up some personal liberty for the protection from a government.
-"Unit 1 - One Republic, Two Americas?",Core,Socialism,A political ideology based on strong support for economic and social equality.
-"Unit 1 - One Republic, Two Americas?",Core,Totalitarian regime,A form of government that controls all aspects of politicals and social life.
-"Unit 1 - One Republic, Two Americas?",Core,Universal suffrage,The right of all adults to vote for their representatives.
-"Unit 1 - One Republic, Two Americas?",Extended,Divine right of kings,A political and religious doctrine asserting that a monarch's power is handed directly by God and is not subject to an earthly authority.
-"Unit 1 - One Republic, Two Americas?",Extended,Hispanic,Term used more often by government agencies. Describes individuals claiming heritage from a Spanish-speaking country other than Spain.
-"Unit 1 - One Republic, Two Americas?",Extended,Initiative,A procedure in which citizens can propose a law or amendment.
-"Unit 1 - One Republic, Two Americas?",Extended,Institution,An ongoing organization that performs functions in a society.
-"Unit 1 - One Republic, Two Americas?",Extended,Latino,Preferred term for individuals claiming heritage from a Spanish-speaking country other than Spain.
-"Unit 1 - One Republic, Two Americas?",Extended,Liberty,Maximizing the freedom of individuals without violating the freedom of other individuals in a society.
-"Unit 1 - One Republic, Two Americas?",Extended,Majoritarianism,"The political theory that in a democracy, government ought to do what the majority of people want."
-"Unit 1 - One Republic, Two Americas?",Extended,Majority rule,The principle of democracy that the greatest number of citizens should select officials and determine policies.
-"Unit 1 - One Republic, Two Americas?",Extended,Order,A state of peace and security.
-"Unit 1 - One Republic, Two Americas?",Extended,Pluralism,A theory viewing politics as conflict among various interest groups. Decision making through bargaining and compromise.
-"Unit 1 - One Republic, Two Americas?",Extended,Political culture,"The set of ideas, values, and ways of thinking about government and politics shared by citizens."
-"Unit 1 - One Republic, Two Americas?",Extended,Political socialization,"The process through which individuals form political attitudes and opinions, often from families and education."
-"Unit 1 - One Republic, Two Americas?",Extended,Property,Anything subject to ownership.
-Unit 2 - The Constitution,Core,Anti-federalist,Opposed the new Constitution in 1787 and in general opposed a strong central goverment.
-Unit 2 - The Constitution,Core,Bicameral legislature; Bicameral,"A legislature with two chambers. In the US, the Senate and House of Representatives."
-Unit 2 - The Constitution,Core,Checks and balances,The principle of government where the actions of one branch are checked by the others.
-Unit 2 - The Constitution,Core,Electoral college,The system of voting for president and vice president where electors from each state and DC cast votes. The number of electors per state is equal to the number of representatives in both chambers of Congress.
-Unit 2 - The Constitution,Core,Federal system,A system of government where power is divided by a central and regional governments where both have some domain where their policies are dominant.
-Unit 2 - The Constitution,Core,Federalist,Supported the adoption of the Constitution and the creation of a federal union with a strong central government.
-Unit 2 - The Constitution,Core,Great compromise; Connecticut compromise,The compromise between the New Jersey and Virginia plans for two chambers with one based on population and another having equal representation among states.
-Unit 2 - The Constitution,Core,Madisonian model,"The structure of government proposed by James Madison for three branches: legistlative, executive, and judicial."
-Unit 2 - The Constitution,Core,Natural rights,"Rights held to be inherent and not dependent on governments. ""Life, liberty, and the pursuit of happiness"""
-Unit 2 - The Constitution,Core,Representative assembly,A legislature consisting of individuals who represent the population.
-Unit 2 - The Constitution,Core,Separation of powers,The principle of dividing powers among different branches of government.
-Unit 2 - The Constitution,Core,Supremacy clause,Asserts the priority of national laws over state laws.
-Unit 2 - The Constitution,Core,Unicameral legistlature; Unicameral,A legistlature with only one chamber. Nebraska is the only state in the Union that features this.
-Unit 2 - The Constitution,Extended,Confederation,A political system of independent states that have ultimate authority except for powers they delegate to a central government; a voluntary association of states with few limits on the action of states.
-Unit 2 - The Constitution,Extended,Ratification,Formal approval.
-Unit 2 - The Constitution,Extended,State,A group of people occupying a specific area organized under one government.
-Unit 3 - Federalism,Core,Commerce clause,"The United States Congress shall have power ""to regulate Commerce with foreign Nations, and among the several States, and with the Indian Tribes"""
-Unit 3 - Federalism,Core,Concurrent powers,"Powers held jointly by the national and state governments. Ex. power to tax, borrow funds, establish courts, and charter banks."
-Unit 3 - Federalism,Core,Dual federalism,A system in which states and the federal government are viewed as two separate and independent spheres which should not interfere with each other. They should not exercise authority in the same areas.
-Unit 3 - Federalism,Core,Elastic clause; Necessary and proper clause; Article 1 section 8,Allows the federal government to stretch interpretations of the law to do what is necessary for the government to run. Allowed for the creation of the national bank and department of homeland security.
-Unit 3 - Federalism,Core,Federalism,A system of government in which power is divided into a central government and regional governments or subunits. Each level has some domain in which its policies are dominant.
-Unit 3 - Federalism,Core,Full faith and credit clause,The section of the Constitution requiring states to recognize other states' laws and court decisions.
-Unit 3 - Federalism,Core,Interstate compact,An agreement between two or more states. May require approval from Congress if it gives an advantage to contracting states relative to other states or the national government. Used to resolve regional problems.
-Unit 3 - Federalism,Core,Picket-fence federalism,A model of federalism where all policies (the vertical pickets) involve and are supported by all levels of government (the horizontal boards).
-Unit 3 - Federalism,Core,Supremacy clause; Supremacy,Art. VI. The Constitution and federal laws are superior to conflicting state and local laws.
-Unit 3 - Federalism,Core,Unitary system; Unitary,A system of centralized government in which subdivisional governments only exercise powers handed down from the central government.
-Unit 3 - Federalism,Extended,Block grants; Block,Federal grants to state or local governments for general functional areas such as criminal justice or mental health programs. Groups several categorical grants in one and provides more flexibility.
-Unit 3 - Federalism,Extended,Categorical grants; Categorical,"Federal grants to state or local governments for specific programs. Includes Medicaid, highway construction, unemployment benefits, and housing assistance."
-Unit 3 - Federalism,Extended,Confederal system,A system consisting of a league of independent states with soverign powers. The central government created has limited powers over the states.
-Unit 3 - Federalism,Extended,Cooperative federalism,The theory that states and the national government should cooperate to solve problems.
-Unit 3 - Federalism,Extended,Devolution,The transfer of national or central government powers to state or local government.
-Unit 3 - Federalism,Extended,Extradite,To surrender an accused or convicted criminal to the authorities of which the person has fled; to return to the jurisdiction of the accusing state.
-Unit 3 - Federalism,Extended,Federal mandate,Federal legistlation that forces states and municipalities to comply with certain rules.
-Unit 3 - Federalism,Extended,Police power,"The authority to legistlate the protection of health, morals, safety, and welfare of the people. Mostly reserved for states in the US."
-Unit 3 - Federalism,Extended,Privileges and immunities,Special rights and excemptions provided by the law. States may not discriminate against the citzens of another state. Ex. a student from Oregon attending school at UW is given the same right as Washingtonians to hold a job and travel freely.
-Unit 4 - Civil Liberties,Core,Civil liberties,"Freedoms that protect individuals, usually by restraining the actions of governments against individuals."
-Unit 4 - Civil Liberties,Core,Clear and present danger test,A test proposed by Justice Oliver Wendell Holmes. Free speech can be restricted when there is a clear and present danger to the public order.
-Unit 4 - Civil Liberties,Core,Commercial speech,Advertising statements. Have increasingly been given 1st amendment protections.
-Unit 4 - Civil Liberties,Core,Establisment clause,Prohibits the federal government from establishing and officially supporting a church. Guarantees separation of church and state.
-Unit 4 - Civil Liberties,Core,Exclusionary rule,Illegally obtained evidence cannot be used. Similar to the legal principle of fruit of the poisonous tree.
-Unit 4 - Civil Liberties,Core,Free exercise clause,Prohibits the government from constraining the exercise of religion.
-Unit 4 - Civil Liberties,Core,Incorporation theory; Incorporation,The idea that protections in Bill of Rights applies to states through the 14th Amendment's due process clause.
-Unit 4 - Civil Liberties,Core,Libel,"Written defamation of a person's character, reputation, business, or property rights."
-Unit 4 - Civil Liberties,Core,Slander,A public statement that is false and harms the good reputation of another made to persons other than the defamed party.
-Unit 4 - Civil Liberties,Core,Symbolic speech,Nonverbal expression of beliefs. Often given substantial protection by the courts.
-Unit 4 - Civil Liberties,Extended,Actual malice,Either a person's (1) knowledge of the falsity of a defamatory statement or (2) reckless disregard for the truth.
-Unit 4 - Civil Liberties,Extended,Defamation of character; Defamation,Wrongfully hurting one's good reputation.
-Unit 4 - Civil Liberties,Extended,Gag order; Gag,An order issued by a judge to restrict news coverage of a trial to protect the accused's right to a fair trial.
-Unit 4 - Civil Liberties,Extended,Prior restraint,Restraining an activity before it has occurred. Called censorship when expression is involved.
-Unit 4 - Civil Liberties,Extended,Public figure,A public official or celebrity known to the public.
-Unit 5 - Civil Rights,Core,Affirmative action,Policy in admissions or hiring to give special attention to disadvantaged groups with the goal of overcoming present effects of past discrimination.
-Unit 5 - Civil Rights,Core,Black Codes,Laws passed by southern states immediately after the civil war denying most legal rights to freed slaves.
-Unit 5 - Civil Rights,Core,Busing,"In the context of civil rights, the transportation of public school students from areas where they live to schools in other areas to eliminate school segregation based on residential racial patterns."
-Unit 5 - Civil Rights,Core,Grandfather clause,Used by Southern states to disenfranchize Black voters by restricting voting to those whose grandfathers had voted before 1867.
-Unit 5 - Civil Rights,Core,Hate crime,"A criminal offense against a person or property that is motivated by bias against some protected trait such as race, gender identity, or religion."
-Unit 5 - Civil Rights,Core,Jim Crow laws,Laws enacted by Southern states to enforce segregation.
-Unit 5 - Civil Rights,Core,Literacy test,"A test administered as a precondition for voting, often used to prevent African Americans from voting."
-Unit 5 - Civil Rights,Core,Poll tax,A tax that must be paid to qualify for voting. Outlawed in the 24th amendment for national elections and in 1966 declared unconstitutional in all elections by the Supreme Court.
-Unit 5 - Civil Rights,Core,Reparation,"Compensation, both monetary or nonmonetary in the form of an apology, to make amends for harm caused."
-Unit 5 - Civil Rights,Core,Separate-but-equal doctrine,The 1896 doctrine that separate facilities could be offered without violating the equal protection clause. From Plessy v. Ferguson.
-Unit 5 - Civil Rights,Core,Subpoena,A legal writ requiring one to appear in court to give testimony.
-Unit 5 - Civil Rights,Extended,Civil disobedience,"Nonviolent, public refusal to obey allegedly unjust laws."
-Unit 5 - Civil Rights,Extended,Civil rights,The right to equal treatment under the law as guaranteed by the Fourteenth Amendment.
-Unit 5 - Civil Rights,Extended,De facto segregation,Racial segregation due to past conditions and residential racial patterns.
-Unit 5 - Civil Rights,Extended,De jure segregation,Racial segregation due to laws or policies by publuc agencies.
-Unit 5 - Civil Rights,Extended,Feminism,The philosophy of achieving social equality for women and gender consciousness to mobilize women for change.
-Unit 5 - Civil Rights,Extended,Gender discriminiation,The practice of denying equal treatment on the basis of sex.
-Unit 5 - Civil Rights,Extended,Reverse discrimination,Accuses affirmative action of discriminating against those who do not have minority status.
-Unit 5 - Civil Rights,Extended,Sexual harassment,"Unwanted physical or verbal conduct, sexual in nature, that interferes with one's ability to work or carries other negative consequences."
-Unit 5 - Civil Rights,Extended,Suffrage,The right to vote.
-Unit 5 - Civil Rights,Extended,White primary,A state primary election that restricts voting to whites only; outlawed by the Supreme Court in 1944.
-Unit 6 - Political Socialization,Core,Gender gap,"Women are more likely to support Democratic candidates, while men are more likely to support Republican ones."
-Unit 6 - Political Socialization,Core,Generational effect,Different generations tend to form different opinions on events with long-lasting consequences.
-Unit 6 - Political Socialization,Core,Life Cycle Effect,"Older people tend to take more conservative stances, while younger people take more liberal ones."
-Unit 6 - Political Socialization,Core,Managed news,Information generated and distributed by the government in such a way as to give government interests priority over candor.
-Unit 6 - Political Socialization,Core,Opinion leader,"One who is able to influence the opinions of others because of position, expertise, or personality."
-Unit 6 - Political Socialization,Core,Opinion poll,"A method of systematically questioning a small, selected sample of respondents who are deemed representative of the total population."
-Unit 6 - Political Socialization,Core,Peer group,A group consisting of members sharing common social characteristics. Play an important part in shaping opinions.
-Unit 6 - Political Socialization,Core,Political Socialization,The process by which people acquire political beliefs and atitudes.
-Unit 6 - Political Socialization,Core,Socioeconomic Status,The social standing or economic class of an individual or group.
-Unit 6 - Political Socialization,Extended,Agenda setting,Determining which public policy questions will be debated or considered.
-Unit 6 - Political Socialization,Extended,Concensus,General agreement among the citizenry on an issue.
-Unit 6 - Political Socialization,Extended,Divisive opinion,Public opinion that is polarized between two quite different opinions.
-Unit 6 - Political Socialization,Extended,Media,Channels of mass communication.
-Unit 6 - Political Socialization,Extended,NonOpinion,An issue on which not enough people are informed or care to form a public opinion.
-Unit 6 - Political Socialization,Extended,Political Trust,The population's confidence in the government.
-Unit 6 - Political Socialization,Extended,Public Opinion,The aggregate of individual attitudes or beliefs by some portion of the adult population.
-Unit 6 - Political Socialization,Extended,Sampling Error,The difference between a sample's results and the true result if the entire population had been interviewed.
-Unit 6 - Political Socialization,Extended,Watergate Break-in; Watergate Scandal; Watergate,President Nixon's administration broke into the Democratic National Committee headquarters at the Watergate Office Building.
-Unit 7 - Interest Groups,Core,Boycott,A form of pressure or protest—an organized refusal to purchase a particular product or deal with a particular business.
-Unit 7 - Interest Groups,Core,Climate Control,"The use of public relations techniques to create favorable public opinion toward an interest group, industry, or corporation."
-Unit 7 - Interest Groups,Core,Direct Technique; Direct,An interest group activity that involves interaction with government officials to further the group's goals.
-Unit 7 - Interest Groups,Core,Free Rider Problem,The difficulty interest groups face in recruiting members when the benefits they achieve can be gained without joining the group.
-Unit 7 - Interest Groups,Core,Indirect Technique; Indirect,A strategy employed by interest groups that uses third parties to influence government officials.
-Unit 7 - Interest Groups,Core,Interest groups,An organized group of individuals sharing common objectives who actively attempt to influence policymakers.
-Unit 7 - Interest Groups,Core,Labor Movement,"Generally, the economic and political expression of working-class interests; politically, the organization of working-class interests."
-Unit 7 - Interest Groups,Core,Lobbyist,An organization or individual who attempts to influence legislation and the administrative decisions of government.
-Unit 7 - Interest Groups,Core,Material Incentive; Material,A reason or motive for supporting or participating in the activities of a group based on economic benefits or opportunities.
-Unit 7 - Interest Groups,Core,Purposive Incentive; Purposive,A reason for supporting or participating in the activities of a group based on agreement with the goals of the group.
-Unit 7 - Interest Groups,Core,Social movement,"A movement that represents the demands of a large segment of the public for political, economic, or social change."
-Unit 7 - Interest Groups,Core,Solidary Incentive; Solidary,A reason or motive for supporting or participating in the activities of a group based on the desire to associate with others and to share with others a particular interest or hobby.
-Unit 7 - Interest Groups,Extended,Hill style politician; Hill style,A politician that pursues personal interests and represents lobbyist.
-Unit 7 - Interest Groups,Extended,Home style politician; Home style,A politician that represents the people.
-Unit 7 - Interest Groups,Extended,Latent Interests,Public-policy interests that are not recognized or addressed by a group at a particular time.
-Unit 7 - Interest Groups,Extended,Lobbying Disclosure Act; LDA,"An act passed in 1995 that created, among other things, a comprehensive reporting and disclosure structure for lobbyists, prohibited the spending of federal money on lobbying, and, in some cases, limited the percent of spending that can go to lobbying."
-Unit 7 - Interest Groups,Extended,Public Interest,"The best interests of the overall community; the national good, rather than the narrow interests of a particular group."
-Unit 7 - Interest Groups,Extended,Service sector,"The sector of the economy that provides services—such as health care, banking, and education—in contrast to the sector that produces goods."
-Unit 8 - Political Parties,Core,3/4; 75%,What portion of promises made in a party platform eventually become laws?
-Unit 8 - Political Parties,Core,Dealignment,A decline in party loyalties that reduces long-term party commitment.
-Unit 8 - Political Parties,Core,Democratic Party,One of the two major American political parties. It evolved out of the Republican Party of Thomas Jefferson in the early 1800s after Andrew Jackson caused a party schism.
-Unit 8 - Political Parties,Core,Divided Government,"A situation in which one major political party controls the presidency and the other controls the chambers of Congress, or in which one party controls a state governorship and the other controls the state legislature."
-Unit 8 - Political Parties,Core,Electoral College,"A group of persons, called electors, who are selected by the voters in each state. This group officially elects the president and the vice president of the United States."
-Unit 8 - Political Parties,Core,Factions,A group or bloc in a legislature or political party acting in pursuit of some special interest or position.
-Unit 8 - Political Parties,Core,Gridlock; Deadlock,A situation when there is difficulty passing laws that satisfy the needs of the people. Often comes as a result of a divided government.
-Unit 8 - Political Parties,Core,Independent,A voter or candidate who does not identify with a political party.
-Unit 8 - Political Parties,Core,National Convention,"The meeting held every four years by each major party to select presidential and vice presidential candidates, to write a platform, to choose a national committee, and to conduct party business."
-Unit 8 - Political Parties,Core,Party in Government,All the elected and appointed officials who identify with a political party.
-Unit 8 - Political Parties,Core,Party Organization,"The formal structure and leadership of a political party, including election committees; local, state, and national executives; and paid professional staff."
-Unit 8 - Political Parties,Core,Party Platform,"A document drawn up at each national convention outlining the policies, positions, and principles of the party."
-Unit 8 - Political Parties,Core,Party-In-Electorate,Those members of the general public who identify with a political party or who express a preference for one party over another
-Unit 8 - Political Parties,Core,Political Party,"A group of political activists who organize to win elections, operate the government, and determine public policy."
-Unit 8 - Political Parties,Core,Realignment,"A process in which a substantial group of voters switches party allegiance, producing a long-term change in the political landscape."
-Unit 8 - Political Parties,Core,Republican Party,One of the two major American political parties. It emerged in the 1850s as an antislavery party and consisted of former Northern Whigs and antislavery Democrats.
-Unit 8 - Political Parties,Core,Reverse-Income Effect,A tendency for wealthier states or regions to favor the Democrats and for less wealthy states or regions to favor the Republicans. The effect appears paradoxical because it reverses traditional patters of support.
-Unit 8 - Political Parties,Core,Safe Seat,A district that returns the legislator with 55 percent of the vote or more.
-Unit 8 - Political Parties,Core,Splinter Party,A new party formed by a dissident faction within a major political party. These often emerge when a particular personality was at odds with the major party.
-Unit 8 - Political Parties,Core,State Central Committee,The principal organized structure of each political party within each state. This committee is responsible for carrying out policy decisions of the party's state convention.
-Unit 8 - Political Parties,Core,Straight-Ticket Voting,Voting exclusively for the candidates of one party.
-Unit 8 - Political Parties,Core,Swing States,States that do not conistently vote for one party.
-Unit 8 - Political Parties,Core,Swing Voters,Voters who frequently swing their support from one party to another.
-Unit 8 - Political Parties,Core,Third Party; 3rd Party,A political party other than the two major political parties (Republican and Democratic).
-Unit 8 - Political Parties,Core,Ticket Splitting,"Voting for candidates of two or more parties for different offices. For example, a voter splits her ticket if she votes for a Republican presidential candidate and a Democratic congressional candidate."
-Unit 8 - Political Parties,Core,Tipping,"A phenomenon that occurs when a group that is becoming more numerous over time grows large enough to change the political balance in a district, state, or country."
-Unit 8 - Political Parties,Core,Unit Rule,A rule by which all of a state’s electoral votes are cast for the presidential candidate receiving a plurality of the popular vote in that state.
-Unit 8 - Political Parties,Extended,Federalists or Antifederalists; Federalists; Antifederalists; Democratic Republicans; Jefferson's Republicans,"One of the original two political parties, formed shortly after the ratification of the constitution. One was led by Adams, the other by Jefferson."
-Unit 8 - Political Parties,Extended,Party Identification,Linking oneself to a particular political party.
-Unit 8 - Political Parties,Extended,Patronage,Rewarding faithful party workers and followers with government employment and contracts. This was often used by political machines to maintain control.
-Unit 8 - Political Parties,Extended,Plurality,A number of votes cast for a candidate that is greater than the number of votes for any other candidate but not necessarily be a majority.
-Unit 8 - Political Parties,Extended,The Era of Good Feelings; Era of Good Feelings,"The years from 1817 to 1825, when James Monroe was president and had, in effect, no political opposition. (The federalist party had recently practically dissolved)"
-Unit 8 - Political Parties,Extended,The New Deal; New Deal,"After the great depression destroyed general confidence in the ability of the republicans to manage the economy, this garnered mass support for Democrats."
-Unit 8 - Political Parties,Extended,Two-Party System,A political system in which only two parties have a reasonable chance of winning.
-Unit 8 - Political Parties,Extended,Whig Party,"A major party in the United States during the first half of the 19th century, formally established in 1836. The Whig Party was anti-Jackson and represented a variety of regional interests."
-Unit 9 - Voting and Elections,Core,Australian Ballot; Australian,"A secret ballot prepared, distributed, and tabulated by government officials at public expense. Since 1888, all U.S. states have used this type of ballot rather than an open, public ballot."
-Unit 9 - Voting and Elections,Core,Blanket Primary; Blanket,"A primary in which voters can vote for candidates of more than one party. This is often more expensive for the candidate, as they must appeal to a wider base. This type of primary was outlawed in 2000 for violating the 1st ammendment right to assemble of the political parties"
-Unit 9 - Voting and Elections,Core,Caucus,A meeting of party members designed to select candidates and propose policies.
-Unit 9 - Voting and Elections,Core,Closed Primary; Closed,A type of primary in which the voter is limited to choosing candidates of the party of which he or she is a member.
-Unit 9 - Voting and Elections,Core,Coattail Effect,"The influence of a popular candidate on the electoral success of other candidates on the same party ticket. The effect is increased by the partycolumn ballot, which encourages straight-ticket voting."
-Unit 9 - Voting and Elections,Core,Office-Block Ballot or Massachusetts Ballot; Office-Block Ballot; Massachusetts Ballot; Office-Block; Masssachusetts,"A form of general-election ballot in which candidates for elective office are grouped together under the title of each office. It emphasizes voting for the office and the individual candidate, rather than for the party."
-Unit 9 - Voting and Elections,Core,Open Primary; Open,A primary in which any registered voter can vote (but must vote for candidates of only one party).
-Unit 9 - Voting and Elections,Core,Party-Column Ballot or Indiana Ballot; Party-Column Ballot; Indiana Ballot; Party-Column; Indiana,"A form of general-election ballot in which all of a party's candidates for elective office are arranged in one column under the party's label and symbol. It emphasizes voting for the party, rather than for the office or individual."
-Unit 9 - Voting and Elections,Core,Rational Ignorance Effect,An effect produced when people purposely and rationally decide not to become informed on an issue because they believe that their vote on the issue is not likely to be a deciding one; a lack of incentive to seek the necessary information to cast an intelligent vote.
-Unit 9 - Voting and Elections,Extended,Elector,"A member of the electoral college, which selects the president and vice president. Each state's electors are chosen in each presidential election year according to state laws."
-Unit 9 - Voting and Elections,Extended,Recall Election; Recall,a procedure by which voters can remove an elected official from office through a referendum before that official's term of office has ended.
-Unit 9 - Voting and Elections,Extended,Registration,"The entry of a person’s name onto the list of registered voters for elections. To register, a person must meet certain legal requirements of age, citizenship, and residency."
-Unit 9 - Voting and Elections,Extended,Special Election; Special,An election used to fill an office that has become vacant between general elections
-Unit 9 - Voting and Elections,Extended,Voter Turnout; Turnout,The percentage of citizens taking part in the election process; the number of eligible voters who actually “turn out” on election day to cast their ballots.
-Unit 10 - Campaigning for Office,Core,Battleground State,A state likely to be so closely fought that the campaigns devote exceptional effort to winning the popular and electoral vote there.
-Unit 10 - Campaigning for Office,Core,Communications Director,A professional specialist who plans the communications strategy and advertising campaign for the candidate.
-Unit 10 - Campaigning for Office,Core,Corrupt Practices Acts,A series of acts passed by congress since 1925 which attempt to limit and regulate the size and sources of contributions and expenditures in political campaigns.
-Unit 10 - Campaigning for Office,Core,Front-Runner,The presidential candidate who appears to be ahead at a given time in the primary season.
-Unit 10 - Campaigning for Office,Core,Get Out the Vote; GOTV,This phrase describes the mutiple efforts expended by campaigns to get voters out to the polls on election day.
-Unit 10 - Campaigning for Office,Core,Hard Money,This refers to political contributions and campaign spending that is recorded under the regulations set forth in law and by the Federal Election Commission.
-Unit 10 - Campaigning for Office,Core,Hatch Act,An act passed in 1939 that restricted the political activities of government employees. It also prohibited a political group from spending more than $3 million in any campaign and limited individual contributions to a campaign committee to $5000
-Unit 10 - Campaigning for Office,Core,Independent Expenditures,"Nonregulated contributions from PACs, organizations, and individuals. The funds may be spent on advertising or other campaign activities, so long as those expenditures are not coordinated with those of a candidate."
-Unit 10 - Campaigning for Office,Core,Issue Advocacy Advertising,Advertising paid for by interest groups that support or oppose a candidate or a candidate's position on an issue without mentioning voting or elections.
-Unit 10 - Campaigning for Office,Core,Political Action Committee,"A committee set up by and representing a corporation, labor union, or special-interest group. PACs raise and give campaign donations."
-Unit 10 - Campaigning for Office,Core,Presidential Primaries,"A statewide primary election of delegates to a political party's national convention, held to determine a party's presidential nominee."
-Unit 10 - Campaigning for Office,Core,Press Secretary,The individual who interacts directly with the journalists covering the campaign.
-Unit 10 - Campaigning for Office,Core,Soft Money,"Campaign contributions unregulated by federal or state law, usually given to parties and party committees to help fund general party activities."
-Unit 10 - Campaigning for Office,Core,Spin,An interpretation of campaign events or election results that is favorable to the candidate's campaign strategy.
-Unit 10 - Campaigning for Office,Core,Super PAC,A political committee that can accept unlimited contributions from individuals and corporations to spend supporting a candidate as long as its efforts are not coordinated with the candidate's own campaign.
-Unit 10 - Campaigning for Office,Core,Superdelegates,A party leader or elected official who is given the right to vote at the party's national convention. They are not elected at the state level.
-Unit 10 - Campaigning for Office,Extended,“Beauty Contest”,A presidential primary in which contending candidates compete for popular votes but the results do not control the selection of delegates to the national convention.
-Unit 10 - Campaigning for Office,Extended,Credentials Committee,A committee used by political parties at their national conventions to determine which delegates may participate. The committee inspects the claim of each prospective delegate to be seated as a legitimate representative of his or her state.
-Unit 10 - Campaigning for Office,Extended,Finance Chairperson,"The campaign professional who directs fundraising, campaign spending, and compliance with campaign finance laws and reporting requirements."
-Unit 10 - Campaigning for Office,Extended,Focus Group,A small group of individuals who are led in discussion by a professional consultant in order to gather opinions on and responses to candidates and issues.
-Unit 10 - Campaigning for Office,Extended,Front-Loading,The practice of moving presidential primary elections to the early part of the campaign to maximize the impact of these primaries on the nomination.
-Unit 10 - Campaigning for Office,Extended,Political Consultant,A paid professional hired to devise a campaign strategy and manage a campaign.
-Unit 10 - Campaigning for Office,Extended,Pollster,The person or firm who conducts public opinion polls for the campaign.
-Unit 10 - Campaigning for Office,Extended,Spin Doctors,Political campaign advisers who try to convince journalists of hte truth of a particular interpretation of events.
-Unit 10 - Campaigning for Office,Extended,Tracking Poll,A poll taken for the candidate on a nearly daily basis as election day approaches.
-Unit 11 - The Congress,Core,Hillstyle,"The actions and behaviors of a member of Congress in Washington, D.C., intended to promote policies and the member's own career aspirations."
-Unit 11 - The Congress,Core,Bicameralism,The division of a legislature into two separate assemblies.
-Unit 11 - The Congress,Core,Lawmaking,The process of establishing the legal rules that govern society.
-Unit 11 - The Congress,Core,Logrolling,An arrangement in which two or more members of Congress agree in advance to support each other's bills.
-Unit 11 - The Congress,Core,Representation,The function of members of Congress as elected officials representing the views of their constituents.
-Unit 11 - The Congress,Core,Trustee,A legislator who acts according to her or his conscience and the broad interests of the entire society.
-Unit 11 - The Congress,Core,Instructed Delegate,A legislator who is an agent of the voters who elected him or her and who votes according to the views of constituents regardless of personal beliefs.
-Unit 11 - The Congress,Core,Casework,Personal work for constituents by members of Congress.
-Unit 11 - The Congress,Core,Ombudsperson,A person who hears and investigates complaints by private individuals against public officials or agencies.
-Unit 11 - The Congress,Core,Oversight,The process by which Congress follows up on laws it has enacted to ensure that they are being enforced and administered in the way Congress intended.
-Unit 11 - The Congress,Core,Enumerated Power,"A power specifically granted to the national government by the Constitution. The first 17 clauses of Article 1, Section 8, specify most of the enumerated powers of Congress."
-Unit 11 - The Congress,Core,Filibuster,The use of the Senate's tradition of unlimited debate as a delaying tactic to block a bill.
-Unit 11 - The Congress,Core,Unorthodox Lawmaking,The use of out-of-the-ordinary parliamentary tactics to pass legislation.
-Unit 11 - The Congress,Core,Direct Primary,An intraparty election in which the voters select the candidates who will run on a party's ticket in the subsequent general election.
-Unit 11 - The Congress,Core,Reapportionment,The allocation of seats in the House of Representatives to each state after each census.
-Unit 11 - The Congress,Core,Redistricting,The redrawing of the boundaries of the congressional districts within each state.
-Unit 11 - The Congress,Core,Gerrymandering,The drawing of legislative district boundary lines to obtain partisan or factional advantage. A district is said to be gerrymandered when its shape is manipulated by the dominant party in the state legislature to maximize electoral strength at the expense of the minority party.
-Unit 11 - The Congress,Core,Standing Committee,A permanent committee in the House or Senate that considers bills within a certain subject area.
-Unit 11 - The Congress,Core,Select Committee,A temporary legislative committee established for a limited time period and for a special purpose.
-Unit 11 - The Congress,Core,Joint Committee,A legislative committee composed of members from both chambers of Congress.
-Unit 11 - The Congress,Core,Conference Committee,A special joint committee appointed to reconcile differences when bills pass the two chambers of Congress in different forms.
-Unit 11 - The Congress,Core,Safe Seat,A district that returns a legislator with 55 percent of the vote or more.
-Unit 11 - The Congress,Core,Speaker of the House,The presiding officer in the House of Representatives. The Speaker is always a member of the majority party and is the most powerful and influential member of the House.
-Unit 11 - The Congress,Core,Majority Leader of the House,A legislative position held by an important party member in the House of Representatives. The majority leader is selected by the majority party in caucus or conference to foster cohesion among party members and to act as spokesperson for the majority party in the House.
-Unit 11 - The Congress,Core,Minority Leader of the House,The party leader elected by the minority party in the House.
-Unit 11 - The Congress,Core,Whip,A member of Congress who aids the majority or minority leader of the House or the Senate.
-Unit 11 - The Congress,Core,President Pro Tempore,The temporary presiding officer of the Senate in the absence of the vice president.
-Unit 11 - The Congress,Core,Senate Majority Leader,"The chief spokesperson of the majority party in the Senate, who directs the legislative program and party strategy."
-Unit 11 - The Congress,Core,Senate Minority Leader,The party officer in the Senate who commands the minority party's opposition to the policies of the majority party and directs the legislative program and strategy of his or her party.
-Unit 11 - The Congress,Core,Earmarks,Funding appropriations that are specifically designated for a named project in a member's state or district.
-Unit 11 - The Congress,Core,Pork,Special projects or appropriations that are intended to benefit a member's district or state; slang term for earmarks.
-Unit 11 - The Congress,Core,Executive Budget,The budget prepared and submitted by the president to Congress.
-Unit 11 - The Congress,Core,Spring Review,"The annual process in which the Office of Management and Budget requires federal agencies to review their programs, activities, and goals and submit their requests for funding for the next fiscal year."
-Unit 11 - The Congress,Core,Fall Review,"The annual process in which the Office of Management and Budget, after receiving formal federal agency requests for funding for the next fiscal year, reviews the requests, makes changes, and submits its recommendations to the president."
-Unit 11 - The Congress,Core,Authorization,"A formal declaration by a legislative committee that a certain amount of funding may be available to an agency. Some authorizations terminate in a year; others are renewable automatically, without further congressional action."
-Unit 11 - The Congress,Core,Appropriation,"The passage, by Congress, of a spending bill specifying the amount of authorized funds that actually will be allocated for an agency's use."
-Unit 11 - The Congress,Core,First Budget Resolution,A resolution passed by Congress in May that sets overall revenue and spending goals for the following fiscal year.
-Unit 11 - The Congress,Core,Second Budget Resolution,A resolution passed by Congress in September that sets “binding” limits on taxes and spending for the following fiscal year.
-Unit 11 - The Congress,Core,Continuing Resolution,A temporary funding law that Congress passes when an appropriations bill has not been decided by the beginning of the new fiscal year on October 1.
-Unit 11 - The Congress,Extended,Constituent,One of the persons represented by a legislator or other elected or appointed official.
-Unit 11 - The Congress,Extended,Homestyle,The actions and behaviors of a member of Congress aimed at the constituents and intended to win the support and trust of the voters at home.
-Unit 11 - The Congress,Extended,Seniority System,A custom followed in both chambers of Congress specifying that the member of the majority party with the longest term of continuous service will be given preference when a committee chairperson (or a holder of some other significant post) is selected.
-Unit 11 - The Congress,Extended,Blue Dog Democrats,Members of Congress from more moderate states or districts who sometimes “cross over” to vote with Republicans on legislation.
-Unit 11 - The Congress,Extended,Rules Committee,"A standing committee of the House of Representatives that provides special rules under which specific bills can be debated, amended, and considered by the House."
-Unit 11 - The Congress,Extended,Rule,The proposal by the Rules Committee of the House that states the conditions for debate for one piece of legislation.
-Unit 11 - The Congress,Extended,Unanimous Consent Agreement,An agreement on the rules of debate for proposed legislation in the Senate that is approved by all the members.
-Unit 11 - The Congress,Extended,Party Identifier,A person who identifies with a political party.
-Unit 11 - The Congress,Extended,Justiciable Question,A question that may be raised and reviewed in court.
-Unit 11 - The Congress,Extended,Franking,A policy that enables members of Congress to send material through the mail by substituting their facsimile signature (frank) for postage.
-Unit 11 - The Congress,Extended,Discharge Petition,A procedure by which a bill in the House of Representatives may be forced (discharged) out of a committee that has refused to report it for consideration by the House. The petition must be signed by an absolute majority (218) of representatives and is used only on rare occasions.
-Unit 11 - The Congress,Extended,Conservative Coalition,An alliance of Republicans and southern Democrats that can form in the House or the Senate to oppose liberal legislation and support conservative legislation.
-Unit 11 - The Congress,Extended,Fiscal Year,"A 12-month period that is used for bookkeeping, or accounting, purposes. Usually doesn't coincide with the calender year."
-Unit 12 - The President,Core,Advice and Consent,Terms in the Constitution describing the U.S. Senate's power to review and approve treaties and presidential appointments.
-Unit 12 - The President,Core,Appointment Power,"The authority vested in the president to fill a government office or position. Positions filled by presidential appointment include those in the executive branch and the federal judiciary, commissioned officers in the armed forces, and members of the independent regulatory commissions."
-Unit 12 - The President,Core,Cabinet,An advisory group selected by the president to aid in making decisions. The cabinet includes the heads of 15 executive departments and others named by the president.
-Unit 12 - The President,Core,Chief Diplomat,"The role of the president in recognizing foreign governments, making treaties, and effecting executive agreements."
-Unit 12 - The President,Core,Chief Executive,The role of the president as head of the executive branch of the government.
-Unit 12 - The President,Core,Chief Legislator,The role of the president in influencing the making of laws.
-Unit 12 - The President,Core,Chief of Staff,The person who is named to direct the White House Office and advise the president.
-Unit 12 - The President,Core,Civil Service,"A collective term for the body of employees working for the government. Generally, this is understood to apply to all those who gain government employment through a merit system."
-Unit 12 - The President,Core,Commander in Chief,The role of the president as supreme commander of the military forces of the United States and of the state National Guard units when they are called into federal service.
-Unit 12 - The President,Core,Constitutional Power,A power vested in the president by Article || of the Constitution.
-Unit 12 - The President,Core,Diplomatic Recognition,The formal acknowledgment of a foreign government as legitimate.
-Unit 12 - The President,Core,Emergency Powers,Inherent powers exercised by the president during a period of national crisis
-Unit 12 - The President,Core,Executive Agreement,"An international agreement made by the president, without senatorial ratification, with the head of a foreign state."
-Unit 12 - The President,Core,Executive Office of the President; EOP,An organization established by President Franklin D. Roosevelt to assist the president in carrying out major duties.
-Unit 12 - The President,Core,Executive Order,"A rule or regulation issued by the president that has the effect of law. Executive orders can implement and give administrative effect to provisions in the Constitution, to treaties, and to statutes."
-Unit 12 - The President,Core,Executive Privilege,The right of executive officials to withhold information from or refuse to appear before a legislative committee or court.
-Unit 12 - The President,Core,Expressed Power,A power of the president that is expressly written into the Constitution or into statutory law.
-Unit 12 - The President,Core,Head of State,The role of the president as ceremonial head of the government.
-Unit 12 - The President,Core,Impeachment,"An action by the House of Representatives to accuse the president, vice president, or other civil officers of the United States of committing “Treason, Bribery, or other high Crimes and Misdemeanors.”"
-Unit 12 - The President,Core,Inherent Powers,Powers of the president derived from the statements in the Constitution that “the executive Power shall be vested in a President” and that the president should “take Care that the Laws be faithfully executed”; defined through practice rather than through law.
-Unit 12 - The President,Core,Kitchen Cabinet,The informal advisers to the president.
-Unit 12 - The President,Core,National Security Council; NSC,An agency in the Executive Office of the President that advises the president on national security.
-Unit 12 - The President,Core,Office of Management and Budget; OMB,"A division of the Executive Office of the President. The OMB assists the president in preparing the annual budget, clearing and coordinating departmental agency budgets, and supervising the administration of the federal budget."
-Unit 12 - The President,Core,Pardon,A release from the punishment for or legal consequences of a crime; a pardon can be granted by the president before or after a conviction.
-Unit 12 - The President,Core,Permanent Campaign,A coordinated and planned strategy carried out by the White House to increase the president's popularity and support.
-Unit 12 - The President,Core,Pocket Veto,"A special veto exercised by the chief executive after a legislative body has adjourned. Bills not signed by the chief executive die after a specified period of time. If Congress wishes to reconsider such a bill, it must be reintroduced in the following session of Congress."
-Unit 12 - The President,Core,policy tsar,A high-ranking member of the Executive Office of the President appopinted to coordinate action in one specific policy area.
-Unit 12 - The President,Core,Reprieve,A formal postponement of the execution of a sentence imposed by a court of law.
-Unit 12 - The President,Core,Signing Statement,"A written declaration that a president may make when signing a bill into law. Usually, such statements point out sections of the law that the president deems unconstitutional."
-Unit 12 - The President,Core,State of the Union Message,An annual message to Congress in which the president proposes a legislative program. The message Is addressed not only to Congress but also to the American people and to the world.
-Unit 12 - The President,Core,Statutory Power,A power created for the president through laws enacted by Congress.
-Unit 12 - The President,Core,Veto Message,The president's formal explanation of a veto when legislation is returned to Congress.
-Unit 12 - The President,Core,War Powers Resolution,A law passed in 1973 spelling out the conditions under which the president can commit troops without congressional approval.
-Unit 12 - The President,Core,White House Office,"The personal office of the president, which tends to presidential political needs and manages the media."
-Unit 12 - The President,Extended,Federal Register,"A publication of the U.S. government that prints executive orders, rules, and regulations."
-Unit 12 - The President,Extended,Line-Item Veto,The power of an executive to veto individual lines or items within a piece of legislation without vetoing the entire bill. (ruled unconstitutional)
-Unit 12 - The President,Extended,Patronage,The practice of rewarding faithful party workers and followers with government employment and contracts.
-Unit 12 - The President,Extended,Twelfth Amendment,"An amendment to the Constitution, adopted in 1804, that specifies the separate election of the president and vice president by the electoral college."
-Unit 12 - The President,Extended,Twenty-fifth Amendment,A 1967 amendment to the Constitution that establishes procedures for filling presidential and vice presidential vacancies and makes provisions for presidential disability.
-Unit 12 - The President,Extended,Washington Community,Individuals regularly involved with politics in Washington D.C.
-Unit 13 - The Bureacracy,Core,Weberian Model; Weberian,"A model of bureaucracy developed by the German sociologist Max Weber, who viewed bureaucracies as rational, hierarchical organizations in which decisions are based on logical reasoning."
-Unit 13 - The Bureacracy,Core,Acquisitive Model; Acquisitive,A model of bureaucracy that views top-level bureaucrats as seeking to expand the size of their budgets and staffs to gain greater power.
-Unit 13 - The Bureacracy,Core,Monopolistic Model; Monopolistic,A model of bureaucracy that compares bureaucracies to monopolistic business firms. Lack of competition in either circumstance leads to inefficient and costly operations.
-Unit 13 - The Bureacracy,Core,Administrative Agency; Administrative,"A federal, state, or local government unit established to perform a specific function. Administrative agencies are created and authorized by legislative bodies to administer and enforce specific laws."
-Unit 13 - The Bureacracy,Core,Cabinet Department,"One of the 15 departments of the executive branch (State, Treasury, Defense, Justice, Interior, Agriculture, Commerce, Labor, Health and Human Services, Homeland Security, Housing and Urban Development, Education, Energy, Transportation, and Veterans Affairs)."
-Unit 13 - The Bureacracy,Core,Line Organization,"In the federal government, an administrative unit that is directly accountable to the president."
-Unit 13 - The Bureacracy,Core,Capture,The act by which an industry being regulated by a government agency gains direct or indirect control over agency personnel and decision makers.
-Unit 13 - The Bureacracy,Core,Spoils System; Spoils,The awarding of government jobs to political supporters and friends.
-Unit 13 - The Bureacracy,Core,Merit System; Merit,"The selection, retention, and promotion of government employees on the basis of competitive examinations."
-Unit 13 - The Bureacracy,Core,Pendleton Act (Civil Service Reform Act); Pendleton Act; Civil Service Reform Act,An act that established the principle of employment on the basis of merit and created the Civil Service Commission to administer the personnel service.
-Unit 13 - The Bureacracy,Core,Civil Service Commission,"The initial central personnel agency of the national government, created in 1883."
-Unit 13 - The Bureacracy,Core,Government in the Sunshine Act,A law that requires all committeedirected federal agencies to conduct their business regularly in public session.
-Unit 13 - The Bureacracy,Core,Sunset Legislation,Laws requiring that existing programs be reviewed regularly for their effectiveness and be terminated unless specifically extended as a result of these reviews.
-Unit 13 - The Bureacracy,Core,Whistleblower,Someone who brings to public attention gross governmental inefficiency or an illegal action.
-Unit 13 - The Bureacracy,Core,Enabling Legislation,"A statute enacted by Congress that authorizes the creation of an administrative agency and specifies the name, purpose, composition, functions, and powers of the agency being created."
-Unit 13 - The Bureacracy,Core,Iron Triangle,"The three-way alliance among legislators, bureaucrats, and interest groups to make or preserve policies that benefit their respective interests."
-Unit 13 - The Bureacracy,Extended,Bureaucracy,A large organization that is structured hierarchically to carry out specific functions.
-Unit 13 - The Bureacracy,Extended,Independent Executive Agency,A federal agency that is not part of a cabinet department but reports directly to the president.
-Unit 13 - The Bureacracy,Extended,Independent Regulatory Agency,An agency outside the major executive departments charged with making and implementing rules and regulations.
-Unit 13 - The Bureacracy,Extended,Government Corporation,An agency of government that administers a quasi-business enterprise. These corporations are used when activities are primarily commercial.
-Unit 13 - The Bureacracy,Extended,Privatization,The replacement of government services with services provided by private firms.
-Unit 13 - The Bureacracy,Extended,Issue Network,"A group of individuals or organizations—which may consist of legislators and legislative staff members, interest group leaders, bureaucrats, the media, scholars, and other experts—that supports a particular policy position on a given issue."
-Unit 14 - The Courts,Core,Judicial Review,The power of the Supreme Court or any court to hold a law or other legal action as unconstitutional. Established in Marbury V Madison.
-Unit 14 - The Courts,Core,Case Law,"Judicial interpretations of common-law principles and doctrines, as well as interpretations of constitutional law, statutory law, and administrative law."
-Unit 14 - The Courts,Core,Jurisdiction,The authority of a court to decide certain cases. Not all courts have the authority to decide all cases. Two jurisdictional issues are where a case arises as well as its subject matter.
-Unit 14 - The Courts,Core,Federal Question,"A question that has to do with the U.S. Constitution, acts of Congress, or treaties. A federal question provides a basis for federal jurisdiction."
-Unit 14 - The Courts,Core,Trial Court,The court in which most cases begin.
-Unit 14 - The Courts,Core,General Jurisdiction,Exists when a court's authority to hear cases is not significantly restricted. A court of general jurisdiction normally can hear a broad range of cases.
-Unit 14 - The Courts,Core,Appellate Court,A court having jurisdiction to review cases and issues that were originally tried in lower courts.
-Unit 14 - The Courts,Core,Litigate,To engage in a legal proceeding or seek relief in a court of law; to carry on a lawsuit.
-Unit 14 - The Courts,Core,Class-Action Suit,A lawsuit filed by an individual seeking damages for “all persons similarly situated.”
-Unit 14 - The Courts,Core,Writ of Certiorari,An order issued by a higher court to a lower court to send up the record of a case for review.
-Unit 14 - The Courts,Core,Rule of Four,A United States Supreme Court procedure by which four justices must vote to grant a petition for review if a case is to come before the full court.
-Unit 14 - The Courts,Core,Oral Arguments,The verbal arguments presented in person by attorneys to an appellate court. Each attorney presents reasons to the court why the court should rule in her or his client's favor.
-Unit 14 - The Courts,Core,Opinion,The statement by a judge or a court of the decision reached in a case. The opinion sets forth the applicable law and details the reasoning on which the ruling was based.
-Unit 14 - The Courts,Core,Affirm,To declare that a court ruling is valid and must stand.
-Unit 14 - The Courts,Core,Reverse,To annul or make void a court ruling on account of some error or irregularity.
-Unit 14 - The Courts,Core,Remand,To send a case back to the court that originally heard it.
-Unit 14 - The Courts,Core,Unanimous Opinion; Unanimous,A court opinion or determination on which all judges agree. Sets precedent.
-Unit 14 - The Courts,Core,Majority Opinion; Majority,A court opinion reflecting the views of the majority of the judges. Sets precedent
-Unit 14 - The Courts,Core,Dissenting Opinion; Dissenting,A separate opinion in which a judge dissents from (disagrees with) the conclusion reached by the majority on the court and expounds his or her own views about the case.
-Unit 14 - The Courts,Core,Senatorial Courtesy,"In federal district court judgeship nominations, a tradition allowing a senator to veto a judicial appointment in his or her state."
-Unit 14 - The Courts,Core,Judicial Activism,A doctrine holding that the Supreme Court should take an active role by using its powers to check the activities of governmental bodies when those bodies exceed their authority.
-Unit 14 - The Courts,Core,Judicial Restraint,A doctrine holding that the Supreme Court should defer to the decisions made by the elected representatives of the people in the legislative and executive branches.
-Unit 14 - The Courts,Core,Strict Construction,A judicial philosophy that looks to the “letter of the law” when interpreting the Constitution or a particular statute.
-Unit 14 - The Courts,Core,Broad Construction,A judicial philosophy that looks to the context and purpose of a law when making an interpretation.
-Unit 14 - The Courts,Extended,Diversity of Citizenship,"The condition that exists when the parties to a lawsuit are citizens of different states, or when the parties are citizens of a U.S. state and citizens or the government of a foreign country. Diversity of citizenship can provide a basis for federal jurisdiction."
-Unit 14 - The Courts,Extended,Limited Jurisdiction,"Exists when a court's authority to hear cases is restricted to certain types of claims, such as tax claims or bankruptcy petitions."
-Unit 14 - The Courts,Extended,Concurring Opinion; Concurring,A separate opinion prepared by a judge who supports the decision of the majority of the court but who wants to make or clarify a particular point or to voice disapproval of the grounds on which the decision was made.
-Unit 14 - The Courts,Extended,Judicial Implementation,The way in which court decisions are translated into action.
-Unit 14 - The Courts,Extended,Political Question,An issue that a court believes should be decided by the executive or legislative branch.
-Unit 15 - Domestic Policy,Core,Earned income tax credit program (EITC); earned income tax credit program; EITC,A government program that helps low-income workers by giving back part or all of their Social Security taxes.
-Unit 15 - Domestic Policy,Core,Environmental impact statement (EIS); environmental impact statement; EIS,A report showing the costs and benefits of a federal action that could have a major impact on the environment.
-Unit 15 - Domestic Policy,Core,Food stamps,"Benefits issued by the federal government to low-income individuals to buy food. Originally provided as coupons, but now typically provided electronically through a card."
-Unit 15 - Domestic Policy,Core,In-kind subsidy,A good or service such as food stamps or housing provided by the government to low-income groups.
-Unit 15 - Domestic Policy,Core,Medicaid,A joint state-federal program to provide medical care to the poor funded from general government revenues.
-Unit 15 - Domestic Policy,Core,Medicare,A federal health insurance program for US residents 65 and older. Fulfilled by taxes on wages and salaries.
-Unit 15 - Domestic Policy,Core,National health insurance,A plan in which the government provides basic health care coverage to all citizens funded by taxes on wages or salaries.
-Unit 15 - Domestic Policy,Core,Single-payer plan,A plan in which one entity has a monopoly on issuing a particular type of insurance; typically the entity is the government providing basic health coverage.
-Unit 15 - Domestic Policy,Core,Supplemental Security Income (SSI); supplemental security income; SSI,A federal program establish to provide assistance to elderly persons and people with disabilities.
-Unit 15 - Domestic Policy,Core,Temporary Assistance to Needy Families (TANF); temporary assistance to needy families; TANF,A state program using federal grants to provide welfare benefits. Replaced the Aid to Families with Dependent Children (AFDC) program.
-Unit 15 - Domestic Policy,Extended,Domestic policy,"Public plans or courses of actgion concerning internal issues of national importance such as health, poverty, and environment."
-Unit 15 - Domestic Policy,Extended,Energy policy,Laws concerned with how much energy is needed and used.
-Unit 15 - Domestic Policy,Extended,Income transfer,"A transfer of income from one group to another, generally by government action."
-Unit 15 - Domestic Policy,Extended,Sustainability,Achieving a balance between society and nature to exist together.
-Unit 16 - Economic Policy,Core,Glass-Steagall Act,A law passed in 1933 to regulate the banking industry which prohibited banks from engaging in speculative investments or becoming investment houses
-Unit 16 - Economic Policy,Core,Inflation,A sustained rise in the general price level of goods and services
-Unit 16 - Economic Policy,Core,Recession,Two or more successive quarters in which the economy shrinks instead of grows
-Unit 16 - Economic Policy,Core,Full Employment,"An arbitrary level of unemployment that corresponds to “normal” friction in the labor market. In 1986, a 6.5 percent rate of unemployment was considered full employment. Today, it is assumed to be around 5 percent. "
-Unit 16 - Economic Policy,Core,Consumer Price Index (CPI); Consumer Price Index; CPI,A measure of the change in price over time of a specific group of goods and services used by the average household.
-Unit 16 - Economic Policy,Core,Business Cycle,A term that describes fluctuations in the nation’s economic activity including periods of economic expansion and contraction 
-Unit 16 - Economic Policy,Core,Fiscal Policy,The federal government’s use of taxation and spending policies to affect overall business activity
-Unit 16 - Economic Policy,Core,Monetary Policy,"The utilization of changes in the amount of money in circulation to alter credit markets, employment, and the rate of inflation"
-Unit 16 - Economic Policy,Core,Keynesian Economics,"A school of economic thought that tends to favor active federal government policymaking to stabilize economy-wide fluctuations, usually by implementing discretionary fiscal policy"
-Unit 16 - Economic Policy,Core,U.S. Treasury Bond,Debt issued by the federal government
-Unit 16 - Economic Policy,Core,Net Public Debt,"The accumulation of all past federal government deficits; the total amount owed by the federal government to individuals, businesses and foreigners"
-Unit 16 - Economic Policy,Core,Gross Domestic Product (GDP); Gross Domestic Product; GDP,The dollar value of all final goods and services produced in a one-year period
-Unit 16 - Economic Policy,Core,Progressive Tax,A tax that rises in percentage terms as incomes rise
-Unit 16 - Economic Policy,Core,Regressive Tax,A tax that falls in percentage terms as incomes rise
-Unit 16 - Economic Policy,Core,Federal Reserve System (the Fed); Federal Reserve System; the Fed,The most important regulatory agency in the US monetary system. The Fed performs several important functions such as regulating the amount of money in circulation and providing a system for transferring check from one bank to another
-Unit 16 - Economic Policy,Core,Federal Open Market Committee,The most important body within the Federal Reserve System. The Federal Open Market Committee decides how monetary policy should be carried out
-Unit 16 - Economic Policy,Core,Tight Monetary Policy,Monetary policy that makes credit expensive in an effort to slow the economy
-Unit 16 - Economic Policy,Core,Loose Monetary Policy,"Monetary policy that makes credit inexpensive and abundant, possibly leading to inflation"
-Unit 16 - Economic Policy,Core,Imports,Goods and services produced outside a country sold within its borders
-Unit 16 - Economic Policy,Core,Exports,Goods and services produced domestically for sale abroad
-Unit 16 - Economic Policy,Core,Balance for Trade,The difference between the value of a nation’s exports of goods and the value of its imports of goods
-Unit 16 - Economic Policy,Core,Import Quota,A restriction imposed on the value or number of units of a particular good that can be brought into a country. Foreign suppliers are unable sell more than the amount specified in the import quota
-Unit 16 - Economic Policy,Core,Tariffs,Taxes on imports
-Unit 16 - Economic Policy,Extended,Unemployment,The inability of those who are in the labor force to find a job; defined as the total number of those actively looking for a job but unable to find one.
-Unit 16 - Economic Policy,Extended,Budget Deficit,Government expenditures that exceed receipts
-Unit 16 - Economic Policy,Extended,Gross Public Debt,The net public debt plus interagency borrowings within the government
-Unit 16 - Economic Policy,Extended,Loophole,A legal method by which individuals and businesses are allowed to reduce the tax liabilities owed to the government
-Unit 16 - Economic Policy,Extended,Gini Index,A statistical measure of the distribution of income in a nation. A higher number indicates more inequality in incomes within a nation
-,Supreme Court Cases,Brown v. Board of Education; Brown v. Board,Ruled that segragation in public schools violated the 14th amendment. (1954)
-,Supreme Court Cases,Buckley v. Valeo,Upheld restrictions on the amount of money an individual can contribute to their campaign but limits on campaign spending is unconstitutional. (1976)
-,Supreme Court Cases,Dobbs v. Jackson,Overruled Roe v. Wade removing the right to abortion. (2022)
-,Supreme Court Cases,Dred Scott v. Sandford; Dred Scott Decision; Scott v. Sandford; Dredd Scott,Build up to civil war fugitive slave law. Rules that descendants of slaves could not be citizens. (1857)
-,Supreme Court Cases,Engel v. Vitale,Ruled that it is unconstitutional for state officials to lead school prayers. (1962)
-,Supreme Court Cases,Gibbons v. Ogden,Only the federal government can regulate interstate trade. (1824)
-,Supreme Court Cases,Gideon v. Wainwright,Right to an attorney if accused of a crime or a public defender if you can't afford one. (1963)
-,Supreme Court Cases,Gitlow v. New York,Government can punish speech that threatens its existence; anarchy speech implies a national security threat. Freedom of speech applies to the states. (1925)
-,Supreme Court Cases,Griswold v. Conn; Griswold v. Connecticut,State ban of contraceptive violated the rights to martial privacy. (1965)
-,Supreme Court Cases,Korematsu v. US,Internments camps were allowed during a time of war under risk of espionage. (1944)
-,Supreme Court Cases,Lemon v. Kurtzman,Direct state aid cannot be used to subsidize religious instruction (private religious schools). Aid has to be solely secular and states should gennerally avoid entanglement with religion. (1971)
-,Supreme Court Cases,Loving v. Virginia,Gave the right to interracial marriage. (1967)
-,Supreme Court Cases,Mapp v. Ohio,Evidence obtained illegally may not be used in court under the 4th amendment. (1961)
-,Supreme Court Cases,Marbury v. Madison,Establishes judicial review. (1803)
-,Supreme Court Cases,McCulloch v. Maryland,Allows the government to stretch to meet the needs of the people. Reaffirms supremacy clause. (1819)
-,Supreme Court Cases,Miller v. Alabama,"Life sentence for minors deemed unconstitutional under the 8th amendment ""cruel and unusual punishment"". (2012)"
-,Supreme Court Cases,Miller v. California,"Redefines obscene material, which is not protected under the first amendment. (1973)"
-,Supreme Court Cases,Miranda v. Arizona,Right to be read rights when detained. (1966)
-,Supreme Court Cases,Nixon v. US,"Established that the court could not review impeachment, as Article I, Section 3, Constitution gives Senate sole power over all impeachment. Judicial will not review impeachment cases. (1993)"
-,Supreme Court Cases,Obergefell v. Hodges,Right to same-sex marriage. (2015)
-,Supreme Court Cases,Plessy v. Ferguson,"Segregation deemed legal under ""separate but equal"" doctrine. (1896)"
-,Supreme Court Cases,Regents of the University of California v. Bakke; UC v. Bakke; Regents v. Bakke,"Ruled that universities' racial ""quotas"" in admission process was unconstitutional. ""Affirmative action"" to accept more minority applicants was constitutional in some cases. (1978)"
-,Supreme Court Cases,Roe v. Wade,Right to abortion through 4th amendment right to privacy. (1973)
-,Supreme Court Cases,Roper v. Simmons,"The death penalty for minors deemed unconstitutional under the 8th amendment ""cruel and unusual punishment"". (2005)"
-,Supreme Court Cases,Schenck v. US,"Freedom of speech limitations for national security under the espionage act. ""Clear and present danger."" (1919)"
-,Supreme Court Cases,Tinker v. Des Moines,You do not shed your rights at the schoolhouse gates. Centered around Vietnam protests in school. (1969)
-,Supreme Court Cases,Worcester v. Georgia,"Ruled that states could not regulate Cherokee land. Ignored by Andrew Jackson, which led to the Trail of Tears. (1832)"
+"Unit","Category","Term","Definition"
+"Amendments","Bill of Rights","Amendment I; Amendment 1; 1; 1st Amendment","Freedom of religion, speech, press, assembly, and petition. (1791)"
+"Amendments","Bill of Rights","Amendment II; Amendment 2; 2; 2nd Amendment","Right to bear arms. (1791)"
+"Amendments","Bill of Rights","Amendment III; Amendment 3; 3; 3rd Anendment","Right to not quarter soldiers (except in times of war as perscribed by law). (1791)"
+"Amendments","Bill of Rights","Amendment IV; Amendment 4; 4; 4th Amendment","Right against unreasonable search and seizure, outlines proper warrents. (1791)"
+"Amendments","Bill of Rights","Amendment IX; Amendment 9; 9; 9th Amendment","Rights given in the Bill of Rights don't block other rights. (1791)"
+"Amendments","Bill of Rights","Amendment V; amendment 5; 5; 5th Amendment","Right to due process, against double jeopardy, against self incrimination. Outlines eminent domain. (1791)"
+"Amendments","Bill of Rights","Amendment VI; Amendment 6; 6; 6th Amendment","Right to a speedy public trial by an impartial jury, right to question witnesses, right to counsel. (1791)"
+"Amendments","Bill of Rights","Amendment VII; Amendment 7; 7; 7th Amendment","Right to a jury in civil trials over $20. Juries cannot be overruled by a court in a manner that doesn't follow common law. (1791)"
+"Amendments","Bill of Rights","Amendment VIII; Amendment 8; 8; 8th Amendment","Right against cruel and unusual punishment, right against excessive fines and fees. (1791)"
+"Amendments","Bill of Rights","Amendment X; Amendment 10; 10; 10th Amendment","Any power not given to the federal government, nor prohibited to the states, is given to the states and the people. (1791)"
+"Amendments","Later Amendments","Amendment XI; Amendment 11; 11; 11th Amendment","You must be a citizen of a state to sue said state in federal court. (1794)"
+"Amendments","Later Amendments","Amendment XII; Amendment 12; 12; 12th Amendment","Separates the race for the president and the vice president. (1804)"
+"Amendments","Later Amendments","Amendment XIII; Amendment 13; 13; 13th Amendment","Ended slavery and involentary bondage in the US (except for in prison). (1865)"
+"Amendments","Later Amendments","Amendment XIV; Amendment 14; 14; 14th Amendment","States cannot deprive rights and due process for all citizens. Responsible for incorporation theory applying the Bill of Rights to states. Later used for birthright citizenship. (1868)"
+"Amendments","Later Amendments","Amendment XIX; Amendment 19; 19; 19th Amendment","Gives women's suffrage. (1920)"
+"Amendments","Later Amendments","Amendment XV; Amendment 15; 15; 15th Amendment","Gives universal manhood suffrage. (1870)"
+"Amendments","Later Amendments","Amendment XVI; Amendment 16; 16; 16th Amendment","Instates income tax. (1913)"
+"Amendments","Later Amendments","Amendment XVII; Amendment 17; 17; 17th Amendment","Allows the public to vote for the senate. (1913)"
+"Amendments","Later Amendments","Amendment XVIII; Amendment 18; 18; 18th Amendment","Begins prohibition. (1919)"
+"Amendments","Later Amendments","Amendment XX; Amendment 20; 20; 20th Amendment","The lame duck ammendment - moves the start and end of terms to lessen time between election and appointment. (1933)"
+"Amendments","Later Amendments","Amendment XXI; Amendment 21; 21; 21st Amendment","Ends prohibition. (1933)"
+"Amendments","Later Amendments","Amendment XXII; Amendment 22; 22; 22nd Amendment","Instates a limit on presidency - either two terms or 10 years. (1951)"
+"Amendments","Later Amendments","Amendment XXIII; Amendment 23; 23; 23rd Amendment","Gives Washington DC three votes in the presidential election. (1961)"
+"Amendments","Later Amendments","Amendment XXIV; Amendment 24; 24; 24th Amendment","Forbids poll taxes. (1964)"
+"Amendments","Later Amendments","Amendment XXV; Amendment 25; 25; 25th Amendment","Outlines succession of the presidency (to the VP) and how a president unable to perform their duties may be removed. (1967)"
+"Amendments","Later Amendments","Amendment XXVI; Amendment 26; 26; 26th Amendment","Allows 18 year olds to vote. Instated during the Vietnam War. (1971)"
+"Amendments","Later Amendments","Amendment XXVII; Amendment 27; 27; 27th Amendment","Denies any laws that vary the salaries of Congress members until the beginning of the next terms of office for Representatives"
+"Trivia","General","37%","What was the voter turnout in the 2023 snohomish elections?"
+"Trivia","General","1","How many Hispanic people are on the Supreme court?"
+"Trivia","General","2","How many African Americans are on the Supreme court?"
+"Trivia","General","2","The number of senators per state."
+"Trivia","General","4","How many women are on the Supreme court?"
+"Trivia","General","6","How many conservatives are on the Supreme court?"
+"Trivia","General","10","The number of House of Representative members from Washington."
+"Trivia","General","270","How many electoral votes are needed to win the presidency?"
+"Trivia","General","435","How many members of the House of Representatives are there?"
+"Trivia","General","4 ways laws are created","Act of Congress, Supreme Court decision, Constitutional Amendments, Executive Order"
+"Trivia","General","66.8%; 66%; 67%; 2/3","What percent of voting age Americans voted in the 2020 election?"
+"Trivia","General","Jay Inslee or Maria Cantwell; Jay Inslee; Inslee; Maria Cantwell; Cantwell;","Name a major Democrat that endorsed Bob Ferguson"
+"Trivia","General","Restorative justice","Seeks to restore from damages and open a dialogue between the perpetrator and victims."
+"Trivia","General","Semi Bird or Dave Reichert; Semi Bird; Bird; Dave Reichert; Riechert","Name one of the two republican candidates in the WA state gubernatorial race"
+"Trivia","General","Social welfare systems; Welfare","Social security, medicaid, medicare, unemployment, and disability are examples of what?"
+"Trivia","General","To find out who's not here and more importantly who's here.","Why does Dremousis do attendance?"
+"Trivia","House of Representatives","Kevin McCarthy; McCarthy","Former House speaker ousted by vote of no confidence by six Republican votes."
+"Trivia","House of Representatives","Matt Gaetz; Gaetz","Led removal of Speaker McCarthy."
+"Trivia","House of Representatives","Mike Johnson; Johnson","Current Speaker of the House"
+"Trivia","Isreal","Gaza strip; Gaza","The Palestinian settlement which is mostly led by Hamas."
+"Trivia","Isreal","Hamas","What is the name of the terrorist group associated with the Palestinians which has recently gotten into war against the Israeli government?"
+"Trivia","Isreal","Iran","Govenment that majorly funds Hamas."
+"Trivia","Isreal","Mahmoud Abbas; Abbas","Head of the recognized Palestinian government."
+"Trivia","Isreal","West Bank","The Palestinian settlement led by the Palestinian Liberation Organization."
+"Unit 1 - One Republic, Two Americas?","Core","Anarchy","The absence of political institutions."
+"Unit 1 - One Republic, Two Americas?","Core","Aristocracy","A form of government in which power is held by the nobility."
+"Unit 1 - One Republic, Two Americas?","Core","Authoritarianism","A form of government where power is intensely concentrated in the few. Allows some non-government-controlled social and economic institutions."
+"Unit 1 - One Republic, Two Americas?","Core","Capitalism","An economic system characterized by private ownership and free markets."
+"Unit 1 - One Republic, Two Americas?","Core","Conservatism","A set of beliefs characterized by minimizing the role of national government in welfare, supporting traditional values, and a cautious response to change."
+"Unit 1 - One Republic, Two Americas?","Core","Democracy","A type of government where authority is given to the people as a whole."
+"Unit 1 - One Republic, Two Americas?","Core","Democratic republic","A republic in which elected representatives make and enforce laws and policies."
+"Unit 1 - One Republic, Two Americas?","Core","Direct democracy","A system of government where people directly make decisions rather than elected officials. Typically found in smaller communities."
+"Unit 1 - One Republic, Two Americas?","Core","Elite theory","The perspective that society is ruled by a small number of people who exercise power to further their own interests."
+"Unit 1 - One Republic, Two Americas?","Core","Eminent domain","The ability of the government to take land with just compensation. Allowed in the 5th amendment."
+"Unit 1 - One Republic, Two Americas?","Core","Equality","The political value that everyone is of equal worth."
+"Unit 1 - One Republic, Two Americas?","Core","Government","An institution made to resolve conflicts or allocate benefits. Is the ultimate authority of a society."
+"Unit 1 - One Republic, Two Americas?","Core","Ideology","A comprehensive set of beliefs about the role of government."
+"Unit 1 - One Republic, Two Americas?","Core","Legistlature","A governmental body responsible for making laws."
+"Unit 1 - One Republic, Two Americas?","Core","Liberalism","A set of beliefs characterized by positive government action for welfare, support for civil rights, and tolerance for political and social change."
+"Unit 1 - One Republic, Two Americas?","Core","Libertarianism","A political ideology based on skepticism toward government activities."
+"Unit 1 - One Republic, Two Americas?","Core","Limited government","The principle that government powers should be limited, usually by institutional checks."
+"Unit 1 - One Republic, Two Americas?","Core","Majority","More than half."
+"Unit 1 - One Republic, Two Americas?","Core","Oligarchy","Rule by the few; a government run by a small group of people for corrupt and self-serving purposes."
+"Unit 1 - One Republic, Two Americas?","Core","Politics","The process of resolving conflicts. Understanding the struggle for power."
+"Unit 1 - One Republic, Two Americas?","Core","Recall","A procedure for people to vote to remove an official from office."
+"Unit 1 - One Republic, Two Americas?","Core","Referendum","When decisions on legistlative or constitutional measures are referred from the legistlature to the people."
+"Unit 1 - One Republic, Two Americas?","Core","Representative democracy","A form of government in which representatives are elected by the people to make and enforce laws; may retain monarchy in a ceremonial role."
+"Unit 1 - One Republic, Two Americas?","Core","Republic","A form of government where soverignty rests with the people rather than a king or monarch."
+"Unit 1 - One Republic, Two Americas?","Core","Social contract","A theory of politics asserting that individuals form political communities and give up some personal liberty for the protection from a government."
+"Unit 1 - One Republic, Two Americas?","Core","Socialism","A political ideology based on strong support for economic and social equality."
+"Unit 1 - One Republic, Two Americas?","Core","Totalitarian regime","A form of government that controls all aspects of politicals and social life."
+"Unit 1 - One Republic, Two Americas?","Core","Universal suffrage","The right of all adults to vote for their representatives."
+"Unit 1 - One Republic, Two Americas?","Extended","Divine right of kings","A political and religious doctrine asserting that a monarch's power is handed directly by God and is not subject to an earthly authority."
+"Unit 1 - One Republic, Two Americas?","Extended","Hispanic","Term used more often by government agencies. Describes individuals claiming heritage from a Spanish-speaking country other than Spain."
+"Unit 1 - One Republic, Two Americas?","Extended","Initiative","A procedure in which citizens can propose a law or amendment."
+"Unit 1 - One Republic, Two Americas?","Extended","Institution","An ongoing organization that performs functions in a society."
+"Unit 1 - One Republic, Two Americas?","Extended","Latino","Preferred term for individuals claiming heritage from a Spanish-speaking country other than Spain."
+"Unit 1 - One Republic, Two Americas?","Extended","Liberty","Maximizing the freedom of individuals without violating the freedom of other individuals in a society."
+"Unit 1 - One Republic, Two Americas?","Extended","Majoritarianism","The political theory that in a democracy, government ought to do what the majority of people want."
+"Unit 1 - One Republic, Two Americas?","Extended","Majority rule","The principle of democracy that the greatest number of citizens should select officials and determine policies."
+"Unit 1 - One Republic, Two Americas?","Extended","Order","A state of peace and security."
+"Unit 1 - One Republic, Two Americas?","Extended","Pluralism","A theory viewing politics as conflict among various interest groups. Decision making through bargaining and compromise."
+"Unit 1 - One Republic, Two Americas?","Extended","Political culture","The set of ideas, values, and ways of thinking about government and politics shared by citizens."
+"Unit 1 - One Republic, Two Americas?","Extended","Political socialization","The process through which individuals form political attitudes and opinions, often from families and education."
+"Unit 1 - One Republic, Two Americas?","Extended","Property","Anything subject to ownership."
+"Unit 2 - The Constitution","Core","Anti-federalist","Opposed the new Constitution in 1787 and in general opposed a strong central goverment."
+"Unit 2 - The Constitution","Core","Bicameral legislature; Bicameral","A legislature with two chambers. In the US, the Senate and House of Representatives."
+"Unit 2 - The Constitution","Core","Checks and balances","The principle of government where the actions of one branch are checked by the others."
+"Unit 2 - The Constitution","Core","Electoral college","The system of voting for president and vice president where electors from each state and DC cast votes. The number of electors per state is equal to the number of representatives in both chambers of Congress."
+"Unit 2 - The Constitution","Core","Federal system","A system of government where power is divided by a central and regional governments where both have some domain where their policies are dominant."
+"Unit 2 - The Constitution","Core","Federalist","Supported the adoption of the Constitution and the creation of a federal union with a strong central government."
+"Unit 2 - The Constitution","Core","Great compromise; Connecticut compromise","The compromise between the New Jersey and Virginia plans for two chambers with one based on population and another having equal representation among states."
+"Unit 2 - The Constitution","Core","Madisonian model","The structure of government proposed by James Madison for three branches: legistlative, executive, and judicial."
+"Unit 2 - The Constitution","Core","Natural rights","Rights held to be inherent and not dependent on governments. ""Life, liberty, and the pursuit of happiness"""
+"Unit 2 - The Constitution","Core","Representative assembly","A legislature consisting of individuals who represent the population."
+"Unit 2 - The Constitution","Core","Separation of powers","The principle of dividing powers among different branches of government."
+"Unit 2 - The Constitution","Core","Supremacy clause","Asserts the priority of national laws over state laws."
+"Unit 2 - The Constitution","Core","Unicameral legistlature; Unicameral","A legistlature with only one chamber. Nebraska is the only state in the Union that features this."
+"Unit 2 - The Constitution","Extended","Confederation","A political system of independent states that have ultimate authority except for powers they delegate to a central government; a voluntary association of states with few limits on the action of states."
+"Unit 2 - The Constitution","Extended","Ratification","Formal approval."
+"Unit 2 - The Constitution","Extended","State","A group of people occupying a specific area organized under one government."
+"Unit 3 - Federalism","Core","Commerce clause","The United States Congress shall have power ""to regulate Commerce with foreign Nations, and among the several States, and with the Indian Tribes"""
+"Unit 3 - Federalism","Core","Concurrent powers","Powers held jointly by the national and state governments. Ex. power to tax, borrow funds, establish courts, and charter banks."
+"Unit 3 - Federalism","Core","Dual federalism","A system in which states and the federal government are viewed as two separate and independent spheres which should not interfere with each other. They should not exercise authority in the same areas."
+"Unit 3 - Federalism","Core","Elastic clause; Necessary and proper clause; Article 1 section 8","Allows the federal government to stretch interpretations of the law to do what is necessary for the government to run. Allowed for the creation of the national bank and department of homeland security."
+"Unit 3 - Federalism","Core","Federalism","A system of government in which power is divided into a central government and regional governments or subunits. Each level has some domain in which its policies are dominant."
+"Unit 3 - Federalism","Core","Full faith and credit clause","The section of the Constitution requiring states to recognize other states' laws and court decisions."
+"Unit 3 - Federalism","Core","Interstate compact","An agreement between two or more states. May require approval from Congress if it gives an advantage to contracting states relative to other states or the national government. Used to resolve regional problems."
+"Unit 3 - Federalism","Core","Picket-fence federalism","A model of federalism where all policies (the vertical pickets) involve and are supported by all levels of government (the horizontal boards)."
+"Unit 3 - Federalism","Core","Supremacy clause; Supremacy","Art. VI. The Constitution and federal laws are superior to conflicting state and local laws."
+"Unit 3 - Federalism","Core","Unitary system; Unitary","A system of centralized government in which subdivisional governments only exercise powers handed down from the central government."
+"Unit 3 - Federalism","Extended","Block grants; Block","Federal grants to state or local governments for general functional areas such as criminal justice or mental health programs. Groups several categorical grants in one and provides more flexibility."
+"Unit 3 - Federalism","Extended","Categorical grants; Categorical","Federal grants to state or local governments for specific programs. Includes Medicaid, highway construction, unemployment benefits, and housing assistance."
+"Unit 3 - Federalism","Extended","Confederal system","A system consisting of a league of independent states with soverign powers. The central government created has limited powers over the states."
+"Unit 3 - Federalism","Extended","Cooperative federalism","The theory that states and the national government should cooperate to solve problems."
+"Unit 3 - Federalism","Extended","Devolution","The transfer of national or central government powers to state or local government."
+"Unit 3 - Federalism","Extended","Extradite","To surrender an accused or convicted criminal to the authorities of which the person has fled; to return to the jurisdiction of the accusing state."
+"Unit 3 - Federalism","Extended","Federal mandate","Federal legistlation that forces states and municipalities to comply with certain rules."
+"Unit 3 - Federalism","Extended","Police power","The authority to legistlate the protection of health, morals, safety, and welfare of the people. Mostly reserved for states in the US."
+"Unit 3 - Federalism","Extended","Privileges and immunities","Special rights and excemptions provided by the law. States may not discriminate against the citzens of another state. Ex. a student from Oregon attending school at UW is given the same right as Washingtonians to hold a job and travel freely."
+"Unit 4 - Civil Liberties","Core","Civil liberties","Freedoms that protect individuals, usually by restraining the actions of governments against individuals."
+"Unit 4 - Civil Liberties","Core","Clear and present danger test","A test proposed by Justice Oliver Wendell Holmes. Free speech can be restricted when there is a clear and present danger to the public order."
+"Unit 4 - Civil Liberties","Core","Commercial speech","Advertising statements. Have increasingly been given 1st amendment protections."
+"Unit 4 - Civil Liberties","Core","Establisment clause","Prohibits the federal government from establishing and officially supporting a church. Guarantees separation of church and state."
+"Unit 4 - Civil Liberties","Core","Exclusionary rule","Illegally obtained evidence cannot be used. Similar to the legal principle of fruit of the poisonous tree."
+"Unit 4 - Civil Liberties","Core","Free exercise clause","Prohibits the government from constraining the exercise of religion."
+"Unit 4 - Civil Liberties","Core","Incorporation theory; Incorporation","The idea that protections in Bill of Rights applies to states through the 14th Amendment's due process clause."
+"Unit 4 - Civil Liberties","Core","Libel","Written defamation of a person's character, reputation, business, or property rights."
+"Unit 4 - Civil Liberties","Core","Slander","A public statement that is false and harms the good reputation of another made to persons other than the defamed party."
+"Unit 4 - Civil Liberties","Core","Symbolic speech","Nonverbal expression of beliefs. Often given substantial protection by the courts."
+"Unit 4 - Civil Liberties","Extended","Actual malice","Either a person's (1) knowledge of the falsity of a defamatory statement or (2) reckless disregard for the truth."
+"Unit 4 - Civil Liberties","Extended","Defamation of character; Defamation","Wrongfully hurting one's good reputation."
+"Unit 4 - Civil Liberties","Extended","Gag order; Gag","An order issued by a judge to restrict news coverage of a trial to protect the accused's right to a fair trial."
+"Unit 4 - Civil Liberties","Extended","Prior restraint","Restraining an activity before it has occurred. Called censorship when expression is involved."
+"Unit 4 - Civil Liberties","Extended","Public figure","A public official or celebrity known to the public."
+"Unit 5 - Civil Rights","Core","Affirmative action","Policy in admissions or hiring to give special attention to disadvantaged groups with the goal of overcoming present effects of past discrimination."
+"Unit 5 - Civil Rights","Core","Black Codes","Laws passed by southern states immediately after the civil war denying most legal rights to freed slaves."
+"Unit 5 - Civil Rights","Core","Busing","In the context of civil rights, the transportation of public school students from areas where they live to schools in other areas to eliminate school segregation based on residential racial patterns."
+"Unit 5 - Civil Rights","Core","Grandfather clause","Used by Southern states to disenfranchize Black voters by restricting voting to those whose grandfathers had voted before 1867."
+"Unit 5 - Civil Rights","Core","Hate crime","A criminal offense against a person or property that is motivated by bias against some protected trait such as race, gender identity, or religion."
+"Unit 5 - Civil Rights","Core","Jim Crow laws","Laws enacted by Southern states to enforce segregation."
+"Unit 5 - Civil Rights","Core","Literacy test","A test administered as a precondition for voting, often used to prevent African Americans from voting."
+"Unit 5 - Civil Rights","Core","Poll tax","A tax that must be paid to qualify for voting. Outlawed in the 24th amendment for national elections and in 1966 declared unconstitutional in all elections by the Supreme Court."
+"Unit 5 - Civil Rights","Core","Reparation","Compensation, both monetary or nonmonetary in the form of an apology, to make amends for harm caused."
+"Unit 5 - Civil Rights","Core","Separate-but-equal doctrine","The 1896 doctrine that separate facilities could be offered without violating the equal protection clause. From Plessy v. Ferguson."
+"Unit 5 - Civil Rights","Core","Subpoena","A legal writ requiring one to appear in court to give testimony."
+"Unit 5 - Civil Rights","Extended","Civil disobedience","Nonviolent, public refusal to obey allegedly unjust laws."
+"Unit 5 - Civil Rights","Extended","Civil rights","The right to equal treatment under the law as guaranteed by the Fourteenth Amendment."
+"Unit 5 - Civil Rights","Extended","De facto segregation","Racial segregation due to past conditions and residential racial patterns."
+"Unit 5 - Civil Rights","Extended","De jure segregation","Racial segregation due to laws or policies by publuc agencies."
+"Unit 5 - Civil Rights","Extended","Feminism","The philosophy of achieving social equality for women and gender consciousness to mobilize women for change."
+"Unit 5 - Civil Rights","Extended","Gender discriminiation","The practice of denying equal treatment on the basis of sex."
+"Unit 5 - Civil Rights","Extended","Reverse discrimination","Accuses affirmative action of discriminating against those who do not have minority status."
+"Unit 5 - Civil Rights","Extended","Sexual harassment","Unwanted physical or verbal conduct, sexual in nature, that interferes with one's ability to work or carries other negative consequences."
+"Unit 5 - Civil Rights","Extended","Suffrage","The right to vote."
+"Unit 5 - Civil Rights","Extended","White primary","A state primary election that restricts voting to whites only; outlawed by the Supreme Court in 1944."
+"Unit 6 - Political Socialization","Core","Gender gap","Women are more likely to support Democratic candidates, while men are more likely to support Republican ones."
+"Unit 6 - Political Socialization","Core","Generational effect","Different generations tend to form different opinions on events with long-lasting consequences."
+"Unit 6 - Political Socialization","Core","Life Cycle Effect","Older people tend to take more conservative stances, while younger people take more liberal ones."
+"Unit 6 - Political Socialization","Core","Managed news","Information generated and distributed by the government in such a way as to give government interests priority over candor."
+"Unit 6 - Political Socialization","Core","Opinion leader","One who is able to influence the opinions of others because of position, expertise, or personality."
+"Unit 6 - Political Socialization","Core","Opinion poll","A method of systematically questioning a small, selected sample of respondents who are deemed representative of the total population."
+"Unit 6 - Political Socialization","Core","Peer group","A group consisting of members sharing common social characteristics. Play an important part in shaping opinions."
+"Unit 6 - Political Socialization","Core","Political Socialization","The process by which people acquire political beliefs and atitudes."
+"Unit 6 - Political Socialization","Core","Socioeconomic Status","The social standing or economic class of an individual or group."
+"Unit 6 - Political Socialization","Extended","Agenda setting","Determining which public policy questions will be debated or considered."
+"Unit 6 - Political Socialization","Extended","Concensus","General agreement among the citizenry on an issue."
+"Unit 6 - Political Socialization","Extended","Divisive opinion","Public opinion that is polarized between two quite different opinions."
+"Unit 6 - Political Socialization","Extended","Media","Channels of mass communication."
+"Unit 6 - Political Socialization","Extended","NonOpinion","An issue on which not enough people are informed or care to form a public opinion."
+"Unit 6 - Political Socialization","Extended","Political Trust","The population's confidence in the government."
+"Unit 6 - Political Socialization","Extended","Public Opinion","The aggregate of individual attitudes or beliefs by some portion of the adult population."
+"Unit 6 - Political Socialization","Extended","Sampling Error","The difference between a sample's results and the true result if the entire population had been interviewed."
+"Unit 6 - Political Socialization","Extended","Watergate Break-in; Watergate Scandal; Watergate","President Nixon's administration broke into the Democratic National Committee headquarters at the Watergate Office Building."
+"Unit 7 - Interest Groups","Core","Boycott","A form of pressure or protest—an organized refusal to purchase a particular product or deal with a particular business."
+"Unit 7 - Interest Groups","Core","Climate Control","The use of public relations techniques to create favorable public opinion toward an interest group, industry, or corporation."
+"Unit 7 - Interest Groups","Core","Direct Technique; Direct","An interest group activity that involves interaction with government officials to further the group's goals."
+"Unit 7 - Interest Groups","Core","Free Rider Problem","The difficulty interest groups face in recruiting members when the benefits they achieve can be gained without joining the group."
+"Unit 7 - Interest Groups","Core","Indirect Technique; Indirect","A strategy employed by interest groups that uses third parties to influence government officials."
+"Unit 7 - Interest Groups","Core","Interest groups","An organized group of individuals sharing common objectives who actively attempt to influence policymakers."
+"Unit 7 - Interest Groups","Core","Labor Movement","Generally, the economic and political expression of working-class interests; politically, the organization of working-class interests."
+"Unit 7 - Interest Groups","Core","Lobbyist","An organization or individual who attempts to influence legislation and the administrative decisions of government."
+"Unit 7 - Interest Groups","Core","Material Incentive; Material","A reason or motive for supporting or participating in the activities of a group based on economic benefits or opportunities."
+"Unit 7 - Interest Groups","Core","Purposive Incentive; Purposive","A reason for supporting or participating in the activities of a group based on agreement with the goals of the group."
+"Unit 7 - Interest Groups","Core","Social movement","A movement that represents the demands of a large segment of the public for political, economic, or social change."
+"Unit 7 - Interest Groups","Core","Solidary Incentive; Solidary","A reason or motive for supporting or participating in the activities of a group based on the desire to associate with others and to share with others a particular interest or hobby."
+"Unit 7 - Interest Groups","Extended","Hill style politician; Hill style","A politician that pursues personal interests and represents lobbyist."
+"Unit 7 - Interest Groups","Extended","Home style politician; Home style","A politician that represents the people."
+"Unit 7 - Interest Groups","Extended","Latent Interests","Public-policy interests that are not recognized or addressed by a group at a particular time."
+"Unit 7 - Interest Groups","Extended","Lobbying Disclosure Act; LDA","An act passed in 1995 that created, among other things, a comprehensive reporting and disclosure structure for lobbyists, prohibited the spending of federal money on lobbying, and, in some cases, limited the percent of spending that can go to lobbying."
+"Unit 7 - Interest Groups","Extended","Public Interest","The best interests of the overall community; the national good, rather than the narrow interests of a particular group."
+"Unit 7 - Interest Groups","Extended","Service sector","The sector of the economy that provides services—such as health care, banking, and education—in contrast to the sector that produces goods."
+"Unit 8 - Political Parties","Core","3/4; 75%","What portion of promises made in a party platform eventually become laws?"
+"Unit 8 - Political Parties","Core","Dealignment","A decline in party loyalties that reduces long-term party commitment."
+"Unit 8 - Political Parties","Core","Democratic Party","One of the two major American political parties. It evolved out of the Republican Party of Thomas Jefferson in the early 1800s after Andrew Jackson caused a party schism."
+"Unit 8 - Political Parties","Core","Divided Government","A situation in which one major political party controls the presidency and the other controls the chambers of Congress, or in which one party controls a state governorship and the other controls the state legislature."
+"Unit 8 - Political Parties","Core","Electoral College","A group of persons, called electors, who are selected by the voters in each state. This group officially elects the president and the vice president of the United States."
+"Unit 8 - Political Parties","Core","Factions","A group or bloc in a legislature or political party acting in pursuit of some special interest or position."
+"Unit 8 - Political Parties","Core","Gridlock; Deadlock","A situation when there is difficulty passing laws that satisfy the needs of the people. Often comes as a result of a divided government."
+"Unit 8 - Political Parties","Core","Independent","A voter or candidate who does not identify with a political party."
+"Unit 8 - Political Parties","Core","National Convention","The meeting held every four years by each major party to select presidential and vice presidential candidates, to write a platform, to choose a national committee, and to conduct party business."
+"Unit 8 - Political Parties","Core","Party in Government","All the elected and appointed officials who identify with a political party."
+"Unit 8 - Political Parties","Core","Party Organization","The formal structure and leadership of a political party, including election committees; local, state, and national executives; and paid professional staff."
+"Unit 8 - Political Parties","Core","Party Platform","A document drawn up at each national convention outlining the policies, positions, and principles of the party."
+"Unit 8 - Political Parties","Core","Party-In-Electorate","Those members of the general public who identify with a political party or who express a preference for one party over another"
+"Unit 8 - Political Parties","Core","Political Party","A group of political activists who organize to win elections, operate the government, and determine public policy."
+"Unit 8 - Political Parties","Core","Realignment","A process in which a substantial group of voters switches party allegiance, producing a long-term change in the political landscape."
+"Unit 8 - Political Parties","Core","Republican Party","One of the two major American political parties. It emerged in the 1850s as an antislavery party and consisted of former Northern Whigs and antislavery Democrats."
+"Unit 8 - Political Parties","Core","Reverse-Income Effect","A tendency for wealthier states or regions to favor the Democrats and for less wealthy states or regions to favor the Republicans. The effect appears paradoxical because it reverses traditional patters of support."
+"Unit 8 - Political Parties","Core","Safe Seat","A district that returns the legislator with 55 percent of the vote or more."
+"Unit 8 - Political Parties","Core","Splinter Party","A new party formed by a dissident faction within a major political party. These often emerge when a particular personality was at odds with the major party."
+"Unit 8 - Political Parties","Core","State Central Committee","The principal organized structure of each political party within each state. This committee is responsible for carrying out policy decisions of the party's state convention."
+"Unit 8 - Political Parties","Core","Straight-Ticket Voting","Voting exclusively for the candidates of one party."
+"Unit 8 - Political Parties","Core","Swing States","States that do not conistently vote for one party."
+"Unit 8 - Political Parties","Core","Swing Voters","Voters who frequently swing their support from one party to another."
+"Unit 8 - Political Parties","Core","Third Party; 3rd Party","A political party other than the two major political parties (Republican and Democratic)."
+"Unit 8 - Political Parties","Core","Ticket Splitting","Voting for candidates of two or more parties for different offices. For example, a voter splits her ticket if she votes for a Republican presidential candidate and a Democratic congressional candidate."
+"Unit 8 - Political Parties","Core","Tipping","A phenomenon that occurs when a group that is becoming more numerous over time grows large enough to change the political balance in a district, state, or country."
+"Unit 8 - Political Parties","Core","Unit Rule","A rule by which all of a state’s electoral votes are cast for the presidential candidate receiving a plurality of the popular vote in that state."
+"Unit 8 - Political Parties","Extended","Federalists or Antifederalists; Federalists; Antifederalists; Democratic Republicans; Jefferson's Republicans","One of the original two political parties, formed shortly after the ratification of the constitution. One was led by Adams, the other by Jefferson."
+"Unit 8 - Political Parties","Extended","Party Identification","Linking oneself to a particular political party."
+"Unit 8 - Political Parties","Extended","Patronage","Rewarding faithful party workers and followers with government employment and contracts. This was often used by political machines to maintain control."
+"Unit 8 - Political Parties","Extended","Plurality","A number of votes cast for a candidate that is greater than the number of votes for any other candidate but not necessarily be a majority."
+"Unit 8 - Political Parties","Extended","The Era of Good Feelings; Era of Good Feelings","The years from 1817 to 1825, when James Monroe was president and had, in effect, no political opposition. (The federalist party had recently practically dissolved)"
+"Unit 8 - Political Parties","Extended","The New Deal; New Deal","After the great depression destroyed general confidence in the ability of the republicans to manage the economy, this garnered mass support for Democrats."
+"Unit 8 - Political Parties","Extended","Two-Party System","A political system in which only two parties have a reasonable chance of winning."
+"Unit 8 - Political Parties","Extended","Whig Party","A major party in the United States during the first half of the 19th century, formally established in 1836. The Whig Party was anti-Jackson and represented a variety of regional interests."
+"Unit 9 - Voting and Elections","Core","Australian Ballot; Australian","A secret ballot prepared, distributed, and tabulated by government officials at public expense. Since 1888, all U.S. states have used this type of ballot rather than an open, public ballot."
+"Unit 9 - Voting and Elections","Core","Blanket Primary; Blanket","A primary in which voters can vote for candidates of more than one party. This is often more expensive for the candidate, as they must appeal to a wider base. This type of primary was outlawed in 2000 for violating the 1st ammendment right to assemble of the political parties"
+"Unit 9 - Voting and Elections","Core","Caucus","A meeting of party members designed to select candidates and propose policies."
+"Unit 9 - Voting and Elections","Core","Closed Primary; Closed","A type of primary in which the voter is limited to choosing candidates of the party of which he or she is a member."
+"Unit 9 - Voting and Elections","Core","Coattail Effect","The influence of a popular candidate on the electoral success of other candidates on the same party ticket. The effect is increased by the partycolumn ballot, which encourages straight-ticket voting."
+"Unit 9 - Voting and Elections","Core","Office-Block Ballot or Massachusetts Ballot; Office-Block Ballot; Massachusetts Ballot; Office-Block; Masssachusetts","A form of general-election ballot in which candidates for elective office are grouped together under the title of each office. It emphasizes voting for the office and the individual candidate, rather than for the party."
+"Unit 9 - Voting and Elections","Core","Open Primary; Open","A primary in which any registered voter can vote (but must vote for candidates of only one party)."
+"Unit 9 - Voting and Elections","Core","Party-Column Ballot or Indiana Ballot; Party-Column Ballot; Indiana Ballot; Party-Column; Indiana","A form of general-election ballot in which all of a party's candidates for elective office are arranged in one column under the party's label and symbol. It emphasizes voting for the party, rather than for the office or individual."
+"Unit 9 - Voting and Elections","Core","Rational Ignorance Effect","An effect produced when people purposely and rationally decide not to become informed on an issue because they believe that their vote on the issue is not likely to be a deciding one; a lack of incentive to seek the necessary information to cast an intelligent vote."
+"Unit 9 - Voting and Elections","Extended","Elector","A member of the electoral college, which selects the president and vice president. Each state's electors are chosen in each presidential election year according to state laws."
+"Unit 9 - Voting and Elections","Extended","Recall Election; Recall","a procedure by which voters can remove an elected official from office through a referendum before that official's term of office has ended."
+"Unit 9 - Voting and Elections","Extended","Registration","The entry of a person’s name onto the list of registered voters for elections. To register, a person must meet certain legal requirements of age, citizenship, and residency."
+"Unit 9 - Voting and Elections","Extended","Special Election; Special","An election used to fill an office that has become vacant between general elections"
+"Unit 9 - Voting and Elections","Extended","Voter Turnout; Turnout","The percentage of citizens taking part in the election process; the number of eligible voters who actually “turn out” on election day to cast their ballots."
+"Unit 10 - Campaigning for Office","Core","Battleground State","A state likely to be so closely fought that the campaigns devote exceptional effort to winning the popular and electoral vote there."
+"Unit 10 - Campaigning for Office","Core","Communications Director","A professional specialist who plans the communications strategy and advertising campaign for the candidate."
+"Unit 10 - Campaigning for Office","Core","Corrupt Practices Acts","A series of acts passed by congress since 1925 which attempt to limit and regulate the size and sources of contributions and expenditures in political campaigns."
+"Unit 10 - Campaigning for Office","Core","Front-Runner","The presidential candidate who appears to be ahead at a given time in the primary season."
+"Unit 10 - Campaigning for Office","Core","Get Out the Vote; GOTV","This phrase describes the mutiple efforts expended by campaigns to get voters out to the polls on election day."
+"Unit 10 - Campaigning for Office","Core","Hard Money","This refers to political contributions and campaign spending that is recorded under the regulations set forth in law and by the Federal Election Commission."
+"Unit 10 - Campaigning for Office","Core","Hatch Act","An act passed in 1939 that restricted the political activities of government employees. It also prohibited a political group from spending more than $3 million in any campaign and limited individual contributions to a campaign committee to $5000"
+"Unit 10 - Campaigning for Office","Core","Independent Expenditures","Nonregulated contributions from PACs, organizations, and individuals. The funds may be spent on advertising or other campaign activities, so long as those expenditures are not coordinated with those of a candidate."
+"Unit 10 - Campaigning for Office","Core","Issue Advocacy Advertising","Advertising paid for by interest groups that support or oppose a candidate or a candidate's position on an issue without mentioning voting or elections."
+"Unit 10 - Campaigning for Office","Core","Political Action Committee","A committee set up by and representing a corporation, labor union, or special-interest group. PACs raise and give campaign donations."
+"Unit 10 - Campaigning for Office","Core","Presidential Primaries","A statewide primary election of delegates to a political party's national convention, held to determine a party's presidential nominee."
+"Unit 10 - Campaigning for Office","Core","Press Secretary","The individual who interacts directly with the journalists covering the campaign."
+"Unit 10 - Campaigning for Office","Core","Soft Money","Campaign contributions unregulated by federal or state law, usually given to parties and party committees to help fund general party activities."
+"Unit 10 - Campaigning for Office","Core","Spin","An interpretation of campaign events or election results that is favorable to the candidate's campaign strategy."
+"Unit 10 - Campaigning for Office","Core","Super PAC","A political committee that can accept unlimited contributions from individuals and corporations to spend supporting a candidate as long as its efforts are not coordinated with the candidate's own campaign."
+"Unit 10 - Campaigning for Office","Core","Superdelegates","A party leader or elected official who is given the right to vote at the party's national convention. They are not elected at the state level."
+"Unit 10 - Campaigning for Office","Extended","“Beauty Contest”","A presidential primary in which contending candidates compete for popular votes but the results do not control the selection of delegates to the national convention."
+"Unit 10 - Campaigning for Office","Extended","Credentials Committee","A committee used by political parties at their national conventions to determine which delegates may participate. The committee inspects the claim of each prospective delegate to be seated as a legitimate representative of his or her state."
+"Unit 10 - Campaigning for Office","Extended","Finance Chairperson","The campaign professional who directs fundraising, campaign spending, and compliance with campaign finance laws and reporting requirements."
+"Unit 10 - Campaigning for Office","Extended","Focus Group","A small group of individuals who are led in discussion by a professional consultant in order to gather opinions on and responses to candidates and issues."
+"Unit 10 - Campaigning for Office","Extended","Front-Loading","The practice of moving presidential primary elections to the early part of the campaign to maximize the impact of these primaries on the nomination."
+"Unit 10 - Campaigning for Office","Extended","Political Consultant","A paid professional hired to devise a campaign strategy and manage a campaign."
+"Unit 10 - Campaigning for Office","Extended","Pollster","The person or firm who conducts public opinion polls for the campaign."
+"Unit 10 - Campaigning for Office","Extended","Spin Doctors","Political campaign advisers who try to convince journalists of hte truth of a particular interpretation of events."
+"Unit 10 - Campaigning for Office","Extended","Tracking Poll","A poll taken for the candidate on a nearly daily basis as election day approaches."
+"Unit 11 - The Congress","Core","Hillstyle","The actions and behaviors of a member of Congress in Washington, D.C., intended to promote policies and the member's own career aspirations."
+"Unit 11 - The Congress","Core","Bicameralism","The division of a legislature into two separate assemblies."
+"Unit 11 - The Congress","Core","Lawmaking","The process of establishing the legal rules that govern society."
+"Unit 11 - The Congress","Core","Logrolling","An arrangement in which two or more members of Congress agree in advance to support each other's bills."
+"Unit 11 - The Congress","Core","Representation","The function of members of Congress as elected officials representing the views of their constituents."
+"Unit 11 - The Congress","Core","Trustee","A legislator who acts according to her or his conscience and the broad interests of the entire society."
+"Unit 11 - The Congress","Core","Instructed Delegate","A legislator who is an agent of the voters who elected him or her and who votes according to the views of constituents regardless of personal beliefs."
+"Unit 11 - The Congress","Core","Casework","Personal work for constituents by members of Congress."
+"Unit 11 - The Congress","Core","Ombudsperson","A person who hears and investigates complaints by private individuals against public officials or agencies."
+"Unit 11 - The Congress","Core","Oversight","The process by which Congress follows up on laws it has enacted to ensure that they are being enforced and administered in the way Congress intended."
+"Unit 11 - The Congress","Core","Enumerated Power","A power specifically granted to the national government by the Constitution. The first 17 clauses of Article 1, Section 8, specify most of the enumerated powers of Congress."
+"Unit 11 - The Congress","Core","Filibuster","The use of the Senate's tradition of unlimited debate as a delaying tactic to block a bill."
+"Unit 11 - The Congress","Core","Unorthodox Lawmaking","The use of out-of-the-ordinary parliamentary tactics to pass legislation."
+"Unit 11 - The Congress","Core","Direct Primary","An intraparty election in which the voters select the candidates who will run on a party's ticket in the subsequent general election."
+"Unit 11 - The Congress","Core","Reapportionment","The allocation of seats in the House of Representatives to each state after each census."
+"Unit 11 - The Congress","Core","Redistricting","The redrawing of the boundaries of the congressional districts within each state."
+"Unit 11 - The Congress","Core","Gerrymandering","The drawing of legislative district boundary lines to obtain partisan or factional advantage. A district is said to be gerrymandered when its shape is manipulated by the dominant party in the state legislature to maximize electoral strength at the expense of the minority party."
+"Unit 11 - The Congress","Core","Standing Committee","A permanent committee in the House or Senate that considers bills within a certain subject area."
+"Unit 11 - The Congress","Core","Select Committee","A temporary legislative committee established for a limited time period and for a special purpose."
+"Unit 11 - The Congress","Core","Joint Committee","A legislative committee composed of members from both chambers of Congress."
+"Unit 11 - The Congress","Core","Conference Committee","A special joint committee appointed to reconcile differences when bills pass the two chambers of Congress in different forms."
+"Unit 11 - The Congress","Core","Safe Seat","A district that returns a legislator with 55 percent of the vote or more."
+"Unit 11 - The Congress","Core","Speaker of the House","The presiding officer in the House of Representatives. The Speaker is always a member of the majority party and is the most powerful and influential member of the House."
+"Unit 11 - The Congress","Core","Majority Leader of the House","A legislative position held by an important party member in the House of Representatives. The majority leader is selected by the majority party in caucus or conference to foster cohesion among party members and to act as spokesperson for the majority party in the House."
+"Unit 11 - The Congress","Core","Minority Leader of the House","The party leader elected by the minority party in the House."
+"Unit 11 - The Congress","Core","Whip","A member of Congress who aids the majority or minority leader of the House or the Senate."
+"Unit 11 - The Congress","Core","President Pro Tempore","The temporary presiding officer of the Senate in the absence of the vice president."
+"Unit 11 - The Congress","Core","Senate Majority Leader","The chief spokesperson of the majority party in the Senate, who directs the legislative program and party strategy."
+"Unit 11 - The Congress","Core","Senate Minority Leader","The party officer in the Senate who commands the minority party's opposition to the policies of the majority party and directs the legislative program and strategy of his or her party."
+"Unit 11 - The Congress","Core","Earmarks","Funding appropriations that are specifically designated for a named project in a member's state or district."
+"Unit 11 - The Congress","Core","Pork","Special projects or appropriations that are intended to benefit a member's district or state; slang term for earmarks."
+"Unit 11 - The Congress","Core","Executive Budget","The budget prepared and submitted by the president to Congress."
+"Unit 11 - The Congress","Core","Spring Review","The annual process in which the Office of Management and Budget requires federal agencies to review their programs, activities, and goals and submit their requests for funding for the next fiscal year."
+"Unit 11 - The Congress","Core","Fall Review","The annual process in which the Office of Management and Budget, after receiving formal federal agency requests for funding for the next fiscal year, reviews the requests, makes changes, and submits its recommendations to the president."
+"Unit 11 - The Congress","Core","Authorization","A formal declaration by a legislative committee that a certain amount of funding may be available to an agency. Some authorizations terminate in a year; others are renewable automatically, without further congressional action."
+"Unit 11 - The Congress","Core","Appropriation","The passage, by Congress, of a spending bill specifying the amount of authorized funds that actually will be allocated for an agency's use."
+"Unit 11 - The Congress","Core","First Budget Resolution","A resolution passed by Congress in May that sets overall revenue and spending goals for the following fiscal year."
+"Unit 11 - The Congress","Core","Second Budget Resolution","A resolution passed by Congress in September that sets “binding” limits on taxes and spending for the following fiscal year."
+"Unit 11 - The Congress","Core","Continuing Resolution","A temporary funding law that Congress passes when an appropriations bill has not been decided by the beginning of the new fiscal year on October 1."
+"Unit 11 - The Congress","Extended","Constituent","One of the persons represented by a legislator or other elected or appointed official."
+"Unit 11 - The Congress","Extended","Homestyle","The actions and behaviors of a member of Congress aimed at the constituents and intended to win the support and trust of the voters at home."
+"Unit 11 - The Congress","Extended","Seniority System","A custom followed in both chambers of Congress specifying that the member of the majority party with the longest term of continuous service will be given preference when a committee chairperson (or a holder of some other significant post) is selected."
+"Unit 11 - The Congress","Extended","Blue Dog Democrats","Members of Congress from more moderate states or districts who sometimes “cross over” to vote with Republicans on legislation."
+"Unit 11 - The Congress","Extended","Rules Committee","A standing committee of the House of Representatives that provides special rules under which specific bills can be debated, amended, and considered by the House."
+"Unit 11 - The Congress","Extended","Rule","The proposal by the Rules Committee of the House that states the conditions for debate for one piece of legislation."
+"Unit 11 - The Congress","Extended","Unanimous Consent Agreement","An agreement on the rules of debate for proposed legislation in the Senate that is approved by all the members."
+"Unit 11 - The Congress","Extended","Party Identifier","A person who identifies with a political party."
+"Unit 11 - The Congress","Extended","Justiciable Question","A question that may be raised and reviewed in court."
+"Unit 11 - The Congress","Extended","Franking","A policy that enables members of Congress to send material through the mail by substituting their facsimile signature (frank) for postage."
+"Unit 11 - The Congress","Extended","Discharge Petition","A procedure by which a bill in the House of Representatives may be forced (discharged) out of a committee that has refused to report it for consideration by the House. The petition must be signed by an absolute majority (218) of representatives and is used only on rare occasions."
+"Unit 11 - The Congress","Extended","Conservative Coalition","An alliance of Republicans and southern Democrats that can form in the House or the Senate to oppose liberal legislation and support conservative legislation."
+"Unit 11 - The Congress","Extended","Fiscal Year","A 12-month period that is used for bookkeeping, or accounting, purposes. Usually doesn't coincide with the calender year."
+"Unit 12 - The President","Core","Advice and Consent","Terms in the Constitution describing the U.S. Senate's power to review and approve treaties and presidential appointments."
+"Unit 12 - The President","Core","Appointment Power","The authority vested in the president to fill a government office or position. Positions filled by presidential appointment include those in the executive branch and the federal judiciary, commissioned officers in the armed forces, and members of the independent regulatory commissions."
+"Unit 12 - The President","Core","Cabinet","An advisory group selected by the president to aid in making decisions. The cabinet includes the heads of 15 executive departments and others named by the president."
+"Unit 12 - The President","Core","Chief Diplomat","The role of the president in recognizing foreign governments, making treaties, and effecting executive agreements."
+"Unit 12 - The President","Core","Chief Executive","The role of the president as head of the executive branch of the government."
+"Unit 12 - The President","Core","Chief Legislator","The role of the president in influencing the making of laws."
+"Unit 12 - The President","Core","Chief of Staff","The person who is named to direct the White House Office and advise the president."
+"Unit 12 - The President","Core","Civil Service","A collective term for the body of employees working for the government. Generally, this is understood to apply to all those who gain government employment through a merit system."
+"Unit 12 - The President","Core","Commander in Chief","The role of the president as supreme commander of the military forces of the United States and of the state National Guard units when they are called into federal service."
+"Unit 12 - The President","Core","Constitutional Power","A power vested in the president by Article || of the Constitution."
+"Unit 12 - The President","Core","Diplomatic Recognition","The formal acknowledgment of a foreign government as legitimate."
+"Unit 12 - The President","Core","Emergency Powers","Inherent powers exercised by the president during a period of national crisis"
+"Unit 12 - The President","Core","Executive Agreement","An international agreement made by the president, without senatorial ratification, with the head of a foreign state."
+"Unit 12 - The President","Core","Executive Office of the President; EOP","An organization established by President Franklin D. Roosevelt to assist the president in carrying out major duties."
+"Unit 12 - The President","Core","Executive Order","A rule or regulation issued by the president that has the effect of law. Executive orders can implement and give administrative effect to provisions in the Constitution, to treaties, and to statutes."
+"Unit 12 - The President","Core","Executive Privilege","The right of executive officials to withhold information from or refuse to appear before a legislative committee or court."
+"Unit 12 - The President","Core","Expressed Power","A power of the president that is expressly written into the Constitution or into statutory law."
+"Unit 12 - The President","Core","Head of State","The role of the president as ceremonial head of the government."
+"Unit 12 - The President","Core","Impeachment","An action by the House of Representatives to accuse the president, vice president, or other civil officers of the United States of committing “Treason, Bribery, or other high Crimes and Misdemeanors.”"
+"Unit 12 - The President","Core","Inherent Powers","Powers of the president derived from the statements in the Constitution that “the executive Power shall be vested in a President” and that the president should “take Care that the Laws be faithfully executed”; defined through practice rather than through law."
+"Unit 12 - The President","Core","Kitchen Cabinet","The informal advisers to the president."
+"Unit 12 - The President","Core","National Security Council; NSC","An agency in the Executive Office of the President that advises the president on national security."
+"Unit 12 - The President","Core","Office of Management and Budget; OMB","A division of the Executive Office of the President. The OMB assists the president in preparing the annual budget, clearing and coordinating departmental agency budgets, and supervising the administration of the federal budget."
+"Unit 12 - The President","Core","Pardon","A release from the punishment for or legal consequences of a crime; a pardon can be granted by the president before or after a conviction."
+"Unit 12 - The President","Core","Permanent Campaign","A coordinated and planned strategy carried out by the White House to increase the president's popularity and support."
+"Unit 12 - The President","Core","Pocket Veto","A special veto exercised by the chief executive after a legislative body has adjourned. Bills not signed by the chief executive die after a specified period of time. If Congress wishes to reconsider such a bill, it must be reintroduced in the following session of Congress."
+"Unit 12 - The President","Core","policy tsar","A high-ranking member of the Executive Office of the President appopinted to coordinate action in one specific policy area."
+"Unit 12 - The President","Core","Reprieve","A formal postponement of the execution of a sentence imposed by a court of law."
+"Unit 12 - The President","Core","Signing Statement","A written declaration that a president may make when signing a bill into law. Usually, such statements point out sections of the law that the president deems unconstitutional."
+"Unit 12 - The President","Core","State of the Union Message","An annual message to Congress in which the president proposes a legislative program. The message Is addressed not only to Congress but also to the American people and to the world."
+"Unit 12 - The President","Core","Statutory Power","A power created for the president through laws enacted by Congress."
+"Unit 12 - The President","Core","Veto Message","The president's formal explanation of a veto when legislation is returned to Congress."
+"Unit 12 - The President","Core","War Powers Resolution","A law passed in 1973 spelling out the conditions under which the president can commit troops without congressional approval."
+"Unit 12 - The President","Core","White House Office","The personal office of the president, which tends to presidential political needs and manages the media."
+"Unit 12 - The President","Extended","Federal Register","A publication of the U.S. government that prints executive orders, rules, and regulations."
+"Unit 12 - The President","Extended","Line-Item Veto","The power of an executive to veto individual lines or items within a piece of legislation without vetoing the entire bill. (ruled unconstitutional)"
+"Unit 12 - The President","Extended","Patronage","The practice of rewarding faithful party workers and followers with government employment and contracts."
+"Unit 12 - The President","Extended","Twelfth Amendment","An amendment to the Constitution, adopted in 1804, that specifies the separate election of the president and vice president by the electoral college."
+"Unit 12 - The President","Extended","Twenty-fifth Amendment","A 1967 amendment to the Constitution that establishes procedures for filling presidential and vice presidential vacancies and makes provisions for presidential disability."
+"Unit 12 - The President","Extended","Washington Community","Individuals regularly involved with politics in Washington D.C."
+"Unit 13 - The Bureacracy","Core","Weberian Model; Weberian","A model of bureaucracy developed by the German sociologist Max Weber, who viewed bureaucracies as rational, hierarchical organizations in which decisions are based on logical reasoning."
+"Unit 13 - The Bureacracy","Core","Acquisitive Model; Acquisitive","A model of bureaucracy that views top-level bureaucrats as seeking to expand the size of their budgets and staffs to gain greater power."
+"Unit 13 - The Bureacracy","Core","Monopolistic Model; Monopolistic","A model of bureaucracy that compares bureaucracies to monopolistic business firms. Lack of competition in either circumstance leads to inefficient and costly operations."
+"Unit 13 - The Bureacracy","Core","Administrative Agency; Administrative","A federal, state, or local government unit established to perform a specific function. Administrative agencies are created and authorized by legislative bodies to administer and enforce specific laws."
+"Unit 13 - The Bureacracy","Core","Cabinet Department","One of the 15 departments of the executive branch (State, Treasury, Defense, Justice, Interior, Agriculture, Commerce, Labor, Health and Human Services, Homeland Security, Housing and Urban Development, Education, Energy, Transportation, and Veterans Affairs)."
+"Unit 13 - The Bureacracy","Core","Line Organization","In the federal government, an administrative unit that is directly accountable to the president."
+"Unit 13 - The Bureacracy","Core","Capture","The act by which an industry being regulated by a government agency gains direct or indirect control over agency personnel and decision makers."
+"Unit 13 - The Bureacracy","Core","Spoils System; Spoils","The awarding of government jobs to political supporters and friends."
+"Unit 13 - The Bureacracy","Core","Merit System; Merit","The selection, retention, and promotion of government employees on the basis of competitive examinations."
+"Unit 13 - The Bureacracy","Core","Pendleton Act (Civil Service Reform Act); Pendleton Act; Civil Service Reform Act","An act that established the principle of employment on the basis of merit and created the Civil Service Commission to administer the personnel service."
+"Unit 13 - The Bureacracy","Core","Civil Service Commission","The initial central personnel agency of the national government, created in 1883."
+"Unit 13 - The Bureacracy","Core","Government in the Sunshine Act","A law that requires all committeedirected federal agencies to conduct their business regularly in public session."
+"Unit 13 - The Bureacracy","Core","Sunset Legislation","Laws requiring that existing programs be reviewed regularly for their effectiveness and be terminated unless specifically extended as a result of these reviews."
+"Unit 13 - The Bureacracy","Core","Whistleblower","Someone who brings to public attention gross governmental inefficiency or an illegal action."
+"Unit 13 - The Bureacracy","Core","Enabling Legislation","A statute enacted by Congress that authorizes the creation of an administrative agency and specifies the name, purpose, composition, functions, and powers of the agency being created."
+"Unit 13 - The Bureacracy","Core","Iron Triangle","The three-way alliance among legislators, bureaucrats, and interest groups to make or preserve policies that benefit their respective interests."
+"Unit 13 - The Bureacracy","Extended","Bureaucracy","A large organization that is structured hierarchically to carry out specific functions."
+"Unit 13 - The Bureacracy","Extended","Independent Executive Agency","A federal agency that is not part of a cabinet department but reports directly to the president."
+"Unit 13 - The Bureacracy","Extended","Independent Regulatory Agency","An agency outside the major executive departments charged with making and implementing rules and regulations."
+"Unit 13 - The Bureacracy","Extended","Government Corporation","An agency of government that administers a quasi-business enterprise. These corporations are used when activities are primarily commercial."
+"Unit 13 - The Bureacracy","Extended","Privatization","The replacement of government services with services provided by private firms."
+"Unit 13 - The Bureacracy","Extended","Issue Network","A group of individuals or organizations—which may consist of legislators and legislative staff members, interest group leaders, bureaucrats, the media, scholars, and other experts—that supports a particular policy position on a given issue."
+"Unit 14 - The Courts","Core","Judicial Review","The power of the Supreme Court or any court to hold a law or other legal action as unconstitutional. Established in Marbury V Madison."
+"Unit 14 - The Courts","Core","Case Law","Judicial interpretations of common-law principles and doctrines, as well as interpretations of constitutional law, statutory law, and administrative law."
+"Unit 14 - The Courts","Core","Jurisdiction","The authority of a court to decide certain cases. Not all courts have the authority to decide all cases. Two jurisdictional issues are where a case arises as well as its subject matter."
+"Unit 14 - The Courts","Core","Federal Question","A question that has to do with the U.S. Constitution, acts of Congress, or treaties. A federal question provides a basis for federal jurisdiction."
+"Unit 14 - The Courts","Core","Trial Court","The court in which most cases begin."
+"Unit 14 - The Courts","Core","General Jurisdiction","Exists when a court's authority to hear cases is not significantly restricted. A court of general jurisdiction normally can hear a broad range of cases."
+"Unit 14 - The Courts","Core","Appellate Court","A court having jurisdiction to review cases and issues that were originally tried in lower courts."
+"Unit 14 - The Courts","Core","Litigate","To engage in a legal proceeding or seek relief in a court of law; to carry on a lawsuit."
+"Unit 14 - The Courts","Core","Class-Action Suit","A lawsuit filed by an individual seeking damages for “all persons similarly situated.”"
+"Unit 14 - The Courts","Core","Writ of Certiorari","An order issued by a higher court to a lower court to send up the record of a case for review."
+"Unit 14 - The Courts","Core","Rule of Four","A United States Supreme Court procedure by which four justices must vote to grant a petition for review if a case is to come before the full court."
+"Unit 14 - The Courts","Core","Oral Arguments","The verbal arguments presented in person by attorneys to an appellate court. Each attorney presents reasons to the court why the court should rule in her or his client's favor."
+"Unit 14 - The Courts","Core","Opinion","The statement by a judge or a court of the decision reached in a case. The opinion sets forth the applicable law and details the reasoning on which the ruling was based."
+"Unit 14 - The Courts","Core","Affirm","To declare that a court ruling is valid and must stand."
+"Unit 14 - The Courts","Core","Reverse","To annul or make void a court ruling on account of some error or irregularity."
+"Unit 14 - The Courts","Core","Remand","To send a case back to the court that originally heard it."
+"Unit 14 - The Courts","Core","Unanimous Opinion; Unanimous","A court opinion or determination on which all judges agree. Sets precedent."
+"Unit 14 - The Courts","Core","Majority Opinion; Majority","A court opinion reflecting the views of the majority of the judges. Sets precedent"
+"Unit 14 - The Courts","Core","Dissenting Opinion; Dissenting","A separate opinion in which a judge dissents from (disagrees with) the conclusion reached by the majority on the court and expounds his or her own views about the case."
+"Unit 14 - The Courts","Core","Senatorial Courtesy","In federal district court judgeship nominations, a tradition allowing a senator to veto a judicial appointment in his or her state."
+"Unit 14 - The Courts","Core","Judicial Activism","A doctrine holding that the Supreme Court should take an active role by using its powers to check the activities of governmental bodies when those bodies exceed their authority."
+"Unit 14 - The Courts","Core","Judicial Restraint","A doctrine holding that the Supreme Court should defer to the decisions made by the elected representatives of the people in the legislative and executive branches."
+"Unit 14 - The Courts","Core","Strict Construction","A judicial philosophy that looks to the “letter of the law” when interpreting the Constitution or a particular statute."
+"Unit 14 - The Courts","Core","Broad Construction","A judicial philosophy that looks to the context and purpose of a law when making an interpretation."
+"Unit 14 - The Courts","Extended","Diversity of Citizenship","The condition that exists when the parties to a lawsuit are citizens of different states, or when the parties are citizens of a U.S. state and citizens or the government of a foreign country. Diversity of citizenship can provide a basis for federal jurisdiction."
+"Unit 14 - The Courts","Extended","Limited Jurisdiction","Exists when a court's authority to hear cases is restricted to certain types of claims, such as tax claims or bankruptcy petitions."
+"Unit 14 - The Courts","Extended","Concurring Opinion; Concurring","A separate opinion prepared by a judge who supports the decision of the majority of the court but who wants to make or clarify a particular point or to voice disapproval of the grounds on which the decision was made."
+"Unit 14 - The Courts","Extended","Judicial Implementation","The way in which court decisions are translated into action."
+"Unit 14 - The Courts","Extended","Political Question","An issue that a court believes should be decided by the executive or legislative branch."
+"Unit 15 - Domestic Policy","Core","Earned income tax credit program (EITC); earned income tax credit program; EITC","A government program that helps low-income workers by giving back part or all of their Social Security taxes."
+"Unit 15 - Domestic Policy","Core","Environmental impact statement (EIS); environmental impact statement; EIS","A report showing the costs and benefits of a federal action that could have a major impact on the environment."
+"Unit 15 - Domestic Policy","Core","Food stamps","Benefits issued by the federal government to low-income individuals to buy food. Originally provided as coupons, but now typically provided electronically through a card."
+"Unit 15 - Domestic Policy","Core","In-kind subsidy","A good or service such as food stamps or housing provided by the government to low-income groups."
+"Unit 15 - Domestic Policy","Core","Medicaid","A joint state-federal program to provide medical care to the poor funded from general government revenues."
+"Unit 15 - Domestic Policy","Core","Medicare","A federal health insurance program for US residents 65 and older. Fulfilled by taxes on wages and salaries."
+"Unit 15 - Domestic Policy","Core","National health insurance","A plan in which the government provides basic health care coverage to all citizens funded by taxes on wages or salaries."
+"Unit 15 - Domestic Policy","Core","Single-payer plan","A plan in which one entity has a monopoly on issuing a particular type of insurance; typically the entity is the government providing basic health coverage."
+"Unit 15 - Domestic Policy","Core","Supplemental Security Income (SSI); supplemental security income; SSI","A federal program establish to provide assistance to elderly persons and people with disabilities."
+"Unit 15 - Domestic Policy","Core","Temporary Assistance to Needy Families (TANF); temporary assistance to needy families; TANF","A state program using federal grants to provide welfare benefits. Replaced the Aid to Families with Dependent Children (AFDC) program."
+"Unit 15 - Domestic Policy","Extended","Domestic policy","Public plans or courses of actgion concerning internal issues of national importance such as health, poverty, and environment."
+"Unit 15 - Domestic Policy","Extended","Energy policy","Laws concerned with how much energy is needed and used."
+"Unit 15 - Domestic Policy","Extended","Income transfer","A transfer of income from one group to another, generally by government action."
+"Unit 15 - Domestic Policy","Extended","Sustainability","Achieving a balance between society and nature to exist together."
+"Unit 16 - Economic Policy","Core","Glass-Steagall Act","A law passed in 1933 to regulate the banking industry which prohibited banks from engaging in speculative investments or becoming investment houses"
+"Unit 16 - Economic Policy","Core","Inflation","A sustained rise in the general price level of goods and services"
+"Unit 16 - Economic Policy","Core","Recession","Two or more successive quarters in which the economy shrinks instead of grows"
+"Unit 16 - Economic Policy","Core","Full Employment","An arbitrary level of unemployment that corresponds to “normal” friction in the labor market. In 1986, a 6.5 percent rate of unemployment was considered full employment. Today, it is assumed to be around 5 (Dremousis said 4) percent. "
+"Unit 16 - Economic Policy","Core","Consumer Price Index (CPI); Consumer Price Index; CPI","A measure of the change in price over time of a specific group of goods and services used by the average household."
+"Unit 16 - Economic Policy","Core","Business Cycle","A term that describes fluctuations in the nation’s economic activity including periods of economic expansion and contraction "
+"Unit 16 - Economic Policy","Core","Fiscal Policy","The federal government’s use of taxation and spending policies to affect overall business activity"
+"Unit 16 - Economic Policy","Core","Monetary Policy","The utilization of changes in the amount of money in circulation to alter credit markets, employment, and the rate of inflation"
+"Unit 16 - Economic Policy","Core","Keynesian Economics","A school of economic thought that tends to favor active federal government policymaking to stabilize economy-wide fluctuations, usually by implementing discretionary fiscal policy"
+"Unit 16 - Economic Policy","Core","U.S. Treasury Bond","Debt issued by the federal government"
+"Unit 16 - Economic Policy","Core","Net Public Debt","The accumulation of all past federal government deficits; the total amount owed by the federal government to individuals, businesses and foreigners"
+"Unit 16 - Economic Policy","Core","Gross Domestic Product (GDP); Gross Domestic Product; GDP","The dollar value of all final goods and services produced in a one-year period"
+"Unit 16 - Economic Policy","Core","Progressive Tax","A tax that rises in percentage terms as incomes rise"
+"Unit 16 - Economic Policy","Core","Regressive Tax","A tax that falls in percentage terms as incomes rise"
+"Unit 16 - Economic Policy","Core","Federal Reserve System (the Fed); Federal Reserve System; the Fed","The most important regulatory agency in the US monetary system. The Fed performs several important functions such as regulating the amount of money in circulation and providing a system for transferring check from one bank to another"
+"Unit 16 - Economic Policy","Core","Federal Open Market Committee","The most important body within the Federal Reserve System. The Federal Open Market Committee decides how monetary policy should be carried out"
+"Unit 16 - Economic Policy","Core","Tight Monetary Policy","Monetary policy that makes credit expensive in an effort to slow the economy"
+"Unit 16 - Economic Policy","Core","Loose Monetary Policy","Monetary policy that makes credit inexpensive and abundant, possibly leading to inflation"
+"Unit 16 - Economic Policy","Core","Imports","Goods and services produced outside a country sold within its borders"
+"Unit 16 - Economic Policy","Core","Exports","Goods and services produced domestically for sale abroad"
+"Unit 16 - Economic Policy","Core","Balance for Trade","The difference between the value of a nation’s exports of goods and the value of its imports of goods"
+"Unit 16 - Economic Policy","Core","Import Quota","A restriction imposed on the value or number of units of a particular good that can be brought into a country. Foreign suppliers are unable sell more than the amount specified in the import quota"
+"Unit 16 - Economic Policy","Core","Tariffs","Taxes on imports"
+"Unit 16 - Economic Policy","Extended","Unemployment","The inability of those who are in the labor force to find a job; defined as the total number of those actively looking for a job but unable to find one."
+"Unit 16 - Economic Policy","Extended","Budget Deficit","Government expenditures that exceed receipts"
+"Unit 16 - Economic Policy","Extended","Gross Public Debt","The net public debt plus interagency borrowings within the government"
+"Unit 16 - Economic Policy","Extended","Loophole","A legal method by which individuals and businesses are allowed to reduce the tax liabilities owed to the government"
+"Unit 16 - Economic Policy","Extended","Gini Index","A statistical measure of the distribution of income in a nation. A higher number indicates more inequality in incomes within a nation"
+"Unit 17 - Foreign Policy","Core","Attentive Public","The portion of the general public that pays attention to policy issues."
+"Unit 17 - Foreign Policy","Core","Cold War","The ideological, political, and economic confrontation between the United States and the Soviet Union following World War Il."
+"Unit 17 - Foreign Policy","Core","Containment","A US. diplomatic policy adopted by the Truman administration to contain Communist power within its existing boundaries."
+"Unit 17 - Foreign Policy","Core","Defense Policy","A subset of national policies having to do with the U.S. armed forces."
+"Unit 17 - Foreign Policy","Core","Detente","A French word meaning a relaxation of tensions. The term characterized U.S.-Soviet relations as they developed under President Richard Nixon and Secretary of State Henry Kissinger."
+"Unit 17 - Foreign Policy","Core","Foreign Policy","A nation's external policy and the techniques and strategies used to achieve them."
+"Unit 17 - Foreign Policy","Core","Intelligence Community","The government agencies that gather information about the capabilities and intentions of foreign governments or that engage in covert actions. Includes the CIA, FBI, NSA, DoD, and others."
+"Unit 17 - Foreign Policy","Core","Iron Curtain","The term used to describe the division of Europe between the Soviet bloc and the West; coined by Winston Churchill."
+"Unit 17 - Foreign Policy","Core","Isolationist Foreign Policy","A policy of abstaining from an active role in international affairs or alliances, which characterized U.S. foreign policy toward Europe during most of the 1800s."
+"Unit 17 - Foreign Policy","Core","Military-Industrial Complex","The mutually beneficial relationship between the armed forces and defense contractors."
+"Unit 17 - Foreign Policy","Core","Monroe Doctrine","A policy statement made by president James Monroe in 1823, which set out three principles: (1) European nations should not establish new colonies in the western hemisphere; (2) European nations should not intervene in the affairs of independent nations of the western hemisphere; and (3) the United States would not interfere in the affairs of European nations."
+"Unit 17 - Foreign Policy","Core","Moralist Foreign Policy","A foreign policy based on values and moral beliefs."
+"Unit 17 - Foreign Policy","Core","National Security Policy","Foreign and domestic policy designed to protect a nation's independence and political and economic integrity; policy concerned with the safety and defense of the nation."
+"Unit 17 - Foreign Policy","Core","Negative Constituents","Citizens who openly oppose the government's policies."
+"Unit 17 - Foreign Policy","Core","Normal Trade Relations (NTR) status; Normal Trade Relations; NTR","A legal designation in the United States for free trade with a foreign nation."
+"Unit 17 - Foreign Policy","Core","Preemptive War","A military engagement fought to stop an enemy before that enemy attacks the United States."
+"Unit 17 - Foreign Policy","Core","Realist Foreign Policy","A foreign policy based on an understanding of the nation's economic and security interests."
+"Unit 17 - Foreign Policy","Core","Soviet bloc","The Soviet Union and the Eastem European countries that installed communist regimes after World War and were dominated by the Soviet Union."
+"Unit 17 - Foreign Policy","Core","Strategic Arms Limitation Treaty (SALT I); Strategic Arms Limitation Treaty; SALT I; SALT","A treaty between the United States and the Soviet Union to stabilize the nuclear arms competition between the two countries. SALT | talks began in 1969, and agreements were signed on May 26, 1972."
+"Unit 17 - Foreign Policy","Core","Truman Doctrine","The policy adopted by President Harry Truman in 1947 to halt communist expansion in southeastem Europe."
+"Unit 17 - Foreign Policy","Extended","Diplomacy","The process by which states carry on political relations with each other; settling conflicts among nations by peaceful means."
+"Unit 17 - Foreign Policy","Extended","Economic Aid","Assistance to other nations in the form of grants, loans, or credits to buy the assisting nation's products."
+"Unit 17 - Foreign Policy","Extended","Expansionist Policy","A policy that embraces the extension of American borders as far as possible."
+"Unit 17 - Foreign Policy","Extended","Foreign Policy Process","The steps by which foreign policy goals are decided and acted on."
+"Unit 17 - Foreign Policy","Extended","Technical Assistance","The practice of sending experts in such areas as agriculture, engineering, or business aid to other nations."
+"Unit 18 - State and Local government","Core","Charter","A document issued by a government that grants to a person, a group of persons, or a corporation the right to carry on one or more specific activities. A state government cangrant a charter to a municipality."
+"Unit 18 - State and Local government","Core","Constitutional Initiative","An electoral device whereby citizens can propose a constitutional amendment through petitions signed by the required number of registered voters."
+"Unit 18 - State and Local government","Core","Cooley's rule","The view that cities should be able to govern themselves, presented in an 1871 Michigan decision by Judge Thomas Cooley."
+"Unit 18 - State and Local government","Core","Council of Governments (COG); Council of Governments; COG","A voluntary organization of counties and municipalities concerned with area-wide problems."
+"Unit 18 - State and Local government","Core","Dillon's Rule","The narrowest possible interpretation of the legal status of local governments, outlined by Judge John E. Dillon, who in 1872 stated that a municipal corporation can exercise only those powers expressly granted by state law."
+"Unit 18 - State and Local government","Core","Functional Consolidation","Cooperation by two or more units of local government in providing services to their inhabitants. This is generally done by unifying a set of departments (e.g., the police departments) into a single agency."
+"Unit 18 - State and Local government","Core","General Law City","A city operating under general state laws that apply to all local governmental units of a similar type."
+"Unit 18 - State and Local government","Core","General Sales Tax","A tax levied as a proportion of the retail price of a commodity at the point of sale."
+"Unit 18 - State and Local government","Core","Home Rule CIty","The power vested in a local unit of government to draft or change its own charter and to manage its own affairs."
+"Unit 18 - State and Local government","Core","Item Veto","The power exercised by the governors of most states to veto particular sections or items of an appropriations bill, while signing the remainder of the bill into law."
+"Unit 18 - State and Local government","Core","Municipal home rule","The power vested in a local unit of government to draft or change its own charter and to manage its own affairs."
+"Unit 18 - State and Local government","Core","New England town","A governmental unit in the New England states that combines the roles of city and county in one unit."
+"Unit 18 - State and Local government","Core","Property Tax","A tax on the value of real estate. This tax is a particulary important source of revenue for local governments."
+"Unit 18 - State and Local government","Core","Selectperson","A member of the governing group of a town."
+"Unit 18 - State and Local government","Core","Town Manager System","A form of town government in which voters elect three selectpersons, who then appoint a professional town manager, who in turn appoints other officials."
+"Unit 18 - State and Local government","Core","Town Meeting","The governing authority of a New England town. Qualified voters may participate in the election of officers and the passage of legislation."
+"Unit 18 - State and Local government","Core","Township","A rural unit of government based on federal land surveys of the American frontier in the 1780s. Townships have declined significantly in importance."
+"Unit 18 - State and Local government","Core","Unincorporated Area","An area not located within the boundary of a municipality."
+"Unit 18 - State and Local government","Extended","Consolidation","The union of two or more governmental units to form a single unit."
+"Unit 18 - State and Local government","Extended","County","The chief governmental unit set up by the state to administer state law and business at the local level. Counties are drawn up by area, rather than by rural or urban criteria."
+"","Supreme Court Cases","Brown v. Board of Education; Brown v. Board","Ruled that segragation in public schools violated the 14th amendment. (1954)"
+"","Supreme Court Cases","Buckley v. Valeo","Upheld restrictions on the amount of money an individual can contribute to their campaign but limits on campaign spending is unconstitutional. (1976)"
+"","Supreme Court Cases","Dobbs v. Jackson","Overruled Roe v. Wade removing the right to abortion nationally; instead, states decide. (2022)"
+"","Supreme Court Cases","Dred Scott v. Sandford; Dred Scott Decision; Scott v. Sandford; Dredd Scott","Build up to civil war fugitive slave law. Rules that descendants of slaves could not be citizens. (1857)"
+"","Supreme Court Cases","Engel v. Vitale","Ruled that it is unconstitutional for state officials to lead school prayers. (1962)"
+"","Supreme Court Cases","Gibbons v. Ogden","Only the federal government can regulate interstate trade. (1824)"
+"","Supreme Court Cases","Gideon v. Wainwright","Right to an attorney if accused of a crime or a public defender if you can't afford one. (1963)"
+"","Supreme Court Cases","Gitlow v. New York","Government can punish speech that threatens its existence; anarchy speech implies a national security threat. Freedom of speech applies to the states. (1925)"
+"","Supreme Court Cases","Griswold v. Connecticut; Griswold v. Conn","State ban of contraceptive violated the rights to martial privacy. (1965)"
+"","Supreme Court Cases","Korematsu v. US","Internments camps were allowed during a time of war under risk of espionage. (1944)"
+"","Supreme Court Cases","Lemon v. Kurtzman","Direct state aid cannot be used to subsidize religious instruction (private religious schools). Aid has to be solely secular and states should gennerally avoid entanglement with religion. (1971)"
+"","Supreme Court Cases","Loving v. Virginia","Gave the right to interracial marriage. (1967)"
+"","Supreme Court Cases","Mapp v. Ohio","Evidence obtained illegally may not be used in court under the 4th amendment. (1961)"
+"","Supreme Court Cases","Marbury v. Madison","Establishes judicial review. (1803)"
+"","Supreme Court Cases","McCulloch v. Maryland","Allows the government to stretch to meet the needs of the people. Reaffirms supremacy clause. (1819)"
+"","Supreme Court Cases","Miller v. Alabama","Life sentence for minors deemed unconstitutional under the 8th amendment ""cruel and unusual punishment."" (2012)"
+"","Supreme Court Cases","Miller v. California","Redefines obscene material, which is not protected under the first amendment. ""You know it when you see it."" (1973)"
+"","Supreme Court Cases","Miranda v. Arizona","Right to be read rights when detained. (1966)"
+"","Supreme Court Cases","US v. Nixon","A landmark decision of the Supreme Court of the United States in which the Court unanimously ordered President Richard Nixon to deliver tape recordings and other subpoenaed materials related to the Watergate scandal to a federal district court. (1974)"
+"","Supreme Court Cases","Nixon v. USA","Established that the court could not review impeachment, as Article I, Section 3, Constitution gives Senate sole power over all impeachment. Judicial will not review impeachment cases. (1993)"
+"","Supreme Court Cases","Obergefell v. Hodges","Right to same-sex marriage. (2015)"
+"","Supreme Court Cases","Plessy v. Ferguson","Segregation deemed legal under ""separate but equal"" doctrine. (1896)"
+"","Supreme Court Cases","Regents of the University of California v. Bakke; UC v. Bakke; Regents v. Bakke","Ruled that universities' racial ""quotas"" in admission process was unconstitutional. ""Affirmative action"" to accept more minority applicants was constitutional in some cases. (1978)"
+"","Supreme Court Cases","Roe v. Wade","Right to abortion through 4th amendment right to privacy. (1973)"
+"","Supreme Court Cases","Roper v. Simmons","The death penalty for minors deemed unconstitutional under the 8th amendment ""cruel and unusual punishment"". (2005)"
+"","Supreme Court Cases","Schenck v. US","Freedom of speech limitations for national security under the espionage act. ""Clear and present danger."" (1919)"
+"","Supreme Court Cases","Tinker v. Des Moines","You do not shed your rights at the schoolhouse gates. Centered around Vietnam protests in school. (1969)"
+"","Supreme Court Cases","Worcester v. Georgia","Ruled that states could not regulate Cherokee land. Ignored by Andrew Jackson, which led to the Trail of Tears. (1832)"
+"","Supreme Court Cases","Near v. Minnesota","Held that prior restraint on publication violated the First Amendment. This holding had a broader impact on free speech generally. (1931)"
+"","Supreme Court Cases","Gregg v. Georgia","A case in which the Court ruled that the death penalty was not ""cruel and unusual"" punishment in violation of the Eighth and Fourteenth Amendments. (1976)"
+"","Supreme Court Cases","Masterpiece Cakeshop v. Colorado","The Court reversed in a 7-2 decision, holding that the Colorado Civil Rights Commission's conduct in evaluating a cake shop owner's reasons for declining to make a wedding cake for a same-sex couple violated the Free Exercise Clause. (2017)"
+"","Supreme Court Cases","Bethel School District v. Fraser; Bethel v. Fraser","A case in which the Court held that public schools have the right to prohibit the use of vulgar and offensive language. (1986)"
+"","Supreme Court Cases","New York Times v. Sullivan","The Court said the right to publish all statements is protected under the First Amendment. The Court also said in order to prove libel, a public official must show that what was said against them was made with actual malice – ""that is, with knowledge that it was false or with reckless disregard for the truth."" (1964)"
+"","Supreme Court Cases","Brandenburg v. Ohio","A state may not forbid speech advocating the use of force or unlawful conduct unless this advocacy is directed to inciting or producing imminent lawless action and is likely to incite or produce such action. (1969)"
+"","Supreme Court Cases","Texas v. Johnson","Symbolic speech – no matter how offensive to some – is protected under the First Amendment. (1989)"
+"","Supreme Court Cases","Citizens United v. FEC","The ruling effectively freed corporations and nonprofit organizations to spend money on electioneering communications and to directly advocate for the election or defeat of candidates. (2010)"
